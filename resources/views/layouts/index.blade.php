@@ -4,13 +4,60 @@
   <title>science et bien etre</title>
   <link rel="stylesheet" href="{{asset('/assets/css/bootstrap.css')}}">
   <link rel="stylesheet" href="{{asset('/assets/css/animate.css')}}">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('/assets/css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('/assets/css/style.scss')}}">
 
     <!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
     <link rel="stylesheet" id="theme-switch" href="{{asset('/assets/css/style.css')}}">
     <!-- End demo purposes only -->
 
     <!-- Modernizr JS -->
+    <style type="text/css">
+        font-size: 15px;
+        margin-top: 2px;
+        #fh5co-home .text-wrap {
+            height: 900px;
+        }
+
+        .pers_block {
+            width: 49.33%!important ;
+            float: left!important ;
+            text-align: center!important ;
+            font-size: 16px!important ;
+            min-height: 300px!important ;
+            height: 362px ! important;
+            vertical-align: middle!important ;
+            padding: 40px!important ;
+            background: #fff!important ;
+            -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4)!important ;
+            -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4)!important ;
+            -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4)!important ;
+            -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4)!important ;
+            box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4)!important ;
+            z-index: 7;
+            flex-grow: 1;
+            background-size: cover;
+            position: relative;
+            backgroun-repeat: no-repeat;
+        }
+
+        #fh5co-home .rediuc {
+            height: 700px ! important ;
+        }
+
+        
+
+        @media screen and (max-width: 768px) {
+           .pers_block {
+            width: 100%!important ;
+            }
+        }
+
+        .a_la_une {
+            margin-top: -260px ! important;
+        }
+        
+    </style>
     <script src="{{asset('/assets/js/modernizr-2.6.2.min.js')}}"></script>
   
 </head>
@@ -22,16 +69,16 @@
                 <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button -->
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                 <a class="navbar-brand" href="index.html">Elate</a> 
+                 <a class="navbar-brand" href="index.html">Science et bien etre</a> 
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-                    <li><a href="#" data-nav-section="work"><span>Work</span></a></li>
-                    <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>
-                    <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
-                    <li><a href="#" data-nav-section="about"><span>About</span></a></li>
-                    <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+                    <li class="active"><a href="#" data-nav-section="home"><span>Accueil</span></a></li>
+                    <li><a href="#" data-nav-section="work"><span>Catalogue</span></a></li>
+                    <li><a href="#" data-nav-section="testimonials"><span>Partenaire</span></a></li>
+                    <li><a href="#" data-nav-section="services"><span>A propos</span></a></li>
+                    <!-- <li><a href="#" data-nav-section="about"><span>About</span></a></li>
+                    <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li> -->
                   </ul>
                 </div>
                 </nav>
@@ -42,12 +89,14 @@
     <section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
         <div class="gradient"></div>
         <div class="container">
-            <div class="text-wrap">
+            <div class="text-wrap rediuc">
                 <div class="text-inner">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h1 class="to-animate">Do something you love.</h1>
-                            <h2 class="to-animate">Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a></h2>
+                            <h1 class="to-animate">Méthodes innovantes pour améliorer votre vie</h1>
+                            <h2 class="to-animate">La science au service de votre bien-être</h2>
+                            <p class="to-animate">Profitez des découvertes les plus récentes pour transformer votre quotidien et améliorer votre bien-être</p>
+                            <button class="to-animate btn btn-primary btn-lg"> decouvrez nos solution</button>
                         </div>
                     </div>
                 </div>
@@ -56,10 +105,10 @@
         <div class="slant"></div>
     </section>
 
-    <section id="fh5co-intro">
+    <section id="fh5co-intro" class="a_la_une">
         <div class="container">
             <div class="row row-bottom-padded-lg">
-                <div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+      <!--           <div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
                     <div class="overlay-darker"></div>
                     <div class="overlay"></div>
                     <div class="fh5co-text">
@@ -68,33 +117,37 @@
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                         <p><a href="#" class="btn btn-primary">Get In Touch</a></p>
                     </div>
-                </div>
-                <div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
+                </div> -->
+                <div class="fh5co-block pers_block to-animate" style="background-image: url(images/img_8.jpg);">
                     <div class="overlay-darker"></div>
                     <div class="overlay"></div>
                     <div class="fh5co-text">
                         <i class="fh5co-intro-icon icon-wrench"></i>
-                        <h2>Develop</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <p><a href="#" class="btn btn-primary">Click Me</a></p>
+                        <h2>Catalogue</h2>
+                        <p>Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie. Retrouvez une silhouette tonique, accédez à un sommeil profond et réparateur, apprenez à vous relaxer efficacement, etc.</p>
+                        <p><a href="#" class="btn btn-primary">Consultez notre catalogue</a></p>
                     </div>
                 </div>
-                <div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+                <div class="fh5co-block pers_block to-animate" style="background-image: url(images/img_10.jpg);">
                     <div class="overlay-darker"></div>
                     <div class="overlay"></div>
                     <div class="fh5co-text">
                         <i class="fh5co-intro-icon icon-rocket"></i>
-                        <h2>Launch</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                        <p><a href="#" class="btn btn-primary">Why Us?</a></p>
+                        <h2>Contact</h2>
+                        <p>Science & Bien-Être
+                            Service Clients
+                            email : info@scienceetbienetre.com
+                            Tél. : 04 83 43 14 00 ou +33 483 431 400
+                            Du lundi au vendredi de 8h à 16h30</p>
+                        <p><a href="#" class="btn btn-primary">Nous contacter en ligne</a></p>
                     </div>
                 </div>
             </div>
-            <div class="row watch-video text-center to-animate">
+<!--             <div class="row watch-video text-center to-animate">
                 <span>Watch the video</span>
 
                 <a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo btn-video"><i class="icon-play2"></i></a>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -370,7 +423,7 @@
         </div>
     </section>
     
-    <section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+    <section id="fh5co-counters"data-stellar-background-ratio="0.5">
         <div class="fh5co-overlay"></div>
         <div class="container">
             <div class="row">
