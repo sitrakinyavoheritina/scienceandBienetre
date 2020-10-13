@@ -17,4 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::name('rabe')->post('rabe', 'PackController@index');
+    Route::name('accueil')->get('accueil', 'PackController@accueil');
+    Route::name('listpack')->get('listpack', 'CatalogueController@listpack');
+    // Route::name('packlist')->get('packlist', 'PackController@packlist');
+    Route::name('packdetail')->get('packdetail', 'PackController@packdetail');
+    Route::name('About')->get('About', 'AboutController@index');
+    Route::name('partenaire')->get('partenaire', 'partenaireController@index');
+    Route::name('pack')->get('pack/{id}', 'PackController@conseil_pack');
