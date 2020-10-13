@@ -12,6 +12,7 @@ class CatalogueController extends Controller
     	// dd('list pack no ato');
     	$listpacks = DB::table('pack')
     				->get();
+    				
    		return view('pack_catalogue',['listpacks' => $listpacks]);
     }
 }
