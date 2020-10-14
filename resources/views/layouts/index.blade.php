@@ -83,10 +83,10 @@
                                         <div class="collapse navbar-collapse" id="navbar-example">
                                             <div class="main-menu">
                                                 <ul class="nav navbar-nav navbar-right">
-                                                    <li><a href="contact.html">accueil</a></li>
-                                                    <li><a href="contact.html">catalogue</a></li>
-                                                    <li><a href="contact.html">partenaire</a></li>
-                                                    <li><a href="contact.html">a propos</a></li>
+                                                    <li><a href="{{url('accueil')}}">accueil</a></li>
+                                                    <li><a href="{{url('listpack')}} ">catalogue</a></li>
+                                                   <!--  <li><a href="contact.html">partenaire</a></li> -->
+                                                    <li><a href="{{url('About')}}">a propos</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -111,10 +111,10 @@
                                 <nav id="dropdown">
                                     <ul>
                         
-                                        <li><a href="contact.html">contacts</a></li>
-                                        <li><a href="contact.html">contacts</a></li>
-                                        <li><a href="contact.html">contacts</a></li>
-                                        <li><a href="contact.html">contacts</a></li>
+                                        <li><a href="contact.html">Accueil</a></li>
+                                        <li><a href="contact.html">Catalogue</a></li>
+                                    <!--     <li><a href="contact.html">contacts</a></li> -->
+                                        <li><a href="contact.html">A propos</a></li>
                                     </ul>
                                 </nav>
                             </div>                  
@@ -127,64 +127,11 @@
         </header>
         <!-- header end -->
                  <!-- Start Self-area -->
-        <div class="self-area area-padding">
-            <div class="container">
-                <div class="row">
-                    <!-- column end -->
-                    <div class="col-md-7 col-sm-7 col-xs-12">
-                        <div class="self-content">
-                            <h4>An investment multi-national firm is a invest money of one or more experts. Provides more profite, We help your satele to future life and then create the road. Grow Money speedly without any risk. </h4>
-                            <span class="talk-text">Alex ferneld, CEO</span>
-                        </div>
-                    </div>
-                    <div class="col-md-7 col-sm-7 col-xs-12">
-                    </div>
-                    <!-- column end -->
-                </div>
-            </div>
-        </div>
+    
         <!-- End Self-area -->
-              <!-- Start Support-service Area -->
-        <div class="support-service-area fix area-padding-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="section-headline text-center">
-                            <h3>Why choose investment plan</h3>
-                            <p>Help agencies to define their new business objectives and then create professional software.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="support-all">
-                        <!-- Start About -->
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="support-services wow ">
-                                <a class="support-images" href="#"><i class="flaticon-023-management"></i></a>
-                                <div class="support-content">
-                                    <h4>Expert management</h4>
-                                    <p>Replacing a  maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Start About -->
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="support-services ">
-                                <a class="support-images" href="#"><i class="flaticon-036-security"></i></a>
-                                <div class="support-content">
-                                    <h4>Secure investment</h4>
-                                    <p>Replacing a  maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Start services -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Support-service Area -->
+
         <!-- Start Footer Area -->
-        <footer class="footer1">
+<!--         <footer class="footer1">
             <div class="footer-area-bottom">
                 <div class="container">
                     <div class="row">
@@ -192,18 +139,17 @@
                             <div class="copyright">
                                 <p>
                                     Copyright © 2020
-                                    <a href="#">Aievari</a> All Rights Reserved
+                                    <a href="#">skhay</a> All Rights Reserved
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> -->
         <!-- End Footer area -->
         
         <!-- all js here -->
-
         <!-- jquery latest version -->
         <script src="{{asset('assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
         <!-- bootstrap js -->
