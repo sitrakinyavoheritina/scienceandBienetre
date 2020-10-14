@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-    Route::name('accueil')->get('accueil', 'PackController@accueil');
+    Route::name('accueil')->get('/', 'PackController@accueil');
     Route::name('listpack')->get('listpack', 'CatalogueController@listpack');
     // Route::name('packlist')->get('packlist', 'PackController@packlist');
     Route::name('packdetail')->get('packdetail', 'PackController@packdetail');
