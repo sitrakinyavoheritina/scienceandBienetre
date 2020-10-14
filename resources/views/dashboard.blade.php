@@ -30,8 +30,8 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="section-headline text-center">
-                    <h3>Why choose investment plan</h3>
-                    <p>Help agencies to define their new business objectives and then create professional software.</p>
+                    <!-- <h3>Why choose investment plan</h3>
+                    <p>Help agencies to define their new business objectives and then create professional software.</p> -->
                 </div>
             </div>
         </div>
