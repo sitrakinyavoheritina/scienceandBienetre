@@ -17,6 +17,40 @@
     height: 100px;
     max-height: 100px;
 }
+
+.section-headline {
+    padding-bottom: 40px ! important;
+    /* position: relative; */
+}
+
+.fun_text { 
+    background: #eaeaea;
+    text-align: center;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#tilte_catalogue {
+    font-size: 46px;
+    line-height: 34px;
+    /* margin-left: -197px; */
+    text-align: left;
+    margin-left: 77px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#arrea {
+    padding: 10px 0px 70px ! important;
+}
+
+ul#inline_list li{
+    display:inline;
+}
 </style>
 
 
@@ -29,15 +63,20 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <!-- fun_text  -->
                             <div class="fun_text">
-                                <h4>catalogue</h4>
+                                <h4 id="tilte_catalogue">Catalogue</h4>
+                            </div>
+                            <div class="ml-4">
+                                <ul id="inline_list">
+                                    <li>Home </li>
+                                    <li>&nbsp; > &nbsp;Catalogue</li>
+                                </ul>
                             </div>
                         </div>              
                     </div>
                 </div>
             </div>
 
-        </div>
- 
+        </div> 
             <!-- Start Count area -->
              <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -47,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="counter-area fix area-padding-2">
+        <div class="counter-area fix area-padding-2" id="arrea">
             <div class="container">
                 <!-- Start counter Area -->
                  <div class="row">
