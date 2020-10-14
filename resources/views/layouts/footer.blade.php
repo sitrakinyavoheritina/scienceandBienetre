@@ -20,7 +20,7 @@
         <script src="{{asset('public/assets/js/main.js')}}"></script>
 
         
-        <footer class="footer1">
+        <footer class="footer1" style="bottom: 0!important;">
             <div class="footer-area-bottom">
                 <div class="container">
                     <div class="row">
