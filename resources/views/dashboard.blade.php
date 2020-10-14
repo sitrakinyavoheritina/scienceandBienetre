@@ -27,14 +27,14 @@
                       <!-- Start Support-service Area -->
 <div class="support-service-area fix area-padding-2">
     <div class="container">
-        <div class="row">
+    <!--     <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="section-headline text-center">
-                    <h3>Why choose investment plan</h3>
-                    <p>Help agencies to define their new business objectives and then create professional software.</p>
-                </div>
-            </div>
-        </div>
+                <div class="section-headline text-center"> -->
+             <!--        <h3>Why choose investment plan</h3>
+                    <p>Help agencies to define their new business objectives and then create professional software.</p> -->
+           <!--      </div>
+            </div> -->
+        <!-- </div> -->
         <div class="row">
             <div class="support-all">
                 <!-- Start About -->
