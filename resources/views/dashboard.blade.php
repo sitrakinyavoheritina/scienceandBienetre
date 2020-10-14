@@ -71,7 +71,7 @@
                             <div class="copyright">
                                 <p>
                                     Copyright © 2020
-                                    <a href="#">skhay</a> All Rights Reserved
+                                    <a href="#">sk'hay</a> All Rights Reserved
                                 </p>
                             </div>
                         <!-- </div> -->
