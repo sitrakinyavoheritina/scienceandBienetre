@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
         <!-- magnific css -->
         <link rel="stylesheet" href="{{asset('assets/css/magnific.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/personalise.css')}}">
         <!-- style css -->
         <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
         <!-- responsive css -->
@@ -83,7 +84,7 @@
                                         <div class="collapse navbar-collapse" id="navbar-example">
                                             <div class="main-menu">
                                                 <ul class="nav navbar-nav navbar-right">
-                                                    <li><a href="{{url('accueil')}}">accueil</a></li>
+                                                    <li><a href="{{url('/')}}">accueil</a></li>
                                                     <li><a href="{{url('listpack')}} ">catalogue</a></li>
                                                    <!--  <li><a href="contact.html">partenaire</a></li> -->
                                                     <li><a href="{{url('About')}}">a propos</a></li>
