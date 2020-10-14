@@ -10,30 +10,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- favicon -->        
-        <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="public/img/logo/favicon.ico">
 
         <!-- all css here -->
 
         <!-- bootstrap v3.3.6 css -->
-        <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap.min.css')}}">
         <!-- owl.carousel css -->
-        <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/css/owl.transitions.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/owl.carousel.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}">
        <!-- Animate css -->
-        <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/animate.css')}}">
         <!-- meanmenu css -->
-        <link rel="stylesheet" href="{{asset('assets/css/meanmenu.min.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}">
         <!-- font-awesome css -->
-        <link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}">
         <!-- magnific css -->
-        <link rel="stylesheet" href="{{asset('assets/css/magnific.min.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/css/personalise.css')}}">
+
+        <link rel="stylesheet" href="{{asset('public/assets/css/magnific.min.css')}}">
         <!-- style css -->
-        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
         <!-- responsive css -->
-        <link rel="stylesheet" href="{{asset('/assets/css/responsive.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <style type="text/css">
             .self-content {
                     background: #e4e2e2;
@@ -44,7 +44,7 @@
         </style>
 
         <!-- modernizr css -->
-        <script src="{{asset('assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
     </head>
         <body>
 
@@ -66,10 +66,10 @@
                                     <div class="logo">
                                         <!-- Brand -->
                                         <a class="navbar-brand page-scroll white-logo" href="index-2.html">
-                                            <img src="img/logo/logo3.png" alt="">
+                                            <img src="public/img/logo/logo3.png" alt="">
                                         </a>
                                         <a class="navbar-brand page-scroll black-logo" href="index-2.html">
-                                            <img src="img/logo/logo.png" alt="">
+                                            <img src="public/img/logo/logo.png" alt="">
                                         </a>
                                     </div>
                                     <!-- logo end -->
@@ -107,7 +107,7 @@
                         <div class="col-md-12">
                             <div class="mobile-menu">
                                 <div class="logo">
-                                    <a href="index-2.html"><img src="img/logo/logo.png" alt="" /></a>
+                                    <a href="index-2.html"><img src="public/img/logo/logo.png" alt="" /></a>
                                 </div>
                                 <nav id="dropdown">
                                     <ul>
@@ -152,25 +152,25 @@
         
         <!-- all js here -->
         <!-- jquery latest version -->
-        <script src="{{asset('assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
         <!-- bootstrap js -->
-        <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
         <!-- owl.carousel js -->
-        <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
           <!-- stellar js -->
-        <script src="{{asset('assets/js/jquery.stellar.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/jquery.stellar.min.js')}}"></script>
         <!-- magnific js -->
-        <script src="{{asset('assets/js/magnific.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/magnific.min.js')}}"></script>
         <!-- wow js -->
-        <script src="{{asset('assets/js/wow.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/wow.min.js')}}"></script>
         <!-- meanmenu js -->
-        <script src="{{asset('assets/js/jquery.meanmenu.js')}}"></script>
+        <script src="{{asset('public/assets/js/jquery.meanmenu.js')}}"></script>
         <!-- Form validator js -->
-        <script src="{{asset('assets/js/form-validator.min.js')}}"></script>
+        <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
         <!-- plugins js -->
-        <script src="{{asset('assets/js/plugins.js')}}"></script>
+        <script src="{{asset('public/assets/js/plugins.js')}}"></script>
         <!-- main js -->
-        <script src="{{asset('assets/js/main.js')}}"></script>
+        <script src="{{asset('public/assets/js/main.js')}}"></script>
     </body>
 
 <!-- Mirrored from rockstheme.com/rocks/aievari-live/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2020 08:27:46 GMT -->
