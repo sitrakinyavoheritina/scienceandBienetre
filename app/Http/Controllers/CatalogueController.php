@@ -14,4 +14,10 @@ class CatalogueController extends Controller
     				->get();
    		return view('pack_catalogue',['listpacks' => $listpacks]);
     }
+
+    public function conseil_pack($id) {
+    	$list_conseil = DB::table('conseil_pack')
+    	->get();
+    return view('conseil_pack',compact('list_conseil'));
+    }
 }

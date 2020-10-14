@@ -17,6 +17,8 @@ class CreatePackTable extends Migration
             // $table->increments('id_pack');
             $table->id('id_pack');
             $table->string('desc_pack')->nullable();
+            $table->string('desc2_pack')->nullable();
+            $table->string('avatar')->nullable();
             $table->string('nom_pack')->nullable();
             $table->string('video_pack')->nullable();
             $table->timestamps();

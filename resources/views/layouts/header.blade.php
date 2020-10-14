@@ -40,6 +40,7 @@
                     border-radius: 14px;
                     opacity: 0.8;
                 }
+
         </style>
 
         <!-- modernizr css -->
@@ -59,7 +60,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="row">
+                            <div class="row" id="header_row">
                                 <!-- logo start -->
                                 <div class="col-md-3 col-sm-3">
                                     <div class="logo">
@@ -82,7 +83,7 @@
                                     <nav class="navbar navbar-default">
                                         <div class="collapse navbar-collapse" id="navbar-example">
                                             <div class="main-menu">
-                                                <ul class="nav navbar-nav navbar-right">
+                                                <ul class="nav navbar-nav navbar-right" id="font_header">
                                                     <li><a href="{{route('accueil')}}">accueil</a></li>
                                                     <li><a href="{{url('listpack')}} ">catalogue</a></li>
                                                    <!--  <li><a href="contact.html">partenaire</a></li> -->
