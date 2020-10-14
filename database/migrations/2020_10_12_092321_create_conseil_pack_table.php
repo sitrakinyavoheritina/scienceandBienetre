@@ -17,11 +17,11 @@ class CreateConseilPackTable extends Migration
             $table->id('id_cpack');
             // $table->increments('id_conseil');
             $table->string('conseil_photo');
-            $table->unsignedBigInteger('id_conseil_pack');
+            $table->unsignedBigInteger('id_pack');
             // $table->bigInteger('id_conseil_pack')->unsigned();
             // $table-> unsignedBigInteger('id_conseil_pack')->onDelete('cascade');
             $table->string('conseil_description');
-            $table->foreign('id_conseil_pack')->references('id_conseil_pack')->on('pack');
+            $table->foreign('id_pack')->references('id_pack')->on('pack');
             $table->timestamps();
         });
     }
