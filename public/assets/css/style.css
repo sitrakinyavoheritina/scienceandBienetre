@@ -873,7 +873,7 @@ span.users {
  7.Self Area Css
 ----------------------------------------*/
 .self-area {
-    background: url("./assets/img/background/ag1.jpg");
+    background-image: url('../img/background/ag1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
