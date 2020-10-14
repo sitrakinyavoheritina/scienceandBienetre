@@ -25,6 +25,24 @@
         font-size:larger;
         color: darkgray;
     }
+    #tilte_apropos {
+        font-size: 46px;
+        line-height: 34px;
+        /* margin-left: -197px; */
+        text-align: left;
+        margin-left: 77px;
+        font-weight: bold;
+        color: white;
+    }
+    .fun_text { 
+        background: #eaeaea;
+        text-align: center;
+        box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+        padding: 40px 30px;
+        position: relative;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
 </style>
 
 
@@ -37,7 +55,7 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <!-- fun_text  -->
                             <div class="fun_text">
-                                <h2 class="left">A propos</h2>
+                                 <h4 id="tilte_apropos">A propos</h4>
                             </div>
                             <div class="ml-4">
                                 <ul id="inline_list">
