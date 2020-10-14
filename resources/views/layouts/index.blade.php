@@ -30,7 +30,7 @@
         <!-- magnific css -->
         <link rel="stylesheet" href="{{asset('assets/css/magnific.min.css')}}">
         <!-- style css -->
-        <link rel="stylesheet" href="{{asset('assets/style.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
         <!-- responsive css -->
         <link rel="stylesheet" href="{{asset('/assets/css/responsive.css')}}">
         <style type="text/css">

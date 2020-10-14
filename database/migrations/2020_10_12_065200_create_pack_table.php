@@ -15,7 +15,7 @@ class CreatePackTable extends Migration
     {
         Schema::create('pack', function (Blueprint $table) {
             // $table->increments('id_pack');
-            $table->id();
+            $table->id('id_pack');
             $table->string('desc_pack')->nullable();
             $table->string('nom_pack')->nullable();
             $table->string('video_pack')->nullable();
