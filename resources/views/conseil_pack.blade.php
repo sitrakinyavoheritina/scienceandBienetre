@@ -3,6 +3,18 @@
     #font_header li a {
         color: #605265;;
     }
+
+    .work-proses-inner.text-center {
+        width: 70% ! important;
+        /*margin: auto ! important;*/
+        margin: auto ! important;
+    }
+
+    .row {
+     margin-left: 0px !important; 
+     margin-right: 0px !important; 
+    }
+
 </style>
 
 @section('content')
@@ -28,40 +40,69 @@
        <div class="work-proses fix bg-color area-padding-2"  id="arrea">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
+                 
                         <div class="section-headline text-center">
-                            <h3>    Ce que vous allez découvrir dans cette présentation :</h3>
+                            <h3>Ce que vous allez découvrir dans cette présentation :</h3>
                         </div>
-                    </div>
+                    
                 </div>
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="row">
-                            <div class="work-proses-inner text-center">
+                            <div class="work-proses-inner text-left">
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="single-proses">
-                                        <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                                <img src="{{asset('/public/assets/img/background/b.jpg')}}" id="avatar_pack">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                                <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
-                                <!-- End column -->
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="single-proses">
-                                        <p>Programme de formation à la gestion du stress en 21 jours.</p>
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                                    <img src="{{asset('/public/assets/img/background/fg.jpg')}}" id="avatar_pack">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                                <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
-                                </div>
 
+                                </div>
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="single-proses">
-                                        <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                                <img src="{{asset('/public/assets/img/background/b.jpg')}}" id="avatar_pack">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                                <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
-                                <!-- End column -->
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="single-proses">
-                                        <p>Programme de formation à la gestion du stress en 21 jours.</p>
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                                    <img src="{{asset('/public/assets/img/background/fg.jpg')}}" id="avatar_pack">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                                <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
-                                </div>
-
+                
                 
                                 <!-- End column -->
                             </div>

@@ -133,7 +133,7 @@ ul#inline_list li{
         </div>
     </div>
 
-       <div class="work-proses fix bg-color area-padding-2"  id="arrea">
+    <div class="work-proses fix bg-color area-padding-2"  id="arrea">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
