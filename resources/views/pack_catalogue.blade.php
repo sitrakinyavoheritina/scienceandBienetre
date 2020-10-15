@@ -21,14 +21,19 @@
     /* position: relative; */
 }
 
-.fun_text { 
+.fun_texte { 
     background: #eaeaea;
     text-align: center;
     box-shadow: 0 0px 1px rgba(0, 0, 0, 0.1) ! important;
     padding: 40px 30px;
-    position: relative;
+    position: initial;
     margin-bottom: 30px;
     border-radius: 5px;
+}
+
+.fun_text {
+    position: initial ! important;
+    padding: 56px 30px ! important;
 }
 
 #tilte_catalogue {
@@ -51,9 +56,13 @@ ul#inline_list li{
 }
 
 
-.fun_text::after {
+/*.fun_text::after {
     background: #d6d0c9 ! important;
-}
+}*/
+
+/*.backgr {
+  background: red ! important
+}*/
 </style>
 
 
@@ -65,7 +74,7 @@ ul#inline_list li{
                 <div class="fun-content">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <!-- fun_text  -->
-                        <div class="fun_text">
+                        <div class="fun_text backgr">
                             <h4 id="tilte_catalogue">Catalogue</h4>
                         </div>
                         <div class="ml-4">
@@ -102,7 +111,7 @@ ul#inline_list li{
                     @foreach($listpacks as $listpack)
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <!-- fun_text  -->
-                            <div class="fun_text">
+                            <div class="fun_texte">
                                 <span class="counter-icon">
                                     <!-- <i class="flaticon-035-savings"></i> -->
                                     <img src="{{asset('/public/img/pack/'.$listpack->avatar)}}" id="avatar_pack">

@@ -32,18 +32,16 @@
         font-weight: bold;
         color: white;
     }
+
     .fun_text { 
-        background: #eaeaea;
-        text-align: center;
-        box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
-        padding: 40px 30px;
-        position: relative;
-        margin-bottom: 30px;
-        border-radius: 5px;
+        position: initial ! important;
+        padding: 56px 30px ! important;
     }
-    .fix{
-        background-image: url(../img/background/ag1.jpg);
+
+    .fun_text::after {
+        background: #fffcf8 ! important ;
     }
+
 </style>
 
 
@@ -55,7 +53,7 @@
                     <div class="fun-content">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <!-- fun_text  -->
-                            <div class="fun_text">
+                            <div class="fun_text backgr">
                                  <h4 id="tilte_apropos">A propos</h4>
                             </div>
                             <div class="ml-4">

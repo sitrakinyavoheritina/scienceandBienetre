@@ -2802,3 +2802,10 @@ span.email-notes{
 /*--------------------------------*/
 /* .End CSS
 /*--------------------------------*/
+
+
+.backgr {
+  /*background: red ! important;*/
+    background-image: url('../img/background/sitraka.jpg') ! important;
+    background-size: cover;
+}
