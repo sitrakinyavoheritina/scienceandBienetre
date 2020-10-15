@@ -1,8 +1,6 @@
 @extends('layouts.index')
+
 <style type="text/css">
-    #font_header li a {
-        color: #605265;;
-    }
 
     .work-proses-inner.text-center {
         width: 70% ! important;
@@ -16,6 +14,7 @@
     }
 
 </style>
+
 
 @section('content')
 

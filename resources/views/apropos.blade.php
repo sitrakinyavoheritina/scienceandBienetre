@@ -9,9 +9,7 @@
     .main-menu ul.navbar-nav li a {
         background: rgba(0, 0, 0, 0) none repeat scroll 0 0 ! important;
     }
-    #font_header li a {
-       color: #605265;;
-    }
+ 
     #avatar_pack {
         width: 100px;
         max-width: 100px;
@@ -42,6 +40,9 @@
         position: relative;
         margin-bottom: 30px;
         border-radius: 5px;
+    }
+    .fix{
+        background-image: url(../img/background/ag1.jpg);
     }
 </style>
 
