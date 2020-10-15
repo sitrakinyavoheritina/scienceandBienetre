@@ -17,8 +17,8 @@
         <!-- bootstrap v3.3.6 css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap.min.css')}}">
         <!-- owl.carousel css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/owl.carousel.css')}}">
-        <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.carousel.css')}}"> -->
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}"> -->
        <!-- Animate css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/animate.css')}}">
         <!-- meanmenu css -->
@@ -26,7 +26,7 @@
         <!-- font-awesome css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}">
         <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
-        <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}"> -->
         <!-- magnific css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/magnific.min.css')}}">
         <!-- style css -->
@@ -135,7 +135,7 @@
         <!-- bootstrap js -->
         <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
         <!-- owl.carousel js -->
-        <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
+        <!-- <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script> -->
           <!-- stellar js -->
         <script src="{{asset('public/assets/js/jquery.stellar.min.js')}}"></script>
         <!-- magnific js -->
@@ -145,7 +145,7 @@
         <!-- meanmenu js -->
         <script src="{{asset('public/assets/js/jquery.meanmenu.js')}}"></script>
         <!-- Form validator js -->
-        <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
+        <!-- <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script> -->
         <!-- plugins js -->
         <script src="{{asset('public/assets/js/plugins.js')}}"></script>
         <!-- main js -->

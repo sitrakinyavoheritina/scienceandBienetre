@@ -2809,3 +2809,11 @@ span.email-notes{
     background-image: url('../img/background/sitraka.jpg') ! important;
     background-size: cover;
 }
+
+a.btn.btn-primary {
+    border-color: #e6922e ! important;
+}
+
+ul#inline_list li{
+    display:inline ! important;
+}

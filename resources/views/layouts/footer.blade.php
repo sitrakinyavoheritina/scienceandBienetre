@@ -31,6 +31,19 @@
                                     <a href="#">sk'hay</a> All Rights Reserved
                                 </p>
                             </div>
+                                <ul id="inline_list"  style="text-align: center;">
+                                    <a href="{{url('About')}}">
+                                        <li>A propos </li>
+                                    </a>
+
+                                    <a href="{{ url('listpack') }}">
+                                        <li>&nbsp; - &nbsp;Mentions légales</li>
+                                    </a>
+
+                                    <a href="{{ url('listpack') }}">
+                                        <li>&nbsp; - &nbsp;Contact</li>
+                                    </a>
+                                </ul>
                         <!-- </div> -->
                     </div>
                 </div>

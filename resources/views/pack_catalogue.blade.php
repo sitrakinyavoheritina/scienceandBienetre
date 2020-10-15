@@ -156,10 +156,7 @@ ul#inline_list li{
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="single-proses">
                                         <div class="proses-content">
-                                            <div class="proses-icon point-blue">
-                                              <!--   <span class="point-view">01</span> -->
-                                                <a href="#"><i class="ti-briefcase"></i></a>
-                                            </div>
+                                         <img src="{{asset('/public/img/logo/cd_sommeil.jpg')}} ">
                                             <div class="proses-text">
                                                 <h4>CD Sommeil 1-2-3</h4>
                                             </div>
@@ -172,10 +169,7 @@ ul#inline_list li{
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="single-proses">
                                         <div class="proses-content">
-                                            <div class="proses-icon point-orange">
-                                          <!--      <span class="point-view">02</span> -->
-                                                <a href="#"><i class="ti-layers"></i></a>
-                                            </div>
+                                            <img src="{{asset('/public/img/logo/stopper_stress.jpg')}} ">
                                             <div class="proses-text">
                                                 <h4>Stoppez le Stress et l'Anxiété</h4>
                                             </div>
@@ -185,20 +179,7 @@ ul#inline_list li{
                                     </div>
                                 </div>
                                 <!-- End column -->
-                            <!--     <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="single-proses last-item">
-                                        <div class="proses-content">
-                                            <div class="proses-icon point-green">
-                                               <span class="point-view">03</span>
-                                                <a href="#"><i class="ti-bar-chart-alt"></i></a>
-                                            </div>
-                                            <div class="proses-text">
-                                                <h4>Level 03 instant 10% commission</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- End column -->
+              
                             </div>
                         </div>
                     </div>

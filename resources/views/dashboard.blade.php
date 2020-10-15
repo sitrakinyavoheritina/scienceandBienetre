@@ -40,7 +40,7 @@
                 <!-- Start About -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="support-services wow ">
-                        <a class="support-images" href="#"><i class="flaticon-023-management"></i></a>
+                        <a class="support-images" href="#"><i class="fa fa-book"></i></a>
                         <div class="support-content">
                             <h4>Catalogue</h4>
                             <p>Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie. Retrouvez une silhouette tonique, accédez à un sommeil profond et réparateur, apprenez à vous relaxer efficacement, etc.</p>
@@ -51,7 +51,7 @@
                 <!-- Start About -->
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="support-services ">
-                        <a class="support-images" href="#"><i class="flaticon-036-security"></i></a>
+                        <a class="support-images" href="#"><i class="fa fa-phone-square"></i></a>
                         <div class="support-content">
                             <h4>Contact</h4>
                             <p>Science & Bien-Être Service Clients email : info@scienceetbienetre.com Tél. : 04 83 43 14 00 ou +33 483 431 400 Du lundi au vendredi de 8h à 16h30</p>
