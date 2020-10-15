@@ -696,7 +696,7 @@ div#preloader {
 }
 .fun_text {
     text-align: center;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: inherit;
     padding: 40px 30px;
     position: relative;
     margin-bottom: 30px;
