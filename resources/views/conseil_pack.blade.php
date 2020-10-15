@@ -24,13 +24,51 @@
         <div class="container">
         
       
-        	<div class="row" style="margin: 15px;">
-        			<div class="col-6 col-sm-12 col-md-6">
-        				<!-- <div class="row">
-        					<div class="col-4"> -->
-        				<img src="{{ asset('img/pack/sommeil.png') }}">	
-        				<h6 style="float: right;">Pourquoi le sport ne marche pas plus que les régimes pour déstocker la graisse</h6>
-        			</div>
-        	</div>		
+
+       <div class="work-proses fix bg-color area-padding-2"  id="arrea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline text-center">
+                            <h3>    Ce que vous allez découvrir dans cette présentation :</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="work-proses-inner text-center">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="single-proses">
+                                        <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                    </div>
+                                </div>
+                                <!-- End column -->
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="single-proses">
+                                        <p>Programme de formation à la gestion du stress en 21 jours.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="single-proses">
+                                        <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
+                                    </div>
+                                </div>
+                                <!-- End column -->
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="single-proses">
+                                        <p>Programme de formation à la gestion du stress en 21 jours.</p>
+                                    </div>
+                                </div>
+
+                
+                                <!-- End column -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>		
         </div>
     @endsection
