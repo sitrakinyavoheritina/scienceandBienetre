@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
         <!-- responsive css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
         <style type="text/css">
             .self-content {
                     background: #e4e2e2;

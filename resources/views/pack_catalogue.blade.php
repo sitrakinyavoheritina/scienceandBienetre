@@ -8,9 +8,7 @@
 .main-menu ul.navbar-nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0 ! important;
 }
-#font_header li a {
-   color: #605265;
-}
+
 #avatar_pack {
     width: 100px;
     max-width: 100px;
@@ -26,7 +24,7 @@
 .fun_text { 
     background: #eaeaea;
     text-align: center;
-    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.1) ! important;
     padding: 40px 30px;
     position: relative;
     margin-bottom: 30px;
@@ -67,10 +65,15 @@ ul#inline_list li{
                             </div>
                             <div class="ml-4">
                                 <ul id="inline_list">
-                                    <li>Home </li>
-                                    <li>&nbsp; > &nbsp;Catalogue</li>
+                                    <a href="{{route('accueil')}}">
+                                        <li>Home </li>
+                                    </a>
+                                    <a href="{{ url('listpack') }}">
+                                        <li>&nbsp; > &nbsp;Catalogue</li>
+                                    </a>
                                 </ul>
                             </div>
+
                         </div>              
                     </div>
                 </div>
@@ -105,7 +108,7 @@ ul#inline_list li{
                                     </div>
                                     <!-- <span class="counter">{{$listpack->avatar}}</span> -->
                                     <a href="{{ url('conseil_pack')}}/{{$listpack->id_pack}}">
-                                        <button class="to-animate btn btn-primary btn-lg"> decouvrez nos solution</button>
+                                        <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
                                     </a>
                                 </div>
                             </div>
