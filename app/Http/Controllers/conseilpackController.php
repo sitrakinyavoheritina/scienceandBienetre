@@ -25,6 +25,11 @@ class conseilpackController extends Controller
         $url_string=$video_pack;
 		$url= str_replace('watch?v=','embed/', $url_string);
 
-    return view('conseil_pack',['list_conseils' => $list_conseils,'desc_pack2' => $desc2_pack,'video_pack' => $url ]);
+    return view('conseil_pack',
+    	['list_conseils' => $list_conseils,
+    	'desc_pack2' => $desc2_pack,
+    	'video_pack' => $url ]);
+
+    return view('conseil_pack',compact(['$list_conseils','desc2_pack','url']));
     }
 }
