@@ -1,9 +1,5 @@
 @extends('layouts.index')
-<style type="text/css">
-    #font_header li a {
-        color: #605265;;
-    }
-</style>
+
 
 @section('content')
 
