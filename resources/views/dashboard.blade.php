@@ -1,13 +1,93 @@
 @extends('layouts.index')
 
+<style type="text/css">
+.prev {
+    cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 25px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+z-index: 100000;
+}
 
+.next {
+    cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 25px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+z-index: 100000;
+right: 0 ! important;
+}
+
+.next {
+    cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 25px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+z-index: 100000;
+}
+.slick-slide .slick-current .slick-active {
+    background-repeat: no-repeat! important;
+    background-size: cover! important;
+    background-position: top center! important;
+    background-attachment: scroll! important;
+    z-index: 1! important;
+    position: relative! important;
+    padding: 100px 0px;
+}
+#fixe_in_slide {
+    position: absolute;
+    margin-top: -55%;
+}
+</style>
 @section('content')
 
-<div class="self-area area-padding">
-    <div class="container">
-        <div class="row">
+<div class="">
+  <!--   <div class="container">
+        <div class="row"> -->
+              <div class="your-class ">
+                 <div><img src="{{asset('public/img/background/make_up.jpg')}}" style="height: 100%; width: 100%;"  ></div>
+                <div><img src="{{asset('public/img/background/make_up2.jpg')}}" style="height: 100%; width: 100%;" ></div>
+                <div><img src="{{asset('public/img/background/make_up3.jpg')}}" style="height: 100%; width: 100%;" ></div>
+                <div><img src="{{asset('public/img/background/make_up4.jpg')}}" style="height: 100%; width: 100%;" ></div>
+              </div>
+              <div class="row" id="fixe_in_slide">
+                <div class="col-md-7 col-sm-7 col-xs-12">
+                    <div class="self-content">
+                          <h1 class="to-animate">Méthodes innovantes pour améliorer votre vie</h1>
+                        <h2 class="to-animate">La science au service de votre bien-être</h2>
+                        <p class="to-animate">Profitez des découvertes les plus récentes pour transformer votre quotidien et améliorer votre bien-être</p>
+                        <a href="{{ url('listpack') }}">
+                            <button class="to-animate btn btn-primary btn-lg"> decouvrez nos solution</button>
+                        </a>
+                    </div>
+                </div>
+              </div>
             <!-- column end -->
-            <div class="col-md-7 col-sm-7 col-xs-12">
+    <!--         <div class="col-md-7 col-sm-7 col-xs-12">
                 <div class="self-content">
                       <h1 class="to-animate">Méthodes innovantes pour améliorer votre vie</h1>
                     <h2 class="to-animate">La science au service de votre bien-être</h2>
@@ -18,10 +98,10 @@
                 </div>
             </div>
             <div class="col-md-7 col-sm-7 col-xs-12">
-            </div>
+            </div> -->
             <!-- column end -->
-        </div>
-    </div>
+  <!--       </div>
+    </div> -->
 </div>
 
                       <!-- Start Support-service Area -->
@@ -64,6 +144,12 @@
         </div>
     </div>
 </div>
+
+
+    <div class="prev"> <span> ❮ </span> </div>
+    <div class="next"><span> ❯ </span> </div>
+
+
         <!-- End Support-service Area -->
 @endsection
         

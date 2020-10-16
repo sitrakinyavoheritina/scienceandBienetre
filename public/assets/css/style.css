@@ -876,7 +876,7 @@ span.users {
  7.Self Area Css
 ----------------------------------------*/
 .self-area {
-    background-image: url('../img/background/ag1.jpg');
+    /*background-image: url('../img/background/ag1.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -894,10 +894,16 @@ span.users {
     content:"";
     z-index: -1;
 }
-.self-content {
+/*.self-content {
     background: #fff;
     padding: 50px 30px 50px 50px;
     border-radius: 4px;
+}*/
+.self-content {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 50px 30px 50px 50px;
+    border-radius: 14px;
+    opacity: 0.5;
 }
 .talk-text {
     font-size: 18px;

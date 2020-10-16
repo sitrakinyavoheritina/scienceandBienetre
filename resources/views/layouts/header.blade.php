@@ -43,9 +43,12 @@
                 }
 
         </style>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 
         <!-- modernizr css -->
         <script src="{{asset('public/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+
     </head>
         <body>
 
@@ -135,7 +138,7 @@
         <!-- bootstrap js -->
         <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
         <!-- owl.carousel js -->
-        <!-- <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script> -->
+        <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
           <!-- stellar js -->
         <script src="{{asset('public/assets/js/jquery.stellar.min.js')}}"></script>
         <!-- magnific js -->

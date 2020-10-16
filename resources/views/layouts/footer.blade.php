@@ -18,7 +18,23 @@
         <script src="{{asset('public/assets/js/plugins.js')}}"></script>
         <!-- main js -->
         <script src="{{asset('public/assets/js/main.js')}}"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+   
+              <script type="text/javascript">
+                $(document).ready(function(){
+                  $('.your-class').slick({
+                    prevArrow: $('.prev'),
+                    nextArrow: $('.next'),
+                    // autoplay:true,
+                    speed: 2000,
+                    infinite:true
+                  });
+                });
+              </script>
+  
         
         <footer class="footer1" style="bottom: 0!important;">
             <div class="footer-area-bottom">

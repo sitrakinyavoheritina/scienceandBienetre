@@ -83,7 +83,7 @@
 
     <div class="work-proses fix bg-color area-padding-2"  id="arrea">
             <div class="container">
-                
+
                 <div class="row">
                     <div class="section-headline text-center">
                         <h3>Programmes et méthodes à l'unité</h3>
