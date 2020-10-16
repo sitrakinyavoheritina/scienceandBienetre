@@ -17,7 +17,7 @@
                             <h4>
                                 Montez le son de vos haut-parleurs...
                             </h4>
-                            <iframe width="500" height="450" src="{{$video_pack}}">
+                            <iframe width="500" height="450" src="https://www.youtube.com/watch?v=yH4ZNsHAXKA">
                             </iframe>
                         </div>
                     </div>
