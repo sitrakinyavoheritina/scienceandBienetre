@@ -114,13 +114,12 @@ ul#inline_list li{
                             <div class="fun_texte">
                                 <span class="counter-icon">
                                     <!-- <i class="flaticon-035-savings"></i> -->
-                                    <img src="{{asset('/public/img/pack/'.$listpack->avatar)}}" id="avatar_pack">
+                                    <img src="{{asset('/public/img/pack/'.$listpack->avatar_pack)}}" id="avatar_pack">
                                 </span>
                                 <div class="section-headline text-center">
                                     <h4>{{$listpack->nom_pack}}</h4>
                                     <p>{{$listpack->desc_pack}}</p>
                                 </div>
-                                <!-- <span class="counter">{{$listpack->avatar}}</span> -->
                                 <a href="{{ url('conseil_pack')}}/{{$listpack->id_pack}}">
                                     <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
                                 </a>

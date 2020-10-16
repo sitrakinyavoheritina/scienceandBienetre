@@ -40,7 +40,7 @@
                                         <li>&nbsp; - &nbsp;Mentions légales</li>
                                     </a>
 
-                                    <a href="{{ url('listpack') }}">
+                                    <a href="{{ url('contact') }}">
                                         <li>&nbsp; - &nbsp;Contact</li>
                                     </a>
                                 </ul>
