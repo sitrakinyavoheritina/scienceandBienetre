@@ -18,14 +18,9 @@ class PackController extends Controller
 
     public function listpack() {
       // dd('list pack no ato');
-      $listpacks = DB::table('pack')
-            ->get();
-      return view('pack_catalogue',['listpacks' => $listpacks]);
+      // $listpacks = DB::table('pack')
+      //       ->get();
+      return view('pack_catalogue');
     }
 
-    // public function conseil_pack($id) {
-    // 	$list_conseil = DB::table('conseil_pack')
-    // 	->get();
-    // return view('conseil_pack',compact('list_conseil'));
-    // }
 }

@@ -42,32 +42,40 @@
             <!-- Start counter Area -->
              <div class="row">
                 <div class="fun-content">
-                    @foreach($listpacks as $listpack)
+              
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <!-- fun_text  -->
                             <div class="fun_texte">
                                 <span class="counter-icon">
                                     <!-- <i class="flaticon-035-savings"></i> -->
-                                    <img src="{{asset('/public/img/pack/'.$listpack->avatar_pack)}}" id="avatar_pack">
+                                    <img src="{{asset('/public/img/pack/mincir.jpg')}}" id="avatar_pack">
                                 </span>
                                 <div class="section-headline text-center">
-                                    <h4>{{$listpack->nom_pack}}</h4>
-                                    <p>{{$listpack->desc_pack}}</p>
+                                    <h4>Pack GénoMincir</h4>
+                                    <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
                                 </div>
-                                <a href="{{ url('conseil_pack')}}/{{$listpack->id_pack}}">
+                                <a href="{{ url('conseil_pack')}}/2">
                                     <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
                                 </a>
                             </div>
                         </div>
-                        <!-- <div class="col-md-6 col-sm-6 col-xs-12"> -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
                             <!-- fun_text  -->
-                       <!--      <div class="fun_text">
-                               <span class="counter-icon"><i class="flaticon-034-reward"></i></span>
-                                <span class="counter">2209</span>
-                                <h4>Total Members</h4>
+                            <div class="fun_texte">
+                                <span class="counter-icon">
+                                    <!-- <i class="flaticon-035-savings"></i> -->
+                                    <img src="{{asset('/public/img/pack/sommeil.png')}}" id="avatar_pack">
+                                </span>
+                                <div class="section-headline text-center">
+                                    <h4>Sommeil et entretient cerveau</h4>
+                                    <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
+                                </div>
+                                <a href="{{ url('conseil_pack')}}/1">
+                                    <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
+                                </a>
                             </div>
-                        </div> -->
-                    @endforeach    
+                        </div>
+                   
                 </div>
             </div>
         </div>
@@ -85,26 +93,46 @@
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="single-proses">
                                         <div class="proses-content">
-                                         <img src="{{asset('/public/img/logo/cd_sommeil.jpg')}} ">
-                                            <div class="proses-text">
-                                                <h4>CD Sommeil 1-2-3</h4>
+                                         <img src="{{asset('/public/img/logo/cd_sommeil.jpg')}} "  id="avatar_conseil">
+                                            <div class="prosess-text">
+                                                <h4>Sommeil et entretient cerveau</h4>
                                             </div>
                                         </div>
-                                        <p>Retrouvez le sommeil avec ce CD d'hypnothérapie.</p>
-                                        <button>Voir la version complète</button>
+                                        <p>Dormir est indispensable au développement et à la maturité cérébrale</p>
+                                        <a href="{{ url('conseil_pack')}}/1">
+                                           <button>Voir la version complète</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <!-- End column -->
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="single-proses">
                                         <div class="proses-content">
-                                            <img src="{{asset('/public/img/logo/stopper_stress.jpg')}} ">
-                                            <div class="proses-text">
-                                                <h4>Stoppez le Stress et l'Anxiété</h4>
+                                            <img src="{{asset('/public/img/logo/stopper_stress.jpg')}} "  id="avatar_conseil">
+                                            <div class="prosess-text">
+                                                <h4>Mincer,prise de poids,musculation</h4>
                                             </div>
                                         </div>
-                                        <p>Programme de formation à la gestion du stress en 21 jours.</p>
+                                        <p>Les régimes, une mauvaise solution pour perdre du poids.</p>
+                                        <a href=" {{ url('conseil_pack')}}/2">
                                            <button>Voir la version complète</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- End column -->
+                                        <!-- End column -->
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="single-proses">
+                                        <div class="proses-content">
+                                            <img src="{{asset('/public/img/logo/boost.jpg')}} " id="avatar_conseil">
+                                            <div class="prosess-text">
+                                                <h4>Boost du systeme immunitaire</h4>
+                                            </div>
+                                        </div>
+                                        <p> Le système immunitaire défend notre organisme contre les agressions extérieures.</p>
+                                           <a href="{{ url('conseil_pack')}}/1">
+                                           <button>Voir la version complète</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <!-- End column -->
