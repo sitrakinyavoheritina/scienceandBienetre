@@ -143,14 +143,10 @@ ul#inline_list li{
     <div class="work-proses fix bg-color area-padding-2"  id="arrea">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="section-headline text-center">
-                            <h3>Programmes et méthodes à l'unité</h3>
-                        </div>
+                    <div class="section-headline text-center">
+                        <h3>Programmes et méthodes à l'unité</h3>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="row">
                             <div class="work-proses-inner text-center">
                                 <div class="col-md-4 col-sm-4 col-xs-12">
@@ -182,7 +178,15 @@ ul#inline_list li{
               
                             </div>
                         </div>
-                    </div>
+                <div class=" text-left">
+                    <h4>Références Scientifiques</h4>
+                    <p>
+                        Paternal obesity is associated with IGF2hypomethylation in newborns: results from a Newborn Epigenetics Study (NEST) cohort
+                        Adelheid Soubry, Joellen M Schildkraut, Amy Murtha, Frances Wang, Zhiqing Huang, Autumn Bernal, Joanne Kurtzberg, Randy L Jirtle, Susan K Murphy & Cathrine Hoyo / BMC Medicine volume 11, Article number: 29 (2013)
+
+                        Successful treatment of post-traumatic stress disorder reverses DNA methylation marks
+                        Christiaan H. Vinkers, Elbert Geuze, Sanne J. H. van Rooij, Mitzy Kennis, Remmelt R. Schür, Danny M. Nispeling, Alicia K. Smith, Caroline M. Nievergelt, Monica Uddin, Bart P. F. Rutten, Eric Vermetten & Marco P. Boks / Molecular Psychiatry (2019)
+                    </p>
                 </div>
             </div>
         </div>
