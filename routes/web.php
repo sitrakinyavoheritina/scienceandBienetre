@@ -17,11 +17,25 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });conseil_pack
 
+// pack-controller
     Route::name('accueil')->get('/', 'PackController@accueil');
-    // Route::name('listpack')->get('listpack', 'CatalogueController@listpack');
     Route::name('listpack')->get('listpack', 'PackController@listpack');
-    // Route::name('packlist')->get('packlist', 'PackController@packlist');
     Route::name('packdetail')->get('packdetail', 'PackController@packdetail');
+   // end pack-controller
+
+	//about controler
     Route::name('About')->get('About', 'AboutController@index');
+	//end about controler
+
+    //partenaire controller
     Route::name('partenaire')->get('partenaire', 'partenaireController@index');
+    // end partenaire controller
+
+    //conseil pack
     Route::name('conseil_pack')->get('conseil_pack/{id}', 'conseilpackController@conseil_pack');
+    //conseil pack
+
+    //contact pack
+    Route::name('contact')->get('contact', 'contactController@showContactPage');
+    //contact pack
+
