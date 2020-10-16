@@ -58,7 +58,10 @@
                             </div>
                             <div class="ml-4">
                                 <ul id="inline_list">
-                                    <li>Home </li>
+                                    <li>
+                                        <a href="{{route('accueil')}}">Home
+                                        </a> 
+                                    </li>
                                     <li>&nbsp; > &nbsp;A propos</li>
                                 </ul>
                                 
