@@ -51,7 +51,7 @@
                                     <img src="{{asset('/public/img/pack/mincir.jpg')}}" id="avatar_pack">
                                 </span>
                                 <div class="section-headline text-center">
-                                    <h4>Pack GénoMincir</h4>
+                                    <h4>Mincer,prise de poids,musculation</h4>
                                     <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
                                 </div>
                                 <a href="{{ url('conseil_pack')}}/2">
@@ -83,62 +83,64 @@
 
     <div class="work-proses fix bg-color area-padding-2"  id="arrea">
             <div class="container">
+                
                 <div class="row">
                     <div class="section-headline text-center">
                         <h3>Programmes et méthodes à l'unité</h3>
                     </div>
                 </div>
-                        <div class="row">
-                            <div class="work-proses-inner text-center">
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="single-proses">
-                                        <div class="proses-content">
-                                         <img src="{{asset('/public/img/logo/cd_sommeil.jpg')}} "  id="avatar_conseil">
-                                            <div class="prosess-text">
-                                                <h4>Sommeil et entretient cerveau</h4>
-                                            </div>
-                                        </div>
-                                        <p>Dormir est indispensable au développement et à la maturité cérébrale</p>
-                                        <a href="{{ url('conseil_pack')}}/1">
-                                           <button>Voir la version complète</button>
-                                        </a>
+
+                <div class="row">
+                    <div class="work-proses-inner text-center">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="single-proses">
+                                <div class="proses-content">
+                                 <img src="{{asset('/public/img/pack/cd_sommeil.jpg')}} "  id="avatar_conseil">
+                                    <div class="prosess-text">
+                                        <h4>Sommeil et entretient cerveau</h4>
                                     </div>
                                 </div>
-                                <!-- End column -->
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="single-proses">
-                                        <div class="proses-content">
-                                            <img src="{{asset('/public/img/logo/stopper_stress.jpg')}} "  id="avatar_conseil">
-                                            <div class="prosess-text">
-                                                <h4>Mincer,prise de poids,musculation</h4>
-                                            </div>
-                                        </div>
-                                        <p>Les régimes, une mauvaise solution pour perdre du poids.</p>
-                                        <a href=" {{ url('conseil_pack')}}/2">
-                                           <button>Voir la version complète</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- End column -->
-                                        <!-- End column -->
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="single-proses">
-                                        <div class="proses-content">
-                                            <img src="{{asset('/public/img/logo/boost.jpg')}} " id="avatar_conseil">
-                                            <div class="prosess-text">
-                                                <h4>Boost du systeme immunitaire</h4>
-                                            </div>
-                                        </div>
-                                        <p> Le système immunitaire défend notre organisme contre les agressions extérieures.</p>
-                                           <a href="{{ url('conseil_pack')}}/1">
-                                           <button>Voir la version complète</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- End column -->
-              
+                                <p>Dormir est indispensable au développement et à la maturité cérébrale</p>
+                                <a href="{{ url('conseil_pack')}}/1">
+                                   <button>Voir la version complète</button>
+                                </a>
                             </div>
                         </div>
+                        <!-- End column -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="single-proses">
+                                <div class="proses-content">
+                                    <img src="{{asset('/public/img/pack/stopper_stress.jpg')}} "  id="avatar_conseil">
+                                    <div class="prosess-text">
+                                        <h4>Mincer,prise de poids,musculation</h4>
+                                    </div>
+                                </div>
+                                <p>Les régimes, une mauvaise solution pour perdre du poids.</p>
+                                <a href=" {{ url('conseil_pack')}}/2">
+                                   <button>Voir la version complète</button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End column -->
+                                <!-- End column -->
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="single-proses">
+                                <div class="proses-content">
+                                    <img src="{{asset('/public/img/pack/boost.jpg')}} " id="avatar_conseil">
+                                    <div class="prosess-text">
+                                        <h4>Boost du systeme immunitaire</h4>
+                                    </div>
+                                </div>
+                                <p> Le système immunitaire défend notre organisme contre les agressions extérieures.</p>
+                                   <a href="{{ url('conseil_pack')}}/1">
+                                   <button>Voir la version complète</button>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End column -->
+      
+                    </div>
+                </div>
                 <div class=" text-left">
                     <h4>Références Scientifiques</h4>
                     <p>

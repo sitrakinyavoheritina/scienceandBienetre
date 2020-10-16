@@ -1,7 +1,9 @@
 @extends('layouts.index')
 
 <style type="text/css">
-
+ .to_center {
+    background: red ! important;
+ }
 </style>
 
 
@@ -32,7 +34,7 @@
                         </div>
                 </div>
                 <div class="row">
-                    <div class="work-proses-inner">
+                    <div class="to_center">
                             <div class="col-md-6 col-sm-12 col-xs-12" >
                                 <div class="single-proses">
                                     <div class="row">
