@@ -19,7 +19,7 @@
                                			 Home </a>
                                	</li>
                                 <li>&nbsp; > &nbsp;
-                                    <a href="{{ url('listpack') }}">Contact
+                                    <a href="{{ url('contact') }}">Contact
                             	    </a>
                             	</li>
                                 
@@ -30,8 +30,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-        	<div class="container">
+    	</br>
+    	</br>
+        <div class="row " >
+        	<div class="container  ml-4">
         		<h2>Science & Bien-Être</h2>
         		<h4>Service clients</h4>
         		<ul style="list-style: none;">
@@ -40,7 +42,7 @@
         			<li>Du lundi au vendredi de 8h à 16h30</li>
         		</ul>
         		<h4>Service courrier</h4>
-        		
+
         		<ul style="list-style: none;">
         			<li>BP 32</li>
         			<li>38240 Meylan</li>

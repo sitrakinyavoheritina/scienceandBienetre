@@ -2808,6 +2808,8 @@ span.email-notes{
   /*background: red ! important;*/
     background-image: url('../img/background/sitraka.jpg') ! important;
     background-size: cover;
+    position: initial ! important;
+    padding: 56px 30px ! important;
 }
 
 a.btn.btn-primary {
@@ -2817,3 +2819,77 @@ a.btn.btn-primary {
 ul#inline_list li{
     display:inline ! important;
 }
+
+/*vaovao css */
+
+.fun_texte { 
+    background: #eaeaea;
+    text-align: center;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.1) ! important;
+    padding: 40px 30px;
+    position: initial;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#avatar_pack {
+    width: 100px;
+    max-width: 100px;
+    height: 100px;
+    max-height: 100px;
+}
+
+#tilte_catalogue {
+    font-size: 46px;
+    line-height: 34px;
+    /* margin-left: -197px; */
+    text-align: left;
+    margin-left: 77px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#arrea {
+    padding: 10px 0px 70px ! important;
+}
+
+.description_apropos{
+    font-size:larger;
+    color: darkgray;
+}
+#tilte_apropos {
+    font-size: 46px;
+    line-height: 34px;
+    /* margin-left: -197px; */
+    text-align: left;
+    margin-left: 77px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+    #text_h3 {
+        width: 70% ! important;
+        margin: auto ! important;
+        padding-bottom: 35px ! important;
+        color: #e67474;
+    }
+
+    .text_to_colored {
+        background: grey;
+        /* margin: 5px; */
+        padding: 4px;
+    }
+
+    #avatar_packe {
+        width: 100px;
+        max-width: 200px;
+        height: 200px;
+        max-height: 100px;
+    }
+
+    .to_left {
+        margin-left: -40px;
+    }

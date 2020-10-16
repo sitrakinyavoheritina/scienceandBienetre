@@ -1,45 +1,10 @@
 
 @extends('layouts.index')
 <style type="text/css">
-    #header_row {
-       color: red;
-       font-color:red !important;
-    }
-
-    .main-menu ul.navbar-nav li a {
-        background: rgba(0, 0, 0, 0) none repeat scroll 0 0 ! important;
-    }
  
-    #avatar_pack {
-        width: 100px;
-        max-width: 100px;
-        height: 100px;
-        max-height: 100px;
-    }
-    ul#inline_list li{
-        display:inline;
-    }
-    .description_apropos{
-        font-size:larger;
-        color: darkgray;
-    }
-    #tilte_apropos {
-        font-size: 46px;
-        line-height: 34px;
-        /* margin-left: -197px; */
-        text-align: left;
-        margin-left: 77px;
-        font-weight: bold;
-        color: white;
-    }
-
     .fun_text { 
         position: initial ! important;
         padding: 56px 30px ! important;
-    }
-
-    .fun_text::after {
-        background: #fffcf8 ! important ;
     }
 
 </style>
@@ -63,10 +28,11 @@
                                 </ul>
                                 
                             </div>
-                            <hr>
+                            
                         </div>              
                     </div>
                 </div>
+            </br></br>
                 <p class="description_apropos">
                     &nbsp;&nbsp;&nbsp;&nbsp;Science & Bien-Être est un laboratoire indépendant de recherche et développement dans le domaine du bien-être au naturel. Fort de 10 ans d’expérience, nos méthodes ont accompagné plus de 200 000 personnes dans plus de 80 pays.
                 </p>
