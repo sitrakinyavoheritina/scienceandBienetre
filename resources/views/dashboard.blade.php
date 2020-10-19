@@ -69,7 +69,7 @@ z-index: 100000;
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="public/images/banner-01.jpg" alt="">
+                <img src="public/img/background/make_up.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -81,7 +81,7 @@ z-index: 100000;
                 </div>
             </li>
             <li class="text-center">
-                <img src="public/images/banner-02.jpg" alt="">
+                <img src="public/img/background/make_up2.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -93,7 +93,7 @@ z-index: 100000;
                 </div>
             </li>
             <li class="text-center">
-                <img src="public/assets/images/banner-03.jpg" alt="">
+                <img src="public/img/background/make_up3.jpg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">

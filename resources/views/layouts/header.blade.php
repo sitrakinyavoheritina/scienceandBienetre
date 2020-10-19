@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{asset('public/assets/css/custom.css')}}">
+        
     </head>
     <body>
 
@@ -73,6 +74,7 @@
                 </button>
                     <a class="navbar-brand" href="index.html"><img src="public/images/logo.jpg" class="logo" alt="" style="width: 70px;"></a>
                 </div>
+                
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -137,15 +139,15 @@
     <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
     <!-- ALL PLUGINS -->
     <script src="{{asset('public/assets/js/jquery.superslides.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/bootstrap-select.js')}}"></script>
+    <!-- <script src="{{asset('public/assets/js/bootstrap-select.js')}}"></script> -->
     <script src="{{asset('public/assets/js/inewsticker.js')}}"></script>
     <script src="{{asset('public/assets/js/bootsnav.js.')}}"></script>
     <script src="{{asset('public/assets/js/images-loded.min.js')}}"></script>
     <script src="{{asset('public/assets/js/isotope.min.js')}}"></script>
     <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
     <script src="{{asset('public/assets/js/baguetteBox.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script>
+    <!-- <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script> -->
+<!--     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
     </body>
 
