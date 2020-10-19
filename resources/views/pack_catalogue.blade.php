@@ -107,14 +107,20 @@
         </div>
     </div>
     <!-- End Products  -->
+             
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Programmes et méthodes à l'unité</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                    </div>
+                </div>
+            </div>
 
         <!-- Start Services  -->
     <div class="services-box-main">
         <div class="container">
             <div class="row my-4">
-                <div class="col-12">
-                    <h2 class="noo-sh-title">Meet Our Team</h2>
-                </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
                         <div class="our-team"> <img src="public/images/img-1.jpg" alt="" />
@@ -124,7 +130,8 @@
                             </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
@@ -137,7 +144,8 @@
                             </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
@@ -150,7 +158,8 @@
                                 </div>
                             </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
@@ -163,7 +172,8 @@
                             </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
