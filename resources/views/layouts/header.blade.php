@@ -2,55 +2,33 @@
 <html class="no-js" lang="en">
     
 <!-- Mirrored from rockstheme.com/rocks/aievari-live/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2020 08:27:43 GMT -->
-<head>
+    <head>
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>science et bien etre</title>
-        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- favicon -->        
-        <link rel="shortcut icon" type="image/x-icon" href="public/img/logo/favicon.ico">
+        <!-- Site Metas -->
+        <title>ThewayShop - Ecommerce Bootstrap 4 HTML Template</title>
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-        <!-- all css here -->
+        <!-- Site Icons -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-        <!-- bootstrap v3.3.6 css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap.min.css')}}">
-        <!-- owl.carousel css -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.carousel.css')}}"> -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}"> -->
-       <!-- Animate css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/animate.css')}}">
-        <!-- meanmenu css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}">
-        <!-- font-awesome css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}">
-        <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}"> -->
-        <!-- magnific css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/magnific.min.css')}}">
-        <!-- style css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
-        <!-- responsive css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
-        <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
-        <style type="text/css">
-            .self-content {
-                    background: #e4e2e2;
-                    padding: 50px 30px 50px 50px;
-                    border-radius: 14px;
-                    opacity: 0.8;
-                }
-
-        </style>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-
-        <!-- modernizr css -->
-        <script src="{{asset('public/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
-
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+        <!-- Site CSS -->
+        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
     </head>
-        <body>
+    <body>
 
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

@@ -1,40 +1,18 @@
-        <!-- Start Footer Area -->
-        <script src="{{asset('public/assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
-        <!-- bootstrap js -->
-        <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
-        <!-- owl.carousel js -->
-        <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
-          <!-- stellar js -->
-        <script src="{{asset('public/assets/js/jquery.stellar.min.js')}}"></script>
-        <!-- magnific js -->
-        <script src="{{asset('public/assets/js/magnific.min.js')}}"></script>
-        <!-- wow js -->
-        <script src="{{asset('public/assets/js/wow.min.js')}}"></script>
-        <!-- meanmenu js -->
-        <script src="{{asset('public/assets/js/jquery.meanmenu.js')}}"></script>
-        <!-- Form validator js -->
-        <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
-        <!-- plugins js -->
-        <script src="{{asset('public/assets/js/plugins.js')}}"></script>
-        <!-- main js -->
-        <script src="{{asset('public/assets/js/main.js')}}"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-   
-              <script type="text/javascript">
-                $(document).ready(function(){
-                  $('.your-class').slick({
-                    prevArrow: $('.prev'),
-                    nextArrow: $('.next'),
-                    // autoplay:true,
-                    speed: 2000,
-                    infinite:true
-                  });
-                });
-              </script>
-  
+    <script src="{{asset('assets/js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('assets/js/popper.min.js')}}"></script>
+    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+    <!-- ALL PLUGINS -->
+    <script src="{{asset('assets/js/jquery.superslides.min.js')}}"></script>
+    <script src="{{asset('assets/js/bootstrap-select.js')}}"></script>
+    <script src="{{asset('assets/js/inewsticker.js')}}"></script>
+    <script src="{{asset('assets/js/bootsnav.js.')}}"></script>
+    <script src="{{asset('assets/js/images-loded.min.js')}}"></script>
+    <script src="{{asset('assets/js/isotope.min.js')}}"></script>
+    <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/js/baguetteBox.min.js')}}"></script>
+    <script src="{{asset('assets/js/form-validator.min.js')}}"></script>
+    <script src="{{asset('assets/js/contact-form-script.js')}}"></script>
+    <script src="{{asset('assets/js/custom.js')}}"></script>
         
         <footer class="footer1" style="bottom: 0!important;">
             <div class="footer-area-bottom">
