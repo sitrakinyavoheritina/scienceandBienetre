@@ -140,12 +140,12 @@
     <!-- ALL PLUGINS -->
     <script src="{{asset('public/assets/js/jquery.superslides.min.js')}}"></script>
     <!-- <script src="{{asset('public/assets/js/bootstrap-select.js')}}"></script> -->
-    <script src="{{asset('public/assets/js/inewsticker.js')}}"></script>
+ <!--    <script src="{{asset('public/assets/js/inewsticker.js')}}"></script> -->
     <script src="{{asset('public/assets/js/bootsnav.js.')}}"></script>
-    <script src="{{asset('public/assets/js/images-loded.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/isotope.min.js')}}"></script>
+<!--     <script src="{{asset('public/assets/js/images-loded.min.js')}}"></script> -->
+    <!-- <script src="{{asset('public/assets/js/isotope.min.js')}}"></script> -->
     <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/baguetteBox.min.js')}}"></script>
+    <!-- <script src="{{asset('public/assets/js/baguetteBox.min.js')}}"></script> -->
     <!-- <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script> -->
 <!--     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
