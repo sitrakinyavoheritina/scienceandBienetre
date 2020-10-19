@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Site Metas -->
-        <title>ThewayShop - Ecommerce Bootstrap 4 HTML Template</title>
+        <title>Maquillage et soin de visage</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -20,118 +20,133 @@
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap.min.css')}}">
         <!-- Site CSS -->
-        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
+        <link rel="stylesheet" href="{{asset('public/assets/css/custom.css')}}">
     </head>
     <body>
 
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div id="preloader"></div>
-        <header class="header-one">
-            <!-- End top bar -->
-            <!-- header-area start -->
-            <div id="sticker" class="header-area header-area-2 hidden-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="row" id="header_row">
-                                <!-- logo start -->
-                                <div class="col-md-3 col-sm-3">
-                                    <div class="logo">
-                                        <!-- Brand -->
-                                        <a class="navbar-brand page-scroll white-logo" href="index-2.html">
-                                            <img src="public/img/logo/logo3.png" alt="">
-                                        </a>
-                                        <a class="navbar-brand page-scroll black-logo" href="index-2.html">
-                                            <img src="public/img/logo/logo.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- logo end -->
-                                </div>
-                                <div class="col-md-9 col-sm-9">
-                                    <!-- <div class="header-right-link"> -->
-                                        <!-- search option end -->
-                                        <!-- <a class="s-menu" href="login.html">Login</a> -->
-                                    <!-- </div> -->
-                                    <!-- mainmenu start -->
-                                    <nav class="navbar navbar-default">
-                                        <div class="collapse navbar-collapse" id="navbar-example">
-                                            <div class="main-menu">
-                                                <ul class="nav navbar-nav navbar-right" id="font_header">
-                                                    <li><a href="{{route('accueil')}}">accueil</a></li>
-                                                    <li><a href="{{url('listpack')}} ">catalogue</a></li>
-                                                   <!--  <li><a href="contact.html">partenaire</a></li> -->
-                                                    <li><a href="{{url('About')}}">a propos</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </nav>
-                                    <!-- mainmenu end -->
-                                </div>
-                            </div>
+            <!-- Start Main Top -->
+    <div class="main-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="text-slid-box">
+                        <div id="offer-box" class="carouselTicker">
+                            <ul class="offer-box">
+                                <li>
+                                    <i class="fab fa-opencart"></i> reduction 10% tous
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 50% - 80% reduction maquillage
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% reduction soin de visage
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 50%! bonus
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- mobile-menu-area start -->
-            <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mobile-menu">
-                                <div class="logo">
-                                    <a href="index-2.html"><img src="public/img/logo/logo.png" alt="" /></a>
-                                </div>
-                                <nav id="dropdown">
-                                    <ul>
-                        
-                                        <li><a href="contact.html">Accueil</a></li>
-                                        <li><a href="contact.html">Catalogue</a></li>
-                                    <!--     <li><a href="contact.html">contacts</a></li> -->
-                                        <li><a href="contact.html">A propos</a></li>
-                                    </ul>
-                                </nav>
-                            </div>                  
-                        </div>
-                    </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 </div>
             </div>
-            <!-- mobile-menu-area end -->    
-            <!-- header-area end -->        
-        </header>
+        </div>
+    </div>
+    <!-- End Main Top -->
+
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="public/images/logo.jpg" class="logo" alt="" style="width: 70px;"></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item active"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{url('listpack')}} ">Catalogue</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{url('About')}}">A propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{url('About')}}">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- Start Side Menu -->
+      <!--       <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <li class="cart-box">
+                    <ul class="cart-list">
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Delica omtantur </a></h6>
+                            <p>1x - <span class="price">$80.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Omnes ocurreret</a></h6>
+                            <p>1x - <span class="price">$60.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Agam facilisis</a></h6>
+                            <p>1x - <span class="price">$40.00</span></p>
+                        </li>
+                        <li class="total">
+                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
+                            <span class="float-right"><strong>Total</strong>: $180.00</span>
+                        </li>
+                    </ul>
+                </li>
+            </div> -->
+            <!-- End Side Menu -->
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
  
         
-        <!-- all js here -->
-        <!-- jquery latest version -->
-        <script src="{{asset('public/assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
-        <!-- bootstrap js -->
-        <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
-        <!-- owl.carousel js -->
-        <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
-          <!-- stellar js -->
-        <script src="{{asset('public/assets/js/jquery.stellar.min.js')}}"></script>
-        <!-- magnific js -->
-        <script src="{{asset('public/assets/js/magnific.min.js')}}"></script>
-        <!-- wow js -->
-        <script src="{{asset('public/assets/js/wow.min.js')}}"></script>
-        <!-- meanmenu js -->
-        <script src="{{asset('public/assets/js/jquery.meanmenu.js')}}"></script>
-        <!-- Form validator js -->
-        <!-- <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script> -->
-        <!-- plugins js -->
-        <script src="{{asset('public/assets/js/plugins.js')}}"></script>
-        <!-- main js -->
-        <script src="{{asset('public/assets/js/main.js')}}"></script>
+    <script src="{{asset('public/assets/js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/popper.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
+    <!-- ALL PLUGINS -->
+    <script src="{{asset('public/assets/js/jquery.superslides.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/bootstrap-select.js')}}"></script>
+    <script src="{{asset('public/assets/js/inewsticker.js')}}"></script>
+    <script src="{{asset('public/assets/js/bootsnav.js.')}}"></script>
+    <script src="{{asset('public/assets/js/images-loded.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/isotope.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/baguetteBox.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script>
+    <script src="{{asset('public/assets/js/custom.js')}}"></script>
     </body>
 
-<!-- Mirrored from rockstheme.com/rocks/aievari-live/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2020 08:27:46 GMT -->
 </html>
