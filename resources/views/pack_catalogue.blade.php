@@ -22,14 +22,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Nos produits</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
                     <div class="special-menu text-center">
                         <div class="button-group filter-button-group">
                             <button class="active" data-filter="*">Tous</button>
@@ -38,6 +30,15 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Best seller</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                    </div>
+                </div>
+            </div>
+      
 
             <div class="row special-list">
                 <div class="col-lg-3 col-md-6 special-grid best-seller">
