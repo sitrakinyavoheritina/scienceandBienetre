@@ -1,66 +1,24 @@
 @extends('layouts.index')
 
 <style type="text/css">
-.prev {
-    cursor: pointer;
-position: absolute;
-top: 50%;
-width: auto;
-padding: 16px;
-margin-top: -22px;
-color: white;
-font-weight: bold;
-font-size: 25px;
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
-z-index: 100000;
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100% ! important;
+    max-width: 150px ! important;
+    max-height: 150px ! important;
+    height: 121px ! important;
 }
 
-.next {
-    cursor: pointer;
-position: absolute;
-top: 50%;
-width: auto;
-padding: 16px;
-margin-top: -22px;
-color: white;
-font-weight: bold;
-font-size: 25px;
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
-z-index: 100000;
-right: 0 ! important;
+.instagram-box {
+    padding: 30px 0px ! important;
 }
 
-.next {
-    cursor: pointer;
-position: absolute;
-top: 50%;
-width: auto;
-padding: 16px;
-margin-top: -22px;
-color: white;
-font-weight: bold;
-font-size: 25px;
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
-z-index: 100000;
+.services-box-main {
+    padding: 20px 0px ! important;
 }
-.slick-slide .slick-current .slick-active {
-    background-repeat: no-repeat! important;
-    background-size: cover! important;
-    background-position: top center! important;
-    background-attachment: scroll! important;
-    z-index: 1! important;
-    position: relative! important;
-    padding: 100px 0px;
-}
-#fixe_in_slide {
-    position: absolute;
-    margin-top: -55%;
+
+.instagram-box::before {
+    background: rgb(224 226 228) ! important;
 }
 </style>
 @section('content')
@@ -164,7 +122,7 @@ z-index: 100000;
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-01.jpg" alt="" />
+                    <img src="public/images/all-bg-title.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -172,7 +130,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-02.jpg" alt="" />
+                    <img src="public/images/blue-eyes-237438_1920.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -180,7 +138,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-03.jpg" alt="" />
+                    <img src="public/images/body-painting-4696539_1920.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -188,7 +146,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-04.jpg" alt="" />
+                    <img src="public/images/cosmetics-arranged-dusty-dark-background.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -196,7 +154,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-05.jpg" alt="" />
+                    <img src="public/images/face-mask-2578428_1920.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -204,7 +162,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-06.jpg" alt="" />
+                    <img src="public/images/slide7.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -212,7 +170,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-07.jpg" alt="" />
+                    <img src="public/images/slide8.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -220,7 +178,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-08.jpg" alt="" />
+                    <img src="public/images/slide10.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -228,15 +186,7 @@ z-index: 100000;
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-09.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-05.jpg" alt="" />
+                    <img src="public/images/slide9.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
