@@ -43,7 +43,7 @@
              <div class="row">
                 <div class="fun-content">
               
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
                             <!-- fun_text  -->
                             <div class="fun_texte">
                                 <span class="counter-icon">
@@ -55,11 +55,11 @@
                                     <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
                                 </div>
                                 <a href="{{ url('conseil_pack')}}/2">
-                                    <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
+                                    <button class=" btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
                             <!-- fun_text  -->
                             <div class="fun_texte">
                                 <span class="counter-icon">
@@ -73,6 +73,23 @@
                                 <a href="{{ url('conseil_pack')}}/1">
                                     <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
                                 </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <!-- fun_text  -->
+                            <div class="fun_texte">
+                                <span class="counter-icon">
+                                    <!-- <i class="flaticon-035-savings"></i> -->
+                                    <img src="{{asset('/public/img/pack/sommeil.png')}}" id="avatar_pack">
+                                </span>
+                                <div class="section-headline text-center">
+                                    <h4>Sommeil et entretient cerveau</h4>
+                                    <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
+                                <a href="{{ url('conseil_pack')}}/1">
+                                    <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
+                                </a>
+                                </div>
                             </div>
                         </div>
                    

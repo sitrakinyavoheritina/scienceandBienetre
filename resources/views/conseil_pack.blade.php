@@ -10,8 +10,6 @@
 @section('content')
 
 
-
-
     <div class="container all_center">
         <div class="counter-area fix area-padding-2">
             <div class="container">
