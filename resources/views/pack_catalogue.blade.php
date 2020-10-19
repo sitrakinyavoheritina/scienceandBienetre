@@ -119,8 +119,9 @@
                     <div class="hover-team">
                         <div class="our-team"> <img src="public/images/img-1.jpg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Williamson</h3> <span class="post">Web Developer</span> </div>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                                <a href="">
+                                    <h3 class="title">Voir detail</h3></a>
+                            </div>
                         </div>
                         <div class="team-description">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
@@ -131,8 +132,9 @@
                     <div class="hover-team">
                         <div class="our-team"> <img src="public/images/img-2.jpg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Kristiana</h3> <span class="post">Web Developer</span> </div>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                                <a href="">
+                                    <h3 class="title">Voir detail</h3></a>
+                            </div>
                         </div>
                         <div class="team-description">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
@@ -143,9 +145,10 @@
                     <div class="hover-team">
                         <div class="our-team"> <img src="public/images/img-3.jpg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Steve Thomas</h3> <span class="post">Web Developer</span> </div>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
+                                <a href="">
+                                    <h3 class="title">Voir detail</h3></a>
+                                </div>
+                            </div>
                         <div class="team-description">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
                         </div>
@@ -155,8 +158,8 @@
                     <div class="hover-team">
                         <div class="our-team"> <img src="public/images/img-1.jpg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Voir detail</h3>
-                                
+                                <a href="">
+                                    <h3 class="title">Voir detail</h3></a>
                             </div>
                         </div>
                         <div class="team-description">
