@@ -1146,7 +1146,7 @@
      -ms-transition: all 0.3s ease-out 0.5s;
      transition: all 0.3s ease-out 0.5s;
      text-align: center;
-     display: table;
+     display: none ! important;
 }
  .hov-in a{
      display: table-cell;
