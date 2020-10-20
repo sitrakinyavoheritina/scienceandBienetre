@@ -10,8 +10,8 @@
     <script src="{{asset('public/assets/js/isotope.min.js')}}"></script>
     <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
     <script src="{{asset('public/assets/js/baguetteBox.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script>
+   <!--  <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
         
   <!-- Start copyright  -->
