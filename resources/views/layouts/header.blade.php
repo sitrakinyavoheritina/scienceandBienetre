@@ -83,7 +83,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('listpack')}} ">Catalogue</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('About')}}">A propos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{url('About')}}">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{url('contact')}}">Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
