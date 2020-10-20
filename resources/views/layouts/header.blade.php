@@ -155,14 +155,17 @@
       var x = document.getElementById("bar_nav").getAttribute("aria-expanded");
         if (x == "true") 
         {
-          x = "false";
-          $('#navbar-menu').addClass("show");
+          
+          $('#bar_nav').setAttribute("aria-expanded","false");
+          $('#navbar-menu').removeClass("show");
          
 
-        } else {
-            x = "true"
-           $('#navbar-menu').removeClass("show");
-        }
+        } /*else {
+            x = "true";
+            $('#bar_nav').setAttribute("aria-expanded", x);
+           $('#navbar-menu').removeClass("collapse");
+           $('#navbar-menu').addClass("collapsing");
+        }*/
     });
     
 </script>
