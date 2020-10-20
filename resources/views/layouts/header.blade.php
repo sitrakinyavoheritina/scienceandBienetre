@@ -80,10 +80,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('listpack')}} ">Catalogue</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('About')}}">A propos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{url('About')}}">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{url('contact')}}">Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -132,41 +132,4 @@
         </div>
     </div>
     <!-- End Top Search -->
- 
-        
-    <script src="{{asset('public/assets/js/jquery-3.2.1.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/popper.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
-    <!-- ALL PLUGINS -->
-    <script src="{{asset('public/assets/js/jquery.superslides.min.js')}}"></script>
-    <!-- <script src="{{asset('public/assets/js/bootstrap-select.js')}}"></script> -->
- <!--    <script src="{{asset('public/assets/js/inewsticker.js')}}"></script> -->
-    <script src="{{asset('public/assets/js/bootsnav.js.')}}"></script>
-<!--     <script src="{{asset('public/assets/js/images-loded.min.js')}}"></script> -->
-    <!-- <script src="{{asset('public/assets/js/isotope.min.js')}}"></script> -->
-    <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
-    <!-- <script src="{{asset('public/assets/js/baguetteBox.min.js')}}"></script> -->
-    <!-- <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script> -->
-<!--     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
-    <script src="{{asset('public/assets/js/custom.js')}}"></script>
-    </body>
-<script type="text/javascript">
-    $('#bar_nav'). click(function(){
-      var x = document.getElementById("bar_nav").getAttribute("aria-expanded");
-        if (x == "true") 
-        {
-          
-          $('#bar_nav').setAttribute("aria-expanded","false");
-          $('#navbar-menu').removeClass("show");
-         
-
-        } /*else {
-            x = "true";
-            $('#bar_nav').setAttribute("aria-expanded", x);
-           $('#navbar-menu').removeClass("collapse");
-           $('#navbar-menu').addClass("collapsing");
-        }*/
-    });
-    
-</script>
 </html>

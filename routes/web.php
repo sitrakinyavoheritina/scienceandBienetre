@@ -32,7 +32,7 @@ use Illuminate\Support\Facades\Route;
     // end partenaire controller
 
     //conseil pack
-    Route::name('conseil_pack')->get('conseil_pack/{id}', 'conseilpackController@conseil_pack');
+    Route::name('conseil_pack')->get('conseil_pack/{id}', 'detailpackController@conseil_pack');
     //conseil pack
 
     //contact pack
