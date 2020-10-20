@@ -16,11 +16,8 @@
     <script type="text/javascript">
             $(".nav-link").on("click", (event) => {
                 console.log(event.target)
-            // $(".navbar-nav").find(".active").removeClass('active');
-            // $(event.target).parent().addClass('active');
           });
     </script>
-        nav.navbar.bootsnav ul.nav
   <!-- Start copyright  -->
     <div class="footer-copyright">
         <p class="footer-company">All Rights Reserved. &copy; 2020 <a href="#">maquillage et soin de visage</a> Design By :

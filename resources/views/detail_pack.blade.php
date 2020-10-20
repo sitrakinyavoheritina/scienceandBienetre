@@ -20,6 +20,28 @@
     .instagram-box::before {
         background: rgb(224 226 228) ! important;
     }
+
+    #img_pay {
+        width: 437px;
+        max-width: 437px;
+        background: red ! important;
+       
+        margin-top: 15px;
+    }
+
+    .block_pay {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+
+    #img_client {
+        width: 110px;
+        height: 110px;
+        float: left;
+        margin: 15px;
+    }
+
 </style>
 
 
@@ -57,18 +79,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h2 class="noo-sh-title">Maquillage et <span>soin de visage</span></h2>
-                    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
+                    <h2 class="noo-sh-title">Retrouvez le sommeil dès ce soir grâce à cette vidéo
+                    </h2>
+                    <div class="block_pay">
+                        <h2 style="text-align: center;">Montez le son de vos haut-parleurs...</h2>
+                        <img src="../public/images/payement.png" id="img_pay">
+                        <p><a class="btn hvr-hover" href="#">ADD TO CART</a></p>
+                    </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="banner-frame"> 
-                          <iframe width="500" height="450" src="https://www.youtube.com/embed/yH4ZNsHAXKA">
-                            </iframe>
+                        <iframe width="500" height="450" src="https://www.youtube.com/embed/yH4ZNsHAXKA">
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -76,6 +98,48 @@
     </div>
     <!-- End About Page -->
 
+    <div class="services-box-main">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-sm-6 col-lg-6">
+                    <div class="service-block-inner">
+                        <img src="../public/images/img-2.jpg" id="img_client">
+                        <div class="para_to">
+                            <p style="padding-top: 20px;font-size: 18px;">La bonne et la mauvaise nouvelle si vous souffrez d'insomnie depuis plus de 5 mois</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="service-block-inner">
+                        <img src="../public/images/img-1.jpg" id="img_client">
+                        <div class="para_to">
+                            <p style="padding-top: 20px; font-size: 18px;">La technique contre-intuitive et scientifiquement prouvée pour retrouver le sommeil en 9 minutes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="service-block-inner">
+                        <img src="../public/images/img-3.jpg" id="img_client">
+                        <div class="para_to">
+                            <p style="padding-top: 20px;font-size: 18px;">La bonne et la mauvaise nouvelle si vous souffrez d'insomnie depuis plus de 5 mois</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="service-block-inner">
+                        <img src="../public/images/img-2.jpg" id="img_client">
+                        <div class="para_to">
+                            <p style="padding-top: 20px; font-size: 18px;">La technique contre-intuitive et scientifiquement prouvée pour retrouver le sommeil en 9 minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">

@@ -22,7 +22,6 @@
 }
 </style>
 @section('content')
-
     <!-- Start Slider -->
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
