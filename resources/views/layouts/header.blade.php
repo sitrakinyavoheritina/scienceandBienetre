@@ -69,7 +69,7 @@
             <div class="container">
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation" style="float: right;"id="bar_nav">
                     <i class="fa fa-bars"></i>
                 </button>
                     <a class="navbar-brand" href="index.html"><img src="public/images/logo.jpg" class="logo" alt="" style="width: 70px;"></a>
@@ -150,5 +150,23 @@
 <!--     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
     </body>
+<script type="text/javascript">
+    $('#bar_nav'). click(function(){
+      var x = document.getElementById("bar_nav").getAttribute("aria-expanded");
+        if (x == "true") 
+        {
+          
+          $('#bar_nav').setAttribute("aria-expanded","false");
+          $('#navbar-menu').removeClass("show");
+         
 
+        } /*else {
+            x = "true";
+            $('#bar_nav').setAttribute("aria-expanded", x);
+           $('#navbar-menu').removeClass("collapse");
+           $('#navbar-menu').addClass("collapsing");
+        }*/
+    });
+    
+</script>
 </html>
