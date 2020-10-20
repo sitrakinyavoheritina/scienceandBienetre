@@ -43,7 +43,7 @@
                 <div class="col-lg-12">
                     <h2>A PROPOS</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">ACCUEIL</a></li>
+                        <li class="breadcrumb-item"><a href="accueil">ACCUEIL</a></li>
                         <li class="breadcrumb-item active">A PROPOS</li>
                     </ul>
                 </div>
