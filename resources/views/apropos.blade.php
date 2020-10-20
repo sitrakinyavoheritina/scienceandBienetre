@@ -1,12 +1,25 @@
 
 @extends('layouts.index')
 <style type="text/css">
- 
-    .fun_text { 
-        position: initial ! important;
-        padding: 56px 30px ! important;
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100% ! important;
+        max-width: 150px ! important;
+        max-height: 150px ! important;
+        height: 121px ! important;
     }
 
+    .instagram-box {
+        padding: 30px 0px ! important;
+    }
+
+    .services-box-main {
+        padding: 20px 0px ! important;
+    }
+
+    .instagram-box::before {
+        background: rgb(224 226 228) ! important;
+    }
 </style>
 
 
@@ -30,7 +43,7 @@
                 <div class="col-lg-12">
                     <h2>A PROPOS</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">ACCUEIL</a></li>
+                        <li class="breadcrumb-item"><a href="accueil">ACCUEIL</a></li>
                         <li class="breadcrumb-item active">A PROPOS</li>
                     </ul>
                 </div>
@@ -61,12 +74,13 @@
     </div>
     <!-- End About Page -->
 
+
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-01.jpg" alt="" />
+                    <img src="public/images/all-bg-title.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -74,7 +88,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-02.jpg" alt="" />
+                    <img src="public/images/blue-eyes-237438_1920.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -82,7 +96,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-03.jpg" alt="" />
+                    <img src="public/images/body-painting-4696539_1920.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -90,7 +104,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-04.jpg" alt="" />
+                    <img src="public/images/cosmetics-arranged-dusty-dark-background.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -98,7 +112,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-05.jpg" alt="" />
+                    <img src="public/images/face-mask-2578428_1920.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -106,7 +120,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-06.jpg" alt="" />
+                    <img src="public/images/slide7.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -114,7 +128,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-07.jpg" alt="" />
+                    <img src="public/images/slide8.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -122,7 +136,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-08.jpg" alt="" />
+                    <img src="public/images/slide10.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -130,15 +144,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-09.jpg" alt="" />
-                    <div class="hov-in">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ins-inner-box">
-                    <img src="public/images/instagram-img-05.jpg" alt="" />
+                    <img src="public/images/slide9.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>

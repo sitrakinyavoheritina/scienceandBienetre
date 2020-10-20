@@ -6,7 +6,6 @@
  }
 </style>
 
-
 @section('content')
 
     <div class="container all_center">

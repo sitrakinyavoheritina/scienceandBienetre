@@ -1,5 +1,17 @@
 @extends('layouts.index')
+ <style type="text/css">
+    .our-team img {
+        width: 100% ! important;
+        max-height: 289px ! important;
+        height: 286px ! important;
+    }
 
+    .box-img-hover img {
+        width: 100%;
+        height: 286px;
+        max-height: 286px;
+    }
+ </style>
 @section('content')
    <!-- Start Products  -->
        <!-- Start All Title Box -->
@@ -9,7 +21,7 @@
                 <div class="col-lg-12">
                     <h2>CATALOGUE</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">ACCUEIL</a></li>
+                        <li class="breadcrumb-item"><a href="{{ url('accueil')}}">ACCUEIL</a></li>
                         <li class="breadcrumb-item active">CATALOGUE</li>
                     </ul>
                 </div>
@@ -47,7 +59,7 @@
                             <img src="public/images/img-pro-01.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
-                                <a class="cart" href="#">Voir Détail</a>
+                                <a class="cart" href="{{ url('conseil_pack')}}/1">Voir Détail</a>
                             </div>
                         </div>
                         <div class="why-text">
@@ -63,7 +75,7 @@
                             <img src="public/images/img-pro-02.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
-                                <a class="cart" href="#">Voir Détail</a>
+                                <a class="cart" href="{{ url('conseil_pack')}}/1">Voir Détail</a>
                             </div>
                         </div>
                         <div class="why-text">
@@ -76,10 +88,10 @@
                 <div class="col-lg-3 col-md-6 special-grid top-featured">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="public/images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                            <img src="public/images/slide10.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
-                                <a class="cart" href="#">Voir Détail</a>
+                                <a class="cart" href="{{ url('conseil_pack')}}/1">Voir Détail</a>
                             </div>
                         </div>
                         <div class="why-text">
@@ -92,9 +104,9 @@
                 <div class="col-lg-3 col-md-6 special-grid best-seller">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="public/images/img-pro-04.jpg" class="img-fluid" alt="Image">
+                            <img src="public/images/girl-3874885_1920.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
-                                <a class="cart" href="#">Voir Detail</a>
+                                <a class="cart" href="{{ url('conseil_pack')}}/1">Voir Detail</a>
                             </div>
                         </div>
                         <div class="why-text">
@@ -124,9 +136,9 @@
             <div class="row my-4">
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="public/images/img-1.jpg" alt="" />
+                        <div class="our-team"> <img src="public/images/slide7.jpg" alt="" />
                             <div class="team-content">
-                                <a href="">
+                                <a href="{{ url('conseil_pack')}}/1">
                                     <h3 class="title">Voir detail</h3></a>
                             </div>
                         </div>
@@ -138,9 +150,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="public/images/img-2.jpg" alt="" />
+                        <div class="our-team"> <img src="public/images/slide9.jpg" alt="" />
                             <div class="team-content">
-                                <a href="">
+                                <a href="{{ url('conseil_pack')}}/1">
                                     <h3 class="title">Voir detail</h3></a>
                             </div>
                         </div>
@@ -152,9 +164,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="public/images/img-3.jpg" alt="" />
+                        <div class="our-team"> <img src="public/images/big-img-02.jpg" alt="" />
                             <div class="team-content">
-                                <a href="">
+                                <a href="{{ url('conseil_pack')}}/1">
                                     <h3 class="title">Voir detail</h3></a>
                                 </div>
                             </div>
@@ -168,7 +180,7 @@
                     <div class="hover-team">
                         <div class="our-team"> <img src="public/images/img-1.jpg" alt="" />
                             <div class="team-content">
-                                <a href="">
+                                <a href="{{ url('conseil_pack')}}/1">
                                     <h3 class="title">Voir detail</h3></a>
                             </div>
                         </div>
