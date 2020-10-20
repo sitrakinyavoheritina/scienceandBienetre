@@ -13,7 +13,14 @@
    <!--  <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
-        
+    <script type="text/javascript">
+            $(".nav-link").on("click", (event) => {
+                console.log(event.target)
+            // $(".navbar-nav").find(".active").removeClass('active');
+            // $(event.target).parent().addClass('active');
+          });
+    </script>
+        nav.navbar.bootsnav ul.nav
   <!-- Start copyright  -->
     <div class="footer-copyright">
         <p class="footer-company">All Rights Reserved. &copy; 2020 <a href="#">maquillage et soin de visage</a> Design By :

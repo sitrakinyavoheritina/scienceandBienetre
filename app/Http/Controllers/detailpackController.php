@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use PDO;
 
-class conseilpackController extends Controller
+class detailpackController extends Controller
 {
     public function conseil_pack() {
   //   	$list_conseils = DB::table('conseil_pack')
@@ -25,6 +25,6 @@ class conseilpackController extends Controller
   //       $url_string=$video_pack;
 		// $url= str_replace('watch?v=','embed/', $url_string);
 
-    return view('conseil_pack');
+    return view('detail_pack');
     }
 }

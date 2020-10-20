@@ -80,7 +80,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('listpack')}} ">Catalogue</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('About')}}">A propos</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('About')}}">Contact</a></li>
