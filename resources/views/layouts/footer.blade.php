@@ -13,12 +13,13 @@
      <script src="{{asset('public/assets/js/jquery.waypoints.min.js')}}"></script>
    <!--  <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
-<!--     <script>
-      AOS.init();
-    </script> -->
+    <script>
+      AOS.init( {duration: 1200,
+  easing: 'ease-in-out-back'});
+    </script>
     <script type="text/javascript">
         if ( $('#fh5co-home').length > 0 ) {    
 

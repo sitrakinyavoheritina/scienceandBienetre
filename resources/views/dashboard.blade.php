@@ -77,7 +77,7 @@
     <div class="services-box-main" >
         <div class="container">
             <div class="row my-5" id="fh5co-home">
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-4 "data-aos="fade-right">
                     <div class="service-block-inner" >
                         <h3 class="to-animate">CATALOGUE</h3>
                         <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-4"data-aos="zoom-in">
                     <div class="service-block-inner">
                         <h3 class="to-animate">CONTACT</h3>
                         <p class="to-animate">email : info@scienceetbienetre.com
@@ -105,7 +105,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-4"data-aos="fade-left">
                     <div class="service-block-inner">
                         <h3 class="to-animate">A PROPOS</h3>
                         <p class="to-animate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
