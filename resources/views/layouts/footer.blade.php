@@ -13,9 +13,14 @@
      <script src="{{asset('public/assets/js/jquery.waypoints.min.js')}}"></script>
    <!--  <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
     <script type="text/javascript">
     </script>
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
+<!--     <script>
+      AOS.init();
+    </script> -->
     <script type="text/javascript">
         if ( $('#fh5co-home').length > 0 ) {    
 
@@ -42,6 +47,54 @@
             } , { offset: '80%' } );
 
         }
+
+        if ( $('#list_pack_unit').length > 0 ) {    
+
+            $('#list_pack_unit').waypoint( function( direction ) {
+                            // alert(direction)         
+                if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+
+                    setTimeout(function() {
+                        $('#list_pack_unit .to-animate').each(function( k ) {
+                            var el = $(this);
+                            
+                            setTimeout ( function () {
+                                el.addClass('fadeInLeft animated');
+                            },  k * 200, 'easeInOutExpo' );
+                            
+                        });
+                    }, 200);
+
+                    
+                    $(this.element).addClass('animated');
+                        
+                }
+            } , { offset: '80%' } );
+
+        }
+
+
+        $( ".nav-link" ).mouseover(function() {
+            $(this).addClass("fadeInDown animated");   
+        });
+
+        $( ".nav-link" ).mouseout(function() {
+            $(this).removeClass("fadeInDown animated");   
+        });
+
+
+        // $("#slide_dash .item").mouseover(function() {
+        //     $(this).addClass("zoomOut animated");   
+        // });
+
+        // $("#slide_dash .item").mouseout(function() {
+        //     $(this).removeClass("zoomOut animated");   
+        // });
+        
+
+
+
     </script>
   <!-- Start copyright  -->
     <div class="footer-copyright">

@@ -25,6 +25,7 @@
     margin-top: 15px;
 }
 
+
 </style>
 @section('content')
     <!-- Start Slider -->
@@ -125,10 +126,10 @@
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
-        <div class="main-instagram owl-carousel owl-theme">
+        <div class="main-instagram owl-carousel owl-theme ">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/all-bg-title.jpg" alt="" />
+                    <img src="public/images/all-bg-title.jpg" alt=""  />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -204,6 +205,7 @@
 
 
         <!-- End Support-service Area -->
+
 @endsection
         
 

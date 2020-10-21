@@ -8,8 +8,8 @@
 
     .box-img-hover img {
         width: 100%;
-        height: 286px;
-        max-height: 286px;
+        height: 263px;
+        max-height: 263px;
     }
  </style>
 @section('content')
@@ -121,21 +121,21 @@
     </div>
     <!-- End Products  -->
              
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Programmes et méthodes à l'unité</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
-                    </div>
-                </div>
+    <div class="row" >
+        <div class="col-lg-12" id="fh5co-home">
+            <div class="title-all text-center">
+                <h1 class="to-animate">Programmes et méthodes à l'unité</h1>
+                <p  class="to-animate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
             </div>
+        </div>
+    </div>
 
         <!-- Start Services  -->
     <div class="services-box-main">
         <div class="container">
-            <div class="row my-4">
+            <div class="row my-4" id="list_pack_unit">
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate" >
                         <div class="our-team"> <img src="public/images/slide7.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
@@ -149,7 +149,7 @@
                         <hr class="my-0"> </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate">
                         <div class="our-team"> <img src="public/images/slide9.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
@@ -163,7 +163,7 @@
                         <hr class="my-0"> </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate">
                         <div class="our-team"> <img src="public/images/big-img-02.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
@@ -177,7 +177,7 @@
                         <hr class="my-0"> </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate">
                         <div class="our-team"> <img src="public/images/img-1.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
