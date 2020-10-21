@@ -20,11 +20,17 @@
 .instagram-box::before {
     background: rgb(224 226 228) ! important;
 }
+
+.text-center {
+    margin-top: 15px;
+}
+
+
 </style>
 @section('content')
     <!-- Start Slider -->
     <div id="slides-shop" class="cover-slides">
-        <ul class="slides-container">
+        <ul class="slides-container" id="fh5co-home" >
             <li class="text-center">
                 <img src="public/img/background/make_up.jpg" alt="">
                 <div class="container">
@@ -68,14 +74,14 @@
         </div>
     </div>
 
-    <div class="services-box-main">
+    <div class="services-box-main" >
         <div class="container">
-            <div class="row my-5">
+            <div class="row my-5" id="fh5co-home">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>CATALOGUE</h3>
-                        <p>Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
-                        <div class="submit-button text-center">
+                    <div class="service-block-inner" >
+                        <h3 class="to-animate">CATALOGUE</h3>
+                        <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
+                        <div class="submit-button text-center"  class="to-animate">
                             <a href="{{ url('listpack')}}">
                                 <button class="btn hvr-hover" id="submit" type="submit">Nos catalogue</button>
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -86,11 +92,11 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
-                        <h3>CONTACT</h3>
-                        <p>email : info@scienceetbienetre.com
+                        <h3 class="to-animate">CONTACT</h3>
+                        <p class="to-animate">email : info@scienceetbienetre.com
                             Tél. : 04 83 43 14 00 ou +33 483 431 400
                             Du lundi au vendredi de 8h à 16h30</p>
-                            <div class="submit-button text-center">
+                            <div class="submit-button text-center to-animate" >
                                 <a href="{{url('contact')}}">
                                     <button class="btn hvr-hover" id="submit" type="submit">Nous contacter</button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -101,9 +107,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
-                        <h3>A PROPOS</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                           <div class="submit-button text-center">
+                        <h3 class="to-animate">A PROPOS</h3>
+                        <p class="to-animate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                           <div class="submit-button text-center to-animate">
                             <a href=" {{url('About')}} ">
                                 <button class="btn hvr-hover" id="submit" type="submit">Info Détail</button>
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -120,10 +126,10 @@
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
-        <div class="main-instagram owl-carousel owl-theme">
+        <div class="main-instagram owl-carousel owl-theme ">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="public/images/all-bg-title.jpg" alt="" />
+                    <img src="public/images/all-bg-title.jpg" alt=""  />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -199,6 +205,7 @@
 
 
         <!-- End Support-service Area -->
+
 @endsection
         
 

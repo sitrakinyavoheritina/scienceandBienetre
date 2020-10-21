@@ -27,12 +27,19 @@
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{asset('public/assets/css/custom.css')}}">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
     </head>
     <body>
 
+<!--         <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center" style="width: 700px; height: 700px; background: red;">
+     jdjsdjjvvsvsdvsdv
+</div> -->
+
             <!-- Start Main Top -->
-    <div class="main-top">
+<!--     <div class="main-top">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -59,7 +66,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Main Top -->
 
     <!-- Start Main Top -->
@@ -79,9 +86,9 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{url('listpack')}} ">Catalogue</a></li>
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp" id="text_anim">
+                        <li class="nav-item to-animate-2"><a class="nav-link" href="{{route('accueil')}}">Accueil</a></li>
+                        <li class="nav-item fadeInDown animated"><a class="nav-link" href="{{url('listpack')}} ">Catalogue</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('About')}}">A propos</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{url('contact')}}">Contact</a></li>
                     </ul>

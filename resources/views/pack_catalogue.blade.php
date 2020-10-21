@@ -8,8 +8,8 @@
 
     .box-img-hover img {
         width: 100%;
-        height: 286px;
-        max-height: 286px;
+        height: 263px;
+        max-height: 263px;
     }
  </style>
 @section('content')
@@ -30,9 +30,9 @@
     </div>
     <!-- End All Title Box -->
 
-    <div class="products-box">
+    <div class="products-box" >
         <div class="container">
-            <div class="row">
+            <div class="row"  id="fh5co-home">
                 <div class="col-lg-12">
                     <div class="special-menu text-center">
                         <div class="button-group filter-button-group">
@@ -42,9 +42,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
+            <div class="row" id="fh5co-home">
+                <div class="col-lg-12" id="fh5co-home">
+                    <div class="title-all text-center to-animate">
                         <h1>Best seller</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
                     </div>
@@ -52,10 +52,10 @@
             </div>
       
 
-            <div class="row special-list">
-                <div class="col-lg-3 col-md-6 special-grid best-seller">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+            <div class="row special-list" id="fh5co-home">
+                <div class="col-lg-3 col-md-6 special-grid best-seller" >
+                    <div class="products-single fix" >
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/img-pro-01.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
@@ -70,8 +70,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 special-grid top-featured">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+                    <div class="products-single ">
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/img-pro-02.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
@@ -86,8 +86,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 special-grid top-featured">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+                    <div class="products-single ">
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/slide10.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
@@ -102,8 +102,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 special-grid best-seller">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+                    <div class="products-single ">
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/girl-3874885_1920.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <a class="cart" href="{{ url('conseil_pack')}}/1">Voir Detail</a>
@@ -121,21 +121,21 @@
     </div>
     <!-- End Products  -->
              
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Programmes et méthodes à l'unité</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
-                    </div>
-                </div>
+    <div class="row" >
+        <div class="col-lg-12" id="fh5co-home">
+            <div class="title-all text-center">
+                <h1 class="to-animate">Programmes et méthodes à l'unité</h1>
+                <p  class="to-animate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
             </div>
+        </div>
+    </div>
 
         <!-- Start Services  -->
     <div class="services-box-main">
         <div class="container">
-            <div class="row my-4">
+            <div class="row my-4" id="list_pack_unit">
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate" >
                         <div class="our-team"> <img src="public/images/slide7.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
@@ -149,7 +149,7 @@
                         <hr class="my-0"> </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate">
                         <div class="our-team"> <img src="public/images/slide9.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
@@ -163,7 +163,7 @@
                         <hr class="my-0"> </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate">
                         <div class="our-team"> <img src="public/images/big-img-02.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
@@ -177,7 +177,7 @@
                         <hr class="my-0"> </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="hover-team">
+                    <div class="hover-team to-animate">
                         <div class="our-team"> <img src="public/images/img-1.jpg" alt="" />
                             <div class="team-content">
                                 <a href="{{ url('conseil_pack')}}/1">
