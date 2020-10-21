@@ -30,9 +30,9 @@
     </div>
     <!-- End All Title Box -->
 
-    <div class="products-box">
+    <div class="products-box" >
         <div class="container">
-            <div class="row">
+            <div class="row"  id="fh5co-home">
                 <div class="col-lg-12">
                     <div class="special-menu text-center">
                         <div class="button-group filter-button-group">
@@ -42,9 +42,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
+            <div class="row" id="fh5co-home">
+                <div class="col-lg-12" id="fh5co-home">
+                    <div class="title-all text-center to-animate">
                         <h1>Best seller</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
                     </div>
@@ -52,10 +52,10 @@
             </div>
       
 
-            <div class="row special-list">
-                <div class="col-lg-3 col-md-6 special-grid best-seller">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+            <div class="row special-list" id="fh5co-home">
+                <div class="col-lg-3 col-md-6 special-grid best-seller" >
+                    <div class="products-single fix" >
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/img-pro-01.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
@@ -70,8 +70,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 special-grid top-featured">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+                    <div class="products-single ">
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/img-pro-02.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
@@ -86,8 +86,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 special-grid top-featured">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+                    <div class="products-single ">
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/slide10.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                
@@ -102,8 +102,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 special-grid best-seller">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
+                    <div class="products-single ">
+                        <div class="box-img-hover to-animate">
                             <img src="public/images/girl-3874885_1920.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <a class="cart" href="{{ url('conseil_pack')}}/1">Voir Detail</a>
