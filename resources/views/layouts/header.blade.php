@@ -24,11 +24,11 @@
         <!-- Site CSS -->
         <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
+  <!--       <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}"> -->
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{asset('public/assets/css/custom.css')}}">
 
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
         
     </head>
     <body>

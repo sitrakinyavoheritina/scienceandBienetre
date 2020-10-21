@@ -1,5 +1,5 @@
     <script src="{{asset('public/assets/js/jquery-3.2.1.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/popper.min.js')}}"></script>
+    <!-- <script src="{{asset('public/assets/js/popper.min.js')}}"></script> -->
     <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
     <!-- ALL PLUGINS -->
     <script src="{{asset('public/assets/js/jquery.superslides.min.js')}}"></script>
@@ -15,8 +15,6 @@
     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
-    <script type="text/javascript">
-    </script>
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
 <!--     <script>
       AOS.init();
