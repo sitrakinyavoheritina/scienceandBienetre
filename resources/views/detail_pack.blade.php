@@ -85,7 +85,10 @@
                        
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <img src="../public/images/payement.png" id="img_pay">
-                        <p><a class="btn hvr-hover pay_cart" href="#">ADD TO CART</a></p>
+                        <div class="pay_cart">
+                            <h2 class="noo-sh-title">10 € </h2>
+                            <p><a class="btn hvr-hover pay_cart" href="#">ADD TO CART</a></p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-7">
