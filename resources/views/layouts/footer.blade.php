@@ -3,22 +3,24 @@
     <script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
     <!-- ALL PLUGINS -->
     <script src="{{asset('public/assets/js/jquery.superslides.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/bootstrap-select.js')}}"></script>
+    <!-- <script src="{{asset('public/assets/js/bootstrap-select.js')}}"></script> -->
     <script src="{{asset('public/assets/js/inewsticker.js')}}"></script>
-    <script src="{{asset('public/assets/js/bootsnav.js.')}}"></script>
+    <!-- <script src="{{asset('public/assets/js/bootsnav.js.')}}"></script> -->
     <script src="{{asset('public/assets/js/images-loded.min.js')}}"></script>
     <script src="{{asset('public/assets/js/isotope.min.js')}}"></script>
     <script src="{{asset('public/assets/js/owl.carousel.min.js')}}"></script>
     <script src="{{asset('public/assets/js/baguetteBox.min.js')}}"></script>
-     <script src="{{asset('public/assets/js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/jquery.waypoints.min.js')}}"></script>
    <!--  <script src="{{asset('public/assets/js/form-validator.min.js')}}"></script>
     <script src="{{asset('public/assets/js/contact-form-script.js')}}"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
     <script>
-      AOS.init( {duration: 1200,
-  easing: 'ease-in-out-back'});
+        AOS.init( {duration: 1200,
+        easing: 'ease-in-out-back'});
     </script>
     <script type="text/javascript">
         if ( $('#fh5co-home').length > 0 ) {    
@@ -91,6 +93,17 @@
         //     $(this).removeClass("zoomOut animated");   
         // });
         
+        // show button after end video 
+        $('.pay_cart').hide();
+        var vid = document.getElementById("Video_pack");
+            vid.onended = function() {
+            $('.pay_cart').show();
+            vid.addEventListener('canplaythrough', function () {
+            // Add code to fade out the loading screen.
+            console.log('fgdfgd')
+            });
+        };
+
 
 
 

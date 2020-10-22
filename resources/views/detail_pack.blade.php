@@ -78,19 +78,25 @@
     <div class="about-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <h2 class="noo-sh-title">Retrouvez le sommeil dès ce soir grâce à cette vidéo
                     </h2>
                     <div class="block_pay">
-                        <h2 style="text-align: center;">Montez le son de vos haut-parleurs...</h2>
+                       
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <img src="../public/images/payement.png" id="img_pay">
-                        <p><a class="btn hvr-hover" href="#">ADD TO CART</a></p>
+                        <p><a class="btn hvr-hover pay_cart" href="#">ADD TO CART</a></p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
+                     <h2 style="text-align: center;">Montez le son de vos haut-parleurs...</h2>
                     <div class="banner-frame"> 
-                        <iframe width="500" height="450" src="https://www.youtube.com/embed/yH4ZNsHAXKA">
-                        </iframe>
+                      <!--   <iframe width="600" height="480" src="../public/video/maquillage.mp4" >
+                        </iframe> -->
+                        <video id="Video_pack" controlsList="nodownload" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
+                            <source src="../public/video/maquillage.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
                     </div>
                 </div>
             </div>
