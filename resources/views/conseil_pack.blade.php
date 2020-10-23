@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="container all_center">
-        <div class="counter-area fix area-padding-2">
+        <div class="counter-area fix area-padding-2 ">
             <div class="container">
                 <!-- Start counter Area -->
 
@@ -21,7 +21,7 @@
                             </h4>
                             <div class="pay_cart">
                                 <h2 class="price_1">{{$prix_pack}}€</h2>
-                                 <button class="btn btn-primary"> add to cart</button>
+                                 <button class="btn btn-primary" onclick="addto_card(this)"> add to cart</button>
                                  <input type="checkbox" id="{{$first_icon}}" name="scales[]" value="10" checked>
                             </div>
                     </div>
@@ -36,7 +36,7 @@
         </div>
 
         @foreach($video as $key => $value)
-        <div class="counter-area fix area-padding-2 video2">
+        <div class="counter-area fix area-padding-2 video2" id="aze-{{$key}}" >
             <div class="container">
                 <!-- Start counter Area -->
                  <div class="row">
@@ -47,9 +47,10 @@
                             </h4>
                            
                                 <h2 class="price_2">{{$value['prix']}}€</h2>
-                                <button class="btn btn-primary btn_vid2"> add to cart</button>
-                                <button class="btn btn-primary showskip2">Skip</button>
-                               <input type="checkbox" id= "{{$value['icon'] }}" name="scales[]" value="12">
+                                <button class="btn btn-primary btn_vid2"
+                                id="btn_{{$key}}" onclick="addto_card('{{$key}}')"> add to cart</button>
+                                <button class="btn btn-primary showskip2"onclick="to_hide('{{$key}}')">Skip</button>
+                               <input type="checkbox" id= "{{$value['icon']}}"  class="icon_{{$key}}" name="scales[]" value="12">
                     </div>
                     <div class="col-lg-7">
                             <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >

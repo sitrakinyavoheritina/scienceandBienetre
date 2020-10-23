@@ -24,8 +24,15 @@
             $('.video2').hide();
             $('.video3').hide();
             $('.total').hide()
+            var to_hide = function(key) {
+                console.log('aze-'+key)
+                $('#aze-'+key).hide();
+            }
 
-
+            var addto_card = function(key) {
+                console.log(key)
+                $('.icon_'+key).attr( 'checked', true )
+            }
             var vid = document.getElementById("Video_pack");
                 vid.onended = function() {
                 $('.pay_cart').show();
@@ -37,14 +44,6 @@
                 $('.total').show()
             });
 
-            $('.showskip2').click(function() {
-                $('.video2').hide();
-            });
-
-            $('.showskip3').click(function() {
-                $('.video3').hide();
-                console.log('fdgdf')
-            });
                 $('.icon3').hide();
                 $('.icon2').hide();
 
