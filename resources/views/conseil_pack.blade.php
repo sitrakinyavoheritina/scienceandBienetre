@@ -19,8 +19,10 @@
                             <h4>
                                 Montez le son de vos haut-parleurs...
                             </h4>
-                            <iframe width="500" height="450" src="https://www.youtube.com/embed/yH4ZNsHAXKA">
-                            </iframe>
+                            <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
+                            <source src="../public/video/Santevideo1.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
                         </div>
                     </div>
                 </div>
