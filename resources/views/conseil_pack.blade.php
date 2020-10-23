@@ -22,7 +22,7 @@
                             <div class="pay_cart">
                                 <h2 class="price_1">{{$prix_pack}}€</h2>
                                  <button class="btn btn-primary"> add to cart</button>
-                                 <input type="checkbox" id="icon1" name="scales[]" value="10" checked>
+                                 <input type="checkbox" id="{{$first_icon}}" name="scales[]" value="10" checked>
                             </div>
                     </div>
                     <div class="col-lg-7">
@@ -35,10 +35,10 @@
             </div>
         </div>
 
+        @foreach($video as $key => $value)
         <div class="counter-area fix area-padding-2 video2">
             <div class="container">
                 <!-- Start counter Area -->
-                @foreach($video as $key => $value)
                  <div class="row">
                     <div class="col-lg-5">
                           <h3 id="text_h3">{{$value['nom_video']}}</h3>
@@ -49,7 +49,7 @@
                                 <h2 class="price_2">{{$value['prix']}}€</h2>
                                 <button class="btn btn-primary btn_vid2"> add to cart</button>
                                 <button class="btn btn-primary showskip2">Skip</button>
-                               <input type="checkbox" id="icon2" name="scales[]" value="12">
+                               <input type="checkbox" id= "{{$value['icon'] }}" name="scales[]" value="12">
                     </div>
                     <div class="col-lg-7">
                             <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
@@ -58,9 +58,9 @@
                         </video>
                     </div>
                 </div>
-                @endforeach
             </div>
         </div>
+        @endforeach
 
         
         <hr>
