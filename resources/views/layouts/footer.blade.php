@@ -18,6 +18,18 @@
         <script src="{{asset('public/assets/js/plugins.js')}}"></script>
         <!-- main js -->
         <script src="{{asset('public/assets/js/main.js')}}"></script>
+        
+        <script type="text/javascript">
+            $('.pay_cart').hide();
+            var vid = document.getElementById("Video_pack");
+                vid.onended = function() {
+                $('.pay_cart').show();
+                vid.addEventListener('canplaythrough', function () {
+                // Add code to fade out the loading screen.
+                console.log('fgdfgd')
+                });
+            };
+        </script>
 
         
         <footer class="footer1" style="bottom: 0!important;">
