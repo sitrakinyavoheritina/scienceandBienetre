@@ -54,7 +54,7 @@
                                     <h4>Mincer,prise de poids,musculation</h4>
                                     <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
                                 </div>
-                                <a href="{{ url('conseil_pack')}}/2">
+                                <a href="{{ url('conseil_pack/2')}}">
                                     <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
                                 </a>
                             </div>
@@ -70,7 +70,7 @@
                                     <h4>Sommeil et entretient cerveau</h4>
                                     <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
                                 </div>
-                                <a href="{{ url('conseil_pack')}}/1">
+                                <a href="{{ url('conseil_pack/1')}}">
                                     <button class="to-animate btn btn-primary btn-lg"> cliquez ici pour voir la presentation complete</button>
                                 </a>
                             </div>
@@ -101,7 +101,7 @@
                                     </div>
                                 </div>
                                 <p>Dormir est indispensable au développement et à la maturité cérébrale</p>
-                                <a href="{{ url('conseil_pack')}}/1">
+                                <a href="{{ url('conseil_pack/1')}}">
                                    <button>Voir la version complète</button>
                                 </a>
                             </div>
@@ -116,7 +116,7 @@
                                     </div>
                                 </div>
                                 <p>Les régimes, une mauvaise solution pour perdre du poids.</p>
-                                <a href=" {{ url('conseil_pack')}}/2">
+                                <a href=" {{ url('conseil_pack/2')}}">
                                    <button>Voir la version complète</button>
                                 </a>
                             </div>
@@ -132,7 +132,7 @@
                                     </div>
                                 </div>
                                 <p> Le système immunitaire défend notre organisme contre les agressions extérieures.</p>
-                                   <a href="{{ url('conseil_pack')}}/1">
+                                   <a href="{{ url('conseil_pack/3')}}">
                                    <button>Voir la version complète</button>
                                 </a>
                             </div>
