@@ -18,18 +18,68 @@
         <script src="{{asset('public/assets/js/plugins.js')}}"></script>
         <!-- main js -->
         <script src="{{asset('public/assets/js/main.js')}}"></script>
-        
+
         <script type="text/javascript">
             $('.pay_cart').hide();
+            $('.video2').hide();
+            $('.video3').hide();
+            $('.total').hide()
+
+
             var vid = document.getElementById("Video_pack");
                 vid.onended = function() {
                 $('.pay_cart').show();
-                vid.addEventListener('canplaythrough', function () {
-                // Add code to fade out the loading screen.
-                console.log('fgdfgd')
-                });
             };
+
+            $('.pay_cart').click(function() {
+                $('.video2').show();
+                $('.video3').show();
+                $('.total').show()
+            });
+
+            $('.showskip2').click(function() {
+                $('.video2').hide();
+            });
+
+            $('.showskip3').click(function() {
+                $('.video3').hide();
+                console.log('fdgdf')
+            });
+                $('.icon3').hide();
+                $('.icon2').hide();
+
+            $('.btn_vid3').click(function() {
+                $('#icon3').attr( 'checked', true )
+            });
+
+            $('.btn_vid2').click(function() {
+                // $('#icon2').show();
+                $('#icon2').attr( 'checked', true )
+
+            });
+
+
+        $('#accept').click(function(){
+            var total_price = 0;
+            if ($('#icon1').is(":checked"))
+            {
+              var total_price = Number(total_price) + 10;
+            }
+
+            if ($('#icon2').is(":checked"))
+            {
+              var total_price = Number(total_price) +12;
+            }
+
+            if ($('#icon3').is(":checked"))
+            {
+              var total_price = Number(total_price) +30;
+            }
+              console.log(total_price);
+              $('#total_price').html('total :' +total_price+'€');
+        })
         </script>
+
 
         
         <footer class="footer1" style="bottom: 0!important;">

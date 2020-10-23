@@ -13,23 +13,83 @@
             <div class="container">
                 <!-- Start counter Area -->
                  <div class="row">
-                    <div class="fun-content">
-                        <div class="section-headline text-center">
-                            <h3 id="text_h3">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
+                    <div class="col-lg-5">
+                          <h3 id="text_h3">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
                             <h4>
                                 Montez le son de vos haut-parleurs...
                             </h4>
-                            
+                            <div class="pay_cart">
+                                <h2 class="price_1">10€</h2>
+                                 <button class="btn btn-primary"> add to cart</button>
+                                 <input type="checkbox" id="icon1" name="scales[]" value="10" checked>
+                            </div>
+                    </div>
+                    <div class="col-lg-7">
                             <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
                             <source src="../public/video/Santevideo1.mp4" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-   
+
+        <div class="counter-area fix area-padding-2 video2">
+            <div class="container">
+                <!-- Start counter Area -->
+                 <div class="row">
+                    <div class="col-lg-5">
+                          <h3 id="text_h3">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
+                            <h4>
+                                Montez le son de vos haut-parleurs...
+                            </h4>
+                           
+                                <h2 class="price_2">12€</h2>
+                                <button class="btn btn-primary btn_vid2"> add to cart</button>
+                                <button class="btn btn-primary showskip2">Skip</button>
+                               <input type="checkbox" id="icon2" name="scales[]" value="12">
+                    </div>
+                    <div class="col-lg-7">
+                            <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
+                            <source src="../public/video/Santevideo1.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="counter-area fix area-padding-2 video3">
+            <div class="container">
+                <!-- Start counter Area -->
+                 <div class="row">
+                    <div class="col-lg-5">
+                          <h3 id="text_h3">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
+                            <h4>
+                                Montez le son de vos haut-parleurs...
+                            </h4>
+                           
+                                <h2 class="price_3">30€</h2>
+                                <button class="btn btn-primary btn_vid3"> add to cart</button>
+                                <button class="btn btn-primary showskip3">Skip</button>
+                                <input type="checkbox" id="icon3" name="scales[]" value="30">
+                            
+
+                    </div>
+                    <div class="col-lg-7">
+                            <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
+                            <source src="../public/video/Santevideo1.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="total text-center">
+            <button id="accept">OK</button>
+            <h2 id="total_price"></h2>
+        </div>
        <div class="work-proses fix bg-color area-padding-2"  id="arrea">
                 <div class="row">
                         <div class="section-headline text-center">
