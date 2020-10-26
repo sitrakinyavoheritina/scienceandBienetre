@@ -4,9 +4,28 @@
  .to_center {
     background: red ! important;
  }
-    video::-webkit-media-controls-timeline {
-    display: none;
-    }
+/*    video::-webkit-media-controls-timeline {
+        display: none;
+    }*/
+    
+    #img_logo_pay {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+     text-align: center; 
+    margin: auto;
+    display: block;
+}
+
+.price_1, .price_2 {
+ text-align: center;
+}
+
+.to_centr {
+    margin: auto ! important;
+    display: block ! important;
+    width: 40%;
+}
 </style>
 
 
@@ -15,20 +34,24 @@
         <div class="counter-area fix area-padding-2 ">
             <div class="container">
                 <!-- Start counter Area -->
-
                  <div class="row">
                     <div class="col-lg-5">
-                          <h3 id="text_h3">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
-                            <h4>
-                                Montez le son de vos haut-parleurs...
-                            </h4>
+                          <h3 style="color: #e67474">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
+                       
+                            <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
                             <div class="pay_cart">
+                                <img src="../public/img/logo/pay.png" id="img_logo_pay">
                                 <h2 class="price_1">{{$prix_pack}}€</h2>
-                                 <button class="btn btn-primary" onclick="addto_card(this)"> add to cart</button>
-                                 <input type="checkbox" id="{{$first_icon}}" name="scales[]" value="10" checked>
+                                <div class="to_centr">
+                                     <button class="btn btn-primary cart" onclick="addto_card(this)"> add to cart</button>
+                                     <input type="checkbox" id="{{$first_icon}}" name="scales[]" value="10" checked class="cart">
+                                </div>
                             </div>
                     </div>
                     <div class="col-lg-7">
+                            <h4 style="text-align: center;">
+                                Montez le son de vos haut-parleurs...
+                            </h4>
                             <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
                             <source src="{{$url}}" type="video/mp4">
                             Your browser does not support HTML5 video.
@@ -44,19 +67,24 @@
                 <!-- Start counter Area -->
                  <div class="row">
                     <div class="col-lg-5">
-                        <h3 id="text_h3">{{$value['nom_video']}}</h3>
-                        <h4>
-                            Montez le son de vos haut-parleurs...
-                        </h4>
+                        <h3 style="color:#e67474">{{$value['nom_video']}}</h3>
+
+                            <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
                             <div class="info_cart info_cart_{{$key}}">
+                              <img src="../public/img/logo/pay.png" id="img_logo_pay">
                                 <h2 class="price_2">{{$value['prix']}}€</h2>
-                                <button class="btn btn-primary btn_vid2"
-                                id="btn_{{$key}}" onclick="addto_card('{{$key}}')"> add to cart</button>
-                                <button class="btn btn-primary showskip2"onclick="to_hide('{{$key}}')">Skip</button>
-                               <input type="checkbox" id= "{{$value['icon']}}"  class="icon_{{$key}}" name="scales[]" value="12">
+                                <div class="to_centr">
+                                    <button class="btn btn-primary btn_vid2"
+                                    id="btn_{{$key}}" onclick="addto_card('{{$key}}')"> add to cart</button>
+                                    <button class="btn btn-primary showskip2"onclick="to_hide('{{$key}}')">Skip</button>
+                                   <input type="checkbox" id= "{{$value['icon']}}"  class="icon_{{$key}}" name="scales[]" value="12">
+                                </div>
                             </div>
                     </div>
                     <div class="col-lg-7">
+                        <h4>
+                            Montez le son de vos haut-parleurs...
+                        </h4>
                         <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" onended = "videoendeded('{{$key}}')" >
                             <source src="{{$value['urls']}}" type="video/mp4">
                                 Your browser does not support HTML5 video.

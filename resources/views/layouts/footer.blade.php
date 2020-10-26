@@ -27,11 +27,13 @@
             var to_hide = function(key) {
                 console.log('aze-'+key)
                 $('#aze-'+key).hide();
+                $('.icon_'+key).attr( 'checked', false )
             }
 
             var addto_card = function(key) {
                 console.log(key)
                 $('.icon_'+key).attr( 'checked', true )
+
             }
             var vid = document.getElementById("Video_pack");
                 vid.onended = function() {
