@@ -4,6 +4,9 @@
  .to_center {
     background: red ! important;
  }
+video::-webkit-media-controls-timeline {
+    display: none;
+}
 </style>
 
 
@@ -26,7 +29,7 @@
                             </div>
                     </div>
                     <div class="col-lg-7">
-                            <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
+                            <video id="Video_pack" width="600" height="480" controls controlsList="nodownload" style="border: 5px solid #eeeeef; background: #138496;" >
                             <source src="{{$url}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
@@ -50,7 +53,7 @@
                                 <button class="btn btn-primary btn_vid2"
                                 id="btn_{{$key}}" onclick="addto_card('{{$key}}')"> add to cart</button>
                                 <button class="btn btn-primary showskip2"onclick="to_hide('{{$key}}')">Skip</button>
-                               <input type="checkbox" id= "{{$value['icon']}}"  class="icon_{{$key}}" name="scales[]" value="12">
+                               <input type="checkbox" id= "{{$value['icon'] }}" name="scales[]" value="12">
                     </div>
                     <div class="col-lg-7">
                             <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
