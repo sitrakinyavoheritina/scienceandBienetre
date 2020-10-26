@@ -9,8 +9,8 @@
             <!-- column end -->
             <div class="col-md-7 col-sm-7 col-xs-12">
                 <div class="self-content" data-aos="fade-right"
-     data-aos-offset="500"
-     data-aos-easing="ease-in-sine">
+                data-aos-offset="500"
+                data-aos-easing="ease-in-sine">
                       <h1 class="to-animate"   >Méthodes innovantes pour améliorer votre vie</h1>
                     <h2 class="to-animate">La science au service de votre bien-être</h2>
                     <p class="to-animate">Profitez des découvertes les plus récentes pour transformer votre quotidien et améliorer votre bien-être</p>

@@ -37,7 +37,7 @@
                 <!-- Start counter Area -->
                  <div class="row">
                     <div class="col-md-5 col-sm-5 col-xs-12">
-                          <h3 style="color: #e67474">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
+                          <h3 style="color: #e67474">{{$descript}}</h3>
                        
                             <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
                             <div class="pay_cart">
@@ -68,7 +68,7 @@
                 <!-- Start counter Area -->
                  <div class="row">
                     <div class="col-lg-5">
-                        <h3 style="color:#e67474">{{$value['nom_video']}}</h3>
+                        <h3 style="color:#e67474">{{$value['descript']}}</h3>
 
                             <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
                             <div class="info_cart info_cart_{{$key}}">
