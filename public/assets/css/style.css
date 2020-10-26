@@ -2897,3 +2897,7 @@ ul#inline_list li{
     .to_left {
         margin-left: -40px;
     }
+
+    .self-content.aos-init.aos-animate {
+         opacity: 0.8 ! important;
+    }

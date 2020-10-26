@@ -5,7 +5,9 @@
         <div class="container">
             <!-- Start counter Area -->
              <div class="row">
-                <div class="fun-content">
+                <div class="fun-content" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <!-- fun_text  -->
                         <div class="fun_text backgr">
@@ -45,7 +47,9 @@
               
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <!-- fun_text  -->
-                            <div class="fun_texte">
+                            <div class="fun_texte"  data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                                 <span class="counter-icon">
                                     <!-- <i class="flaticon-035-savings"></i> -->
                                     <img src="{{asset('/public/img/pack/mincir.jpg')}}" id="avatar_pack">
@@ -61,7 +65,9 @@
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <!-- fun_text  -->
-                            <div class="fun_texte">
+                            <div class="fun_texte"  data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                                 <span class="counter-icon">
                                     <!-- <i class="flaticon-035-savings"></i> -->
                                     <img src="{{asset('/public/img/pack/sommeil.png')}}" id="avatar_pack">
@@ -107,7 +113,7 @@
                             </div>
                         </div>
                         <!-- End column -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12" >
                             <div class="single-proses">
                                 <div class="proses-content">
                                     <img src="{{asset('/public/img/pack/stopper_stress.jpg')}} "  id="avatar_conseil">

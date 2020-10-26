@@ -18,7 +18,11 @@
         <script src="{{asset('public/assets/js/plugins.js')}}"></script>
         <!-- main js -->
         <script src="{{asset('public/assets/js/main.js')}}"></script>
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init( {duration: 1200,
+        easing: 'ease-in-out-back'});
+        </script>
         <script type="text/javascript">
             $('.pay_cart').hide();
             $('.video2').hide();

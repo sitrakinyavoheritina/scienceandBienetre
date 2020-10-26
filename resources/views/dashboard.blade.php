@@ -8,8 +8,10 @@
         <div class="row">
             <!-- column end -->
             <div class="col-md-7 col-sm-7 col-xs-12">
-                <div class="self-content">
-                      <h1 class="to-animate">Méthodes innovantes pour améliorer votre vie</h1>
+                <div class="self-content" data-aos="fade-right"
+     data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
+                      <h1 class="to-animate"   >Méthodes innovantes pour améliorer votre vie</h1>
                     <h2 class="to-animate">La science au service de votre bien-être</h2>
                     <p class="to-animate">Profitez des découvertes les plus récentes pour transformer votre quotidien et améliorer votre bien-être</p>
                     <a href="{{ url('listpack') }}">
@@ -41,7 +43,7 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="support-services wow ">
                         <a class="support-images" href="#"><i class="fa fa-book"></i></a>
-                        <div class="support-content">
+                        <div class="support-content"  data-aos="fade-left">
                             <h4>Catalogue</h4>
                             <p>Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie. Retrouvez une silhouette tonique, accédez à un sommeil profond et réparateur, apprenez à vous relaxer efficacement, etc.</p>
                             <p><a href="{{ url('listpack')}}" class="btn btn-primary">Consultez notre catalogue</a></p>
@@ -52,7 +54,7 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="support-services ">
                         <a class="support-images" href="#"><i class="fa fa-phone-square"></i></a>
-                        <div class="support-content">
+                        <div class="support-content" data-aos="fade-left">
                             <h4>Contact</h4>
                             <p>Science & Bien-Être Service Clients email : info@scienceetbienetre.com Tél. : 04 83 43 14 00 ou +33 483 431 400 Du lundi au vendredi de 8h à 16h30</p>
                             <p><a href="{{url('About')}}" class="btn btn-primary">Nous contacter en ligne</a></p>
