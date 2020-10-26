@@ -7,7 +7,7 @@
     video::-webkit-media-controls-timeline {
         display: none;
     }
-    
+
     #img_logo_pay {
     max-width: 100%;
     height: auto;
@@ -31,11 +31,12 @@
 
 @section('content')
     <div class="container all_center">
-        <div class="counter-area fix area-padding-2 ">
+        <div class="blog-area fix page-padding">
+
             <div class="container">
                 <!-- Start counter Area -->
                  <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-md-5 col-sm-5 col-xs-12">
                           <h3 style="color: #e67474">Retrouvez le sommeil dès ce soir grâce à cette vidéo</h3>
                        
                             <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
@@ -48,11 +49,11 @@
                                 </div>
                             </div>
                     </div>
-                    <div class="col-lg-7">
-                            <h4 style="text-align: center;">
+                    <div class="col-md-7 col-sm-7 col-xs-12">
+                            <h4 style="text-align: center; margin-top: 15px;">
                                 Montez le son de vos haut-parleurs...
                             </h4>
-                            <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
+                            <video id="Video_pack" width="100%" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
                             <source src="{{$url}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
@@ -82,10 +83,10 @@
                             </div>
                     </div>
                     <div class="col-lg-7">
-                        <h4>
+                        <h4 style="margin-top: 15px;">
                             Montez le son de vos haut-parleurs...
                         </h4>
-                        <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" onended = "videoendeded('{{$key}}')" >
+                        <video id="Video_pack" width="100%" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" onended = "videoendeded('{{$key}}')" >
                             <source src="{{$value['urls']}}" type="video/mp4">
                                 Your browser does not support HTML5 video.
                         </video>
