@@ -38,6 +38,19 @@
                 $('.pay_cart').show();
             };
 
+            $('.info_cart').hide();
+            var videoendeded = function($key) {
+                switch ($key) {
+                    case '0':
+                        $('.info_cart_0').show();
+                    break;
+
+                    case '1':
+                        $('.info_cart_1').show();
+                    break;
+                }
+            }
+
             $('.pay_cart').click(function() {
                 $('.video2').show();
                 $('.video3').show();

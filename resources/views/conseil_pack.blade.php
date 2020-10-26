@@ -4,9 +4,9 @@
  .to_center {
     background: red ! important;
  }
-video::-webkit-media-controls-timeline {
+    video::-webkit-media-controls-timeline {
     display: none;
-}
+    }
 </style>
 
 
@@ -29,7 +29,7 @@ video::-webkit-media-controls-timeline {
                             </div>
                     </div>
                     <div class="col-lg-7">
-                            <video id="Video_pack" width="600" height="480" controls controlsList="nodownload" style="border: 5px solid #eeeeef; background: #138496;" >
+                            <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
                             <source src="{{$url}}" type="video/mp4">
                             Your browser does not support HTML5 video.
                         </video>
@@ -44,21 +44,22 @@ video::-webkit-media-controls-timeline {
                 <!-- Start counter Area -->
                  <div class="row">
                     <div class="col-lg-5">
-                          <h3 id="text_h3">{{$value['nom_video']}}</h3>
-                            <h4>
-                                Montez le son de vos haut-parleurs...
-                            </h4>
-                           
+                        <h3 id="text_h3">{{$value['nom_video']}}</h3>
+                        <h4>
+                            Montez le son de vos haut-parleurs...
+                        </h4>
+                            <div class="info_cart info_cart_{{$key}}">
                                 <h2 class="price_2">{{$value['prix']}}€</h2>
                                 <button class="btn btn-primary btn_vid2"
                                 id="btn_{{$key}}" onclick="addto_card('{{$key}}')"> add to cart</button>
                                 <button class="btn btn-primary showskip2"onclick="to_hide('{{$key}}')">Skip</button>
-                               <input type="checkbox" id= "{{$value['icon'] }}" name="scales[]" value="12">
+                               <input type="checkbox" id= "{{$value['icon']}}"  class="icon_{{$key}}" name="scales[]" value="12">
+                            </div>
                     </div>
                     <div class="col-lg-7">
-                            <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" >
+                        <video id="Video_pack" width="600" height="480" controls style="border: 5px solid #eeeeef; background: #138496;" onended = "videoendeded('{{$key}}')" >
                             <source src="{{$value['urls']}}" type="video/mp4">
-                            Your browser does not support HTML5 video.
+                                Your browser does not support HTML5 video.
                         </video>
                     </div>
                 </div>
@@ -137,7 +138,7 @@ video::-webkit-media-controls-timeline {
                         <!-- End column -->
                     </div>
             </div>
-        </div>	
+        </div>  
 
     </div>
     @endsection
