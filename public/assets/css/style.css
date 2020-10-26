@@ -2901,3 +2901,19 @@ ul#inline_list li{
     .self-content.aos-init.aos-animate {
          opacity: 0.8 ! important;
     }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #5fb0c3! important;
+        border-color: #2e6da4 ! important;
+        transition: width 2s;
+        transition-timing-function: linear;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #e6922e ! important;
+        border-color: #2e6da4 ! important;
+        transition: width 2s;
+        transition-timing-function: linear;
+    }
