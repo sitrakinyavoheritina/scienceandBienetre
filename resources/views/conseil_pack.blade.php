@@ -4,9 +4,9 @@
  .to_center {
     background: red ! important;
  }
-/*    video::-webkit-media-controls-timeline {
+    video::-webkit-media-controls-timeline {
         display: none;
-    }*/
+    }
     
     #img_logo_pay {
     max-width: 100%;
