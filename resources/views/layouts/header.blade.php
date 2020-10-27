@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- favicon -->        
-        <link rel="shortcut icon" type="image/x-icon" href="public/img/logo/favicon.ico">
+   <!--      <link rel="shortcut icon" type="image/x-icon" href="public/img/logo/favicon.ico"> -->
 
         <!-- all css here -->
 
@@ -68,12 +68,12 @@
                                 <div class="col-md-3 col-sm-3">
                                     <div class="logo">
                                         <!-- Brand -->
-                                        <a class="navbar-brand page-scroll white-logo" href="index-2.html">
+                                  <!--       <a class="navbar-brand page-scroll white-logo" href="index-2.html">
                                             <img src="public/img/logo/logo3.png" alt="">
                                         </a>
                                         <a class="navbar-brand page-scroll black-logo" href="index-2.html">
                                             <img src="public/img/logo/logo.png" alt="">
-                                        </a>
+                                        </a> -->
                                     </div>
                                     <!-- logo end -->
                                 </div>
