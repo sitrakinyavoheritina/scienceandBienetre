@@ -2892,10 +2892,12 @@ ul#inline_list li{
         max-width: 200px;
         height: 200px;
         max-height: 100px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 2px #000000;
     }
 
     .to_left {
-        margin-left: -40px;
+        margin-left: -85px;
     }
 
     .self-content.aos-init.aos-animate {
@@ -2916,4 +2918,10 @@ ul#inline_list li{
         border-color: #2e6da4 ! important;
         transition: width 2s;
         transition-timing-function: linear;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .fun_texte {
+            padding: 0px 0px;
+        }
     }
