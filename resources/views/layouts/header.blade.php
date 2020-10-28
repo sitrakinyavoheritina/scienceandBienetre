@@ -50,6 +50,28 @@
                 height: auto;
                 z-index: 999;
             }
+            #navbar-list-2 ul.navbar-nav li a {
+                background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 700;
+                padding: 33px 15px 12px;
+                text-transform: uppercase;
+                position: relative;
+                text-shadow: 1px 1px 2px #000000;
+            }
+            .nav-item.active .nav-link,
+              .nav-item:focus .nav-link,
+              .nav-item:hover .nav-link {
+                  color: #E6922E!important;
+              }
+
+              .show > .nav-link,
+              .active > .nav-link,
+              .nav-link.show,
+              .nav-link.active {
+                color: #E6922E!important;
+              }
 
         </style>
 
