@@ -89,6 +89,17 @@
                     text-transform: capitalize;
                     width: 90%;
                 }
+
+                .navbar-toggler {
+                    background-color: dimgrey;
+                }
+
+                .header-one {
+                    position: inherit;
+                }
+                .area-padding-2 {
+                    padding: 0px 0px 70px!important;
+                }
             }
 
         </style>
