@@ -32,14 +32,14 @@
     14. Footer Area
     15. Home 02 Area
     16. Bread cumb area
-    17.	About page  CSS
+    17. About page  CSS
     18.Feature Area
     19. Team Area
     20. Login And Register page
     21. Blog Sidebar Area
     22. Blog Details
     23.Contact CSS
-    24.	Animation  CSS
+    24. Animation  CSS
 
 
 
@@ -54,80 +54,80 @@
 /*  1.  Theme default CSS
 /*----------------------------------------*/
 html, body {
-	height: 100%;
+    height: 100%;
 }
 .floatleft {
-	float:left;
+    float:left;
 }
 .floatright {
-	float:right;
+    float:right;
 }
 .alignleft {
-	float:left;
-	margin-right:15px;
-	margin-bottom: 15px;
+    float:left;
+    margin-right:15px;
+    margin-bottom: 15px;
 }
 .alignright {
-	float:right;
-	margin-left:15px;
-	margin-bottom: 15px;
+    float:right;
+    margin-left:15px;
+    margin-bottom: 15px;
 }
 .aligncenter {
-	display:block;
-	margin:0 auto 15px;
+    display:block;
+    margin:0 auto 15px;
 }
 a:focus {
-	outline:0px solid;
+    outline:0px solid;
 }
 img {max-width:100%;
-	height:auto;
+    height:auto;
 }
 .fix {
-	overflow:hidden;
+    overflow:hidden;
 }
 p {
-	margin:0 0 15px;
+    margin:0 0 15px;
     color: #5d6471;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito', sans-serif;
-	margin: 0 0 15px;
-	color: #151b2c;
+    margin: 0 0 15px;
+    color: #151b2c;
     font-weight: 600;
 }
 h1{
-	font-size: 48px;
-	line-height: 50px;
-		
+    font-size: 48px;
+    line-height: 50px;
+        
 }
 h2{
-	font-size: 38px;
-	line-height: 46px;
-		
+    font-size: 38px;
+    line-height: 46px;
+        
 }
 h3{
-	font-size: 30px;
-	line-height: 38px;
-		
+    font-size: 30px;
+    line-height: 38px;
+        
 }
 h4{
-	font-size: 24px;
-	line-height: 34px;
-		
+    font-size: 24px;
+    line-height: 34px;
+        
 }
 h5{
-	font-size: 20px;
-	line-height: 30px;
-		
+    font-size: 20px;
+    line-height: 30px;
+        
 }
 h6{
-	font-size: 16px;
-	line-height: 28px;
-		
+    font-size: 16px;
+    line-height: 28px;
+        
 }
 a {
-	transition: all 0.3s ease 0s;
-	text-decoration:none;
+    transition: all 0.3s ease 0s;
+    text-decoration:none;
 }
 a:hover {
   color: #E6922E;
@@ -141,13 +141,13 @@ a:hover, a:focus {
     text-decoration: none;
 }
 body {
-	background: #fff none repeat scroll 0 0;
-	color: #5d6471;
+    background: #fff none repeat scroll 0 0;
+    color: #5d6471;
     font-family: 'Nunito', sans-serif;
-	font-size: 16px;
-	text-align: left;
-	overflow-x: hidden;
-	line-height: 26px;
+    font-size: 16px;
+    text-align: left;
+    overflow-x: hidden;
+    line-height: 26px;
 }
 #scrollUp {
     bottom: 40px;
@@ -168,29 +168,29 @@ body {
     transition-duration: 500ms;
 }
 .clear{
-	clear:both;
+    clear:both;
 }
 ul{
-	list-style: outside none none;
-	margin: 0;
-	padding: 0;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
 }
 input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"] {
-	-moz-appearance: none;
-	box-shadow: none !important;
+    -moz-appearance: none;
+    box-shadow: none !important;
 }
 input:focus, textarea:focus, select:focus {
     outline: none;
 }
 div#preloader { 
-	position: fixed;
-	left: 0; 
-	top: 0; 
-	z-index: 99999;
-	width: 100%;
-	height: 100%;
-	overflow: visible;
-	background: #fff url('../../img/logo/preloader.gif') no-repeat center center;
+    position: fixed;
+    left: 0; 
+    top: 0; 
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('../../img/logo/preloader.gif') no-repeat center center;
 }
 .navbar-collapse {
     padding-left: 0px;
@@ -213,10 +213,10 @@ div#preloader {
     padding: 0.2em 0;
 }
 .area-padding{
-	padding: 100px 0px;
+    padding: 100px 0px;
 }
 .area-padding-2{
-	padding: 100px 0px 70px;
+    padding: 100px 0px 70px;
 }
 .page-padding {
     padding: 130px 0px 100px;
@@ -298,8 +298,8 @@ div#preloader {
     line-height: 26px;
 }
 .top-social ul li a:hover{
-	color:#fff;
-	background: #E6922E;
+    color:#fff;
+    background: #E6922E;
 }
 /*----------------------------------------*/
 /*  2.1 Header Bottom Area 
@@ -313,7 +313,7 @@ div#preloader {
     z-index: 999;
 }
 .header-area{
-	background:transparent;
+    background:transparent;
 }
 .logo {
     display: block;
@@ -343,7 +343,7 @@ div#preloader {
     text-shadow: 1px 1px 2px #000000;
 }
 .main-menu ul.navbar-nav li a:hover{
-	color: #E6922E;
+    color: #E6922E;
 }
 .main-menu ul.navbar-nav li.active a:focus {
     color: #fff;
@@ -384,7 +384,7 @@ div#preloader {
     visibility: hidden;
     width: 200px;
     z-index: -99;
-	padding: 10px 0px;
+    padding: 10px 0px;
     border-radius: 3px;
 }
 .pagess {
@@ -448,7 +448,7 @@ div#preloader {
 .s-menu:hover {
     border: 1px solid #fff;
     background: #fff;
-	color:#E6922E;
+    color:#E6922E;
     transition: 0.4s;
 }
 .header-area.stick  .header-right-link {
@@ -574,15 +574,15 @@ div#preloader {
     z-index: -1;
 }
 .display-table{
-	width: 100%;
-	height: 100%;
-	display: table;
+    width: 100%;
+    height: 100%;
+    display: table;
 }
 .display-table-cell{
-	width: 100%;
-	height: 100%;
-	display: table-cell;
-	vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
 .slide-content {
     margin-top: 60px;
@@ -817,7 +817,7 @@ span.users {
     position: relative;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     z-index: 1;
-    padding: 40px;
+    padding: 32px;
     overflow: hidden;
     border-radius: 3px;
     transition: 0.4s;
@@ -854,7 +854,7 @@ span.users {
 }
 .support-content h4 {
     font-size: 24px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     color: #151b2c;
 }
 .support-content p {
@@ -1357,7 +1357,7 @@ span.users {
     position: absolute;
     text-align: center;
     top:6px;
-	width: 50px;
+    width: 50px;
     height: 100%;
 }
 .faq-details .panel-heading h4 a.active::before {
@@ -1375,14 +1375,14 @@ span.users {
     background: #E6922E;
 }
 .faq-area .col-md-6{
-	padding-left: 0px;
-	padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .faq-area .faq-content {
     margin-left: 80px;
     padding:30px;
     border-radius: 2px;
-	border:1px solid #E6922E;
+    border:1px solid #E6922E;
     background: #fafafa;
 }
 .faq-area .contact-form input[type="text"], .faq-area .contact-form input[type="email"] {
@@ -1396,8 +1396,8 @@ span.users {
      color: #5d6471;
 }
 .faq-content h4{
-	color:#151b2c;
-	padding-bottom: 20px;
+    color:#151b2c;
+    padding-bottom: 20px;
 }
 .faq-area .faq-content .contact-form textarea#message {
     height: 135px;
@@ -1420,9 +1420,9 @@ span.users {
     margin-top: 10px;
 }
 .faq-area .quote-btn:hover{
-	background:transparent;
-	color: #E6922E;
-	transition: 0.4s;
+    background:transparent;
+    color: #E6922E;
+    transition: 0.4s;
 }
 /*----------------------------------------*/
 /*  14. Footer Area
@@ -1563,7 +1563,7 @@ span.users {
     font-weight: 400;
 }
 .footer-list li a:first-child{
-	padding-top: 0px;
+    padding-top: 0px;
 }
 .footer-list li a::after {
     position: absolute;
@@ -1585,8 +1585,8 @@ span.users {
     background: #f4f4f4;
 }
 .copyright-text a:hover{
-	text-decoration: underline;
-	color:#E6922E;
+    text-decoration: underline;
+    color:#E6922E;
 }
 .copyright-text a {
     color: #E6922E;
@@ -1642,7 +1642,7 @@ span.users {
     border:1px solid #fff;
     width: 50px;
     height: 50px;
-	border-radius: 3px;
+    border-radius: 3px;
 }
 .intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev{
     left: 10%;
@@ -1681,11 +1681,11 @@ span.users {
     border: 1px solid #E6922E;
 }
 .intro-carousel .owl-item.active .slider-images img{
-	transform: scale(1.1);
-	transition: 10s;
+    transform: scale(1.1);
+    transition: 10s;
 }
 /*----------------------------------------*/
-/*  16.	Breadcumbs  CSS
+/*  16. Breadcumbs  CSS
 /*----------------------------------------*/
 .page-area{
     position: relative;
@@ -1740,8 +1740,8 @@ span.users {
     padding: 0px 10px 0px 20px;
     position: relative;
     font-size: 15px;
-	text-transform: uppercase;
-	font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .breadcrumb ul li.home-bread{
     padding-left: 0px;
@@ -1757,7 +1757,7 @@ span.users {
     display: none;
 }
 /*----------------------------------------*/
-/*  17.	About page  CSS
+/*  17. About page  CSS
 /*----------------------------------------*/
 .about-content h3 {
     line-height: 36px;
@@ -1816,14 +1816,14 @@ span.users {
 .about-image .video-content {
     width: 100%;
     height: 100%;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	 margin-top: -50px;
-	text-align: center;
-	z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+     margin-top: -50px;
+    text-align: center;
+    z-index: 9;
 }
 .about-image .video-play.vid-zone {
     background: #E6922E;
@@ -1843,7 +1843,7 @@ span.users {
 .about-image .video-play.vid-zone:hover {
     background: #fff;
     color: #E6922E;
-	transition: 0.4s;
+    transition: 0.4s;
 }
 .about-image .video-play.vid-zone:hover i{
     color: #E6922E;
@@ -1887,7 +1887,7 @@ span.users {
     transition: 0.4s;
 }
 .mission-about{
-	margin-top: 40px;
+    margin-top: 40px;
 }
 /*--------------------------------*/
 /* 18.Feature Area
@@ -1983,7 +1983,7 @@ span.users {
 .team-hover li a {
     color: #fff;
     border: 1px solid #E6922E;
-	background: #E6922E;
+    background: #E6922E;
     display: block;
     width: 34px;
     height: 34px;
@@ -2197,7 +2197,7 @@ span.users {
     background: #fff;
 }
 .blog-page-area .blog-content{
-	padding: 10px 15px 20px;
+    padding: 10px 15px 20px;
 }
 .blog-search-option input {
     padding: 5px 15px;
@@ -2284,7 +2284,7 @@ span.users {
     line-height: 24px;
 }
 .pst-content .date-type{
-	font-size: 14px;
+    font-size: 14px;
 }
 .blog-category ul li:after {
     position: absolute;
@@ -2322,7 +2322,7 @@ span.users {
     padding-left: 100px;
 }
 .pst-content p{
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 .pst-content p a:hover,.left-blog ul li a:hover {
     color: #E6922E;
@@ -2338,9 +2338,9 @@ span.users {
     padding: 1px 0;
 }
 .recent-single-post img {
-	width: 100%;
+    width: 100%;
     max-width: 80px;
-	height: 80px;
+    height: 80px;
     object-fit: cover;
     border-radius: 2px;
 }
@@ -2365,14 +2365,14 @@ span.users {
     font-size: 14px;
 }
 .left-tags .left-side-tags ul li a:hover {
-	color:#fff;
-	background:#E6922E;
+    color:#fff;
+    background:#E6922E;
 }
 .left-side-tags h4 {
     margin-bottom: 15px;
 }
 .blog-side-area .blog-right-column{
-	margin-top: -30px;
+    margin-top: -30px;
 }
 .pagination {
     display: inline-block;
@@ -2436,8 +2436,8 @@ span.users {
 .comments-list-img{
     float: left;
     margin-right: 15px;
-	border-radius: 50%;
-	
+    border-radius: 50%;
+    
 }
 .comments-list-img img {
     border-radius: 3px;
@@ -2485,13 +2485,13 @@ span.post-time{margin-right:5px}
     margin-top: 10px;
 }
 .threaded-comments{
-	margin-left:50px
+    margin-left:50px
 }
 .comment-respond {
     margin-top: 20px;
 }
 span.email-notes{
-	color: #3d5368;
+    color: #3d5368;
     display: block;
     font-size: 12px;
     margin-bottom: 10px;
@@ -2508,16 +2508,16 @@ span.email-notes{
     margin-bottom: 15px;
     padding: 0 0 0 10px;
     width: 100%;
-	background: transparent;
+    background: transparent;
 }
 .comment-respond textarea#message-box{
     border: 1px solid #ccc;
     border-radius: 0;
     max-width: 100%;
     padding: 10px;
-	height: 200px;
+    height: 200px;
     width: 100%;
-	background: transparent;
+    background: transparent;
 }
 .comments-content-wrap span a {
     color: #E6922E;
@@ -2542,7 +2542,7 @@ span.email-notes{
 }
 .comment-respond .add-btn.contact-btn:hover{
     background: #fff;
-	color: #E6922E;
+    color: #E6922E;
     border:1px solid #E6922E;
 }
 .blog-page-details .left-blog-page {
@@ -2554,7 +2554,7 @@ span.email-notes{
     margin-top: 30px;
 }
 .left-head-blog .pst-content p{
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .blog-details .blog-content h4 {
     font-size: 22px;
@@ -2659,7 +2659,7 @@ span.email-notes{
     z-index: 1;
 }
 /*----------------------------------------*/
-/*  24.	Animation  CSS
+/*  24. Animation  CSS
 /*----------------------------------------*/
 .last-item{
     margin-bottom: 0px;
@@ -2921,10 +2921,16 @@ ul#inline_list li{
     }
 
     @media only screen and (max-width: 600px) {
-      .fun_texte {
+        .fun_texte {
             padding: 0px 0px;
         }
+
+        .fa {
+            width: 65px;
+        }
     }
+
+
 
     .list_cat_accueil {
             /* margin-left: -39px; */
@@ -2942,4 +2948,8 @@ ul#inline_list li{
     .title {
         font-size: 17px;
         /*font-weight: bold;*/
+    }
+
+    .btn_detail {
+        margin-bottom: 13px ! important;
     }

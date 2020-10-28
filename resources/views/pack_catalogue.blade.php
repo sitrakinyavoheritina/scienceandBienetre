@@ -5,31 +5,23 @@
 @section('content')
     <div class="counter-area fix area-padding-2">
         <div class="container">
-            <!-- Start counter Area -->
-             <div class="row">
-                <div class="fun-content" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <!-- fun_text  -->
-                        <div class="fun_text backgr">
-                            <h4 id="tilte_catalogue">Catalogue</h4>
-                        </div>
-                        <div class="ml-4">
-                            <ul id="inline_list">
-                                <a href="{{route('accueil')}}">
-                                    <li>Home </li>
-                                </a>
-                                <a href="{{ url('listpack') }}">
-                                    <li>&nbsp; > &nbsp;Catalogue</li>
-                                </a>
-                            </ul>
-                        </div>
-
-                    </div>              
+            <div class="row">       
+                <div class="col-12 backgr" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <h4 id="tilte_catalogue">Catalogue</h4>
+                </div>
+                <div class="ml-4">
+                    <ul id="inline_list">
+                        <a href="{{route('accueil')}}">
+                            <li>Home </li>
+                        </a>
+                        <a href="{{ url('listpack') }}">
+                            <li>&nbsp; > &nbsp;Catalogue</li>
+                        </a>
+                    </ul>
                 </div>
             </div>
         </div>
-
     </div> 
         <!-- Start Count area -->
     <div class="row">
@@ -40,57 +32,52 @@
             </div>
         </div>
     </div>
-    <div class="counter-area fix area-padding-2" id="arrea">
-        <div class="container">
-            <!-- Start counter Area -->
-             <div class="row">
-                <div class="fun-content">
-              
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <!-- fun_text  -->
-                            <div class="fun_texte"  data-aos="fade-right"
-                                data-aos-offset="300"
-                                data-aos-easing="ease-in-sine">
-                                <span class="counter-icon">
-                                    <!-- <i class="flaticon-035-savings"></i> -->
-                                    <img src="{{asset('/public/img/pack/mincir.jpg')}}" id="avatar_pack">
-                                </span>
-                                <div class="section-headline text-center">
-                                    <h4>Mincer,prise de poids,musculation</h4>
-                                    <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
-                                </div>
-                                <a href="{{ url('detail_pack/2')}}">
-                                    <button class="to-animate btn btn-primary btn-lg"> voir la presentation complete</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <!-- fun_text  -->
-                            <div class="fun_texte"  data-aos="fade-left"
-                                data-aos-offset="300"
-                                data-aos-easing="ease-in-sine">
-                                <span class="counter-icon">
-                                    <!-- <i class="flaticon-035-savings"></i> -->
-                                    <img src="{{asset('/public/img/pack/sommeil.png')}}" id="avatar_pack">
-                                </span>
-                                <div class="section-headline text-center">
-                                    <h4>Sommeil et entretient cerveau</h4>
-                                    <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
-                                </div>
-                                <a href="{{ url('detail_pack/1')}}">
-                                    <button class="to-animate btn btn-primary btn-lg"> voir la présentation complète</button>
-                                </a>
-                            </div>
-                        </div>
-                   
+    <!-- <div class="counter-area fix area-padding-2" id="arrea"> -->
+    <div class="container">
+        <!-- Start counter Area -->
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                        <!-- fun_text  -->
+                <div class="fun_texte"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <span class="counter-icon">
+                        <!-- <i class="flaticon-035-savings"></i> -->
+                        <img src="{{asset('/public/img/pack/mincir.jpg')}}" id="avatar_pack">
+                    </span>
+                    <div class="section-headline text-center">
+                        <h4>Mincer,prise de poids,musculation</h4>
+                        <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
+                    </div>
+                    <a href="{{ url('detail_pack/2')}}">
+                        <button class="to-animate btn btn-primary btn-lg"> voir la presentation complete</button>
+                    </a>
                 </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                        <!-- fun_text  -->
+                        <div class="fun_texte"  data-aos="fade-left"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <span class="counter-icon">
+                                <!-- <i class="flaticon-035-savings"></i> -->
+                                <img src="{{asset('/public/img/pack/sommeil.png')}}" id="avatar_pack">
+                            </span>
+                            <div class="section-headline text-center">
+                                <h4>Sommeil et entretient cerveau</h4>
+                                <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
+                            </div>
+                            <a href="{{ url('detail_pack/1')}}">
+                                <button class="to-animate btn btn-primary btn-lg"> voir la présentation complète</button>
+                            </a>
+                        </div>
             </div>
         </div>
     </div>
+    <!-- </div> -->
 
-    <div class="work-proses fix bg-color area-padding-2"  id="arrea">
+    <!-- <div id="arrea"> -->
             <div class="container">
-                
                 <div class="row">
                     <div class="section-headline text-center">
                         <h3>Programmes et méthodes à l'unité</h3>
@@ -98,7 +85,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="work-proses-inner text-center">
+                    <!-- <div class="text-center"> -->
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="single-proses">
                                 <div class="proses-content">
@@ -146,7 +133,7 @@
                         </div>
                         <!-- End column -->
       
-                    </div>
+                    <!-- </div> -->
                 </div>
                 <div class=" text-left">
                     <h4>Références Scientifiques</h4>
@@ -159,7 +146,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+    
 
 @endsection
         

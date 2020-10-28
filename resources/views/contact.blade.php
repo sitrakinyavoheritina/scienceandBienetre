@@ -6,27 +6,24 @@
         <div class="container">
             <!-- Start counter Area -->
              <div class="row">
-                <div class="fun-content">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <!-- fun_text  -->
-                        <div class="fun_text backgr">
-                            <h4 id="tilte_catalogue">Contact</h4>
-                        </div>
-                        <div class="ml-4">
-                            <ul id="inline_list">
-                                <li> 
-                                	<a href="{{route('accueil')}}">
-                               			 Home </a>
-                               	</li>
-                                <li>&nbsp; > &nbsp;
-                                    <a href="{{ url('contact') }}">Contact
-                            	    </a>
-                            	</li>
-                                
-                            </ul>
-                        </div>
+          
+                    <div class="col-12 mb-2 backgr">
+                        <h4 id="tilte_catalogue">Contact</h4>
+                    </div>
+                    <div class="ml-4">
+                        <ul id="inline_list">
+                            <li> 
+                            	<a href="{{route('accueil')}}">
+                           			 Home </a>
+                           	</li>
+                            <li>&nbsp; > &nbsp;
+                                <a href="{{ url('contact') }}">Contact
+                        	    </a>
+                        	</li>
+                            
+                        </ul>
+                    </div>
 
-                    </div>              
                 </div>
             </div>
         </div>
