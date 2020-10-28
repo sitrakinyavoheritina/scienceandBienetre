@@ -27,6 +27,27 @@
         easing: 'ease-in-out-back'});
         </script>
         <script type="text/javascript">
+
+            function myFunction() {
+              var x = $("#accordeon").attr('aria-expanded') 
+
+              if (x == "true") 
+              {
+              
+                $("#iconebar").css('display','block');
+                $("#iconex").css('display','none');
+
+              } else {
+              
+                $("#iconebar").css('display','none');
+                $("#iconex").css('display','block');
+              }
+              
+            }
+
+
+
+
             $('.pay_cart').hide();
             $('.video2').hide();
             $('.video3').hide();

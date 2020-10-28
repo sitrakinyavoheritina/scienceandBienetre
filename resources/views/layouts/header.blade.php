@@ -100,6 +100,9 @@
                 .area-padding-2 {
                     padding: 0px 0px 70px!important;
                 }
+                .fa {
+                    width: 17px;
+                }
             }
 
         </style>
@@ -126,8 +129,9 @@
                 BootstrapBay
               </a> -->
 
-              <button class="navbar-toggler ml-auto mr-1" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="text-align: right!important;">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler ml-auto mr-1" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"id="accordeon" style="text-align: right!important;"onclick="myFunction()">
+                <span class="navbar-toggler-icon" id="iconebar"></span>
+                <span class="fa fa-times" id="iconex"style="display: none"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbar-list-2">
                 <ul class="navbar-nav ml-auto">
