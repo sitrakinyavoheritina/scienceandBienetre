@@ -19,6 +19,9 @@
         <!-- main js -->
         <script src="{{asset('public/assets/js/main.js')}}"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script>
         AOS.init( {duration: 1200,
         easing: 'ease-in-out-back'});
@@ -105,8 +108,14 @@
                 <div class="container">
                     <div class="row">
                         <!-- <div class="col-md-6 col-sm-6 col-xs-12"> -->
+                            <div class="copyright" >
+                                <p style="text-align: center;">
+                                    Copyright © 2020
+                                    <a href="#">sk'hay</a> All Rights Reserved
+                                </p>
+                            </div>
                                 <ul id="inline_list"  style="text-align: center;">
-                                    <a href="{{url('Apropos')}}">
+                                    <a href="{{url('About')}}">
                                         <li>A propos </li>
                                     </a>
 

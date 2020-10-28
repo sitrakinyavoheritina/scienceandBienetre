@@ -15,9 +15,10 @@
         <!-- all css here -->
 
         <!-- bootstrap v3.3.6 css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        
         <!-- owl.carousel css -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.carousel.css')}}"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}"> -->
        <!-- Animate css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/animate.css')}}">
@@ -35,12 +36,7 @@
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
         <style type="text/css">
-            .self-content {
-                    background: #e4e2e2;
-                    padding: 50px 30px 50px 50px;
-                    border-radius: 14px;
-                    opacity: 0.8;
-                }
+
 
         </style>
 
@@ -55,84 +51,33 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="preloader"></div>
-        <header class="header-one">
-            <!-- End top bar -->
-            <!-- header-area start -->
-            <div id="sticker" class="header-area header-area-2 hidden-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="row" id="header_row">
-                                <!-- logo start -->
-                                <div class="col-md-3 col-sm-3">
-                                    <div class="logo">
-                                        <!-- Brand -->
-                                  <!--       <a class="navbar-brand page-scroll white-logo" href="index-2.html">
-                                            <img src="public/img/logo/logo3.png" alt="">
-                                        </a>
-                                        <a class="navbar-brand page-scroll black-logo" href="index-2.html">
-                                            <img src="public/img/logo/logo.png" alt="">
-                                        </a> -->
-                                    </div>
-                                    <!-- logo end -->
-                                </div>
-                                <div class="col-md-9 col-sm-9">
-                                    <!-- <div class="header-right-link"> -->
-                                        <!-- search option end -->
-                                        <!-- <a class="s-menu" href="login.html">Login</a> -->
-                                    <!-- </div> -->
-                                    <!-- mainmenu start -->
-                                    <nav class="navbar navbar-default">
-                                        <div class="collapse navbar-collapse" id="navbar-example">
-                                            <div class="main-menu">
-                                                <ul class="nav navbar-nav navbar-right" id="font_header">
-                                                    <li><a href="{{route('accueil')}}">accueil</a></li>
-                                                    <li><a href="{{url('listpack')}} ">catalogue</a></li>
-                                                   <!--  <li><a href="contact.html">partenaire</a></li> -->
-                                                    <li><a href="{{url('Apropos')}}">a propos</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </nav>
-                                    <!-- mainmenu end -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- mobile-menu-area start -->
-            <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mobile-menu">
-                                <div class="logo">
-                                    <a href="index-2.html"><img src="public/img/logo/logo.png" alt="" /></a>
-                                </div>
-                                <nav id="dropdown">
-                                    <ul>
-                        
-                                        <li><a href="{{route('accueil')}}">Accueil</a></li>
-                                        <li><a href="{{url('listpack')}}">Catalogue</a></li>
-                                    <!--     <li><a href="contact.html">contacts</a></li> -->
-                                        <li><a href="{{url('About')}}">A propos</a></li>
-                                    </ul>
-                                </nav>
-                            </div>                  
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- mobile-menu-area end -->    
-            <!-- header-area end -->        
-        </header>
+            <div id="preloader"></div>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+              <!-- <a class="navbar-brand" href="#">
+                <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/logo_white.png" width="30" height="30" alt="logo">
+                BootstrapBay
+              </a> -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-list-2">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="{{route('accueil')}}">Accueil <span class="sr-only">Accueil</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{url('listpack')}} ">Catalogue</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{url('Apropos')}}">A propos</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
  
         
      
-    </body>
+            </body>
 
 <!-- Mirrored from rockstheme.com/rocks/aievari-live/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2020 08:27:46 GMT -->
 </html>
