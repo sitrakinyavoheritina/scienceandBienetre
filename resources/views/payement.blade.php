@@ -13,7 +13,7 @@
                             <div class="fun_text backgr">
                                  <h4 id="tilte_apropos">Information</h4>
                             </div>
-                            <div class="ml-4">
+                            <div class="ml-4 mt-4">
                                 <ul id="inline_list">
                                     <li>
                                         <a href="{{route('accueil')}}">Home
