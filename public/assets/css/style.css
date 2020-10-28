@@ -2934,3 +2934,12 @@ ul#inline_list li{
     margin-left: 26px;
     margin-bottom: 15px;
     }
+
+    .accueil {
+        margin-top: 15px;
+    }
+
+    .title {
+        font-size: 17px;
+        /*font-weight: bold;*/
+    }

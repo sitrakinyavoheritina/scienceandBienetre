@@ -78,7 +78,7 @@
                                     <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
                                 </div>
                                 <a href="{{ url('detail_pack/1')}}">
-                                    <button class="to-animate btn btn-primary btn-lg"> voir la presentation complete</button>
+                                    <button class="to-animate btn btn-primary btn-lg"> voir la présentation complète</button>
                                 </a>
                             </div>
                         </div>

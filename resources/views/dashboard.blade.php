@@ -11,11 +11,11 @@
                 <div class="self-content" data-aos="fade-right"
                 data-aos-offset="500"
                 data-aos-easing="ease-in-sine">
-                      <h2 class="to-animate">Toutes les solutions pour gagner en bien-être et en bonne santé se trouvent sur cette plateforme.</h2>
+                      <h2 class="to-animate ">Toutes les solutions pour gagner en bien-être et en bonne santé se trouvent sur cette plateforme</h2>
                     <!-- <h2 class="to-animate">La science au service de votre bien-être</h2> -->
-                    <p class="to-animate">Que vous ayez des problèmes de poids à éliminer, des soucis de sommeil qui persistent, ou encore des maux de santé dus à une mauvaise immunité, trouvez sur ce site le guide qui vous indiquera quoi faire dans toutes ces situations. </p>
+                    <p class="to-animate title">Que vous ayez des problèmes de poids à éliminer, des soucis de sommeil qui persistent, ou encore des maux de santé dus à une mauvaise immunité, trouvez sur ce site le guide qui vous indiquera quoi faire dans toutes ces situations </p>
                     <a href="{{ url('listpack') }}">
-                        <button class="to-animate btn btn-primary btn-lg"> decouvrez nos solutions</button>
+                        <button class="to-animate btn btn-primary accueil btn-lg"> découvrez nos solutions</button>
                     </a>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                                 <li>Le pack sommeil et entretien du cerveau</li>
                                 <li>Le pack boost du système immunitaire</li>
                             </ul>
-                            <p><a href="{{ url('listpack')}}" class="btn btn-primary">Consultez notre catalogue</a></p>
+                            <p><a href="{{ url('listpack')}}" class="btn btn-primary accueil">Consultez notre catalogue</a></p>
                         </div>
                     </div>
                 </div>
@@ -63,9 +63,10 @@
                     <div class="support-services ">
                         <a class="support-images" href="#"><i class="fa fa-phone-square"></i></a>
                         <div class="support-content" data-aos="fade-left">
-                            <h4>Contact</h4>
-                            <p>Science & Bien-Être Service Clients email : info@scienceetbienetre.com Tél. : 04 83 43 14 00 ou +33 483 431 400 Du lundi au vendredi de 8h à 16h30</p>
-                            <p><a href="{{url('About')}}" class="btn btn-primary">Nous contacter en ligne</a></p>
+                            <h4>A propos</h4>
+                            <p>N’oubliez pas, non plus de passer par notre <a href="{{url('Apropos')}}"> <span>a propos,</span></a> </p>
+                            <p> un petit texte bien élaboré vous décrira ce que vous réserve chacun de nos packs. Alors, à vos écrans et à vos clics pour les mettre tous dans votre panier !</p>
+                            <p><a href="{{url('Apropos')}}" class="btn btn-primary accueil ">A propos</a></p>
                         </div>
                     </div>
                 </div>
