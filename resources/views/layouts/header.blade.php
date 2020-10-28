@@ -16,7 +16,7 @@
 
         <!-- bootstrap v3.3.6 css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        
+
         <!-- owl.carousel css -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}"> -->
@@ -36,7 +36,12 @@
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
         <style type="text/css">
-
+             .self-content {
+                    background: #e4e2e2;
+                    padding: 50px 30px 50px 50px;
+                    border-radius: 14px;
+                    opacity: 0.8;
+                }
 
         </style>
 
@@ -44,6 +49,9 @@
         <script src="{{asset('public/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
         
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <style type="text/css">
+            
+        </style>
     </head>
         <body>
 
@@ -57,11 +65,12 @@
                 <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/logo_white.png" width="30" height="30" alt="logo">
                 BootstrapBay
               </a> -->
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+              <button class="navbar-toggler ml-auto mr-1" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="text-align: right!important;">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbar-list-2">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
                     <a class="nav-link" href="{{route('accueil')}}">Accueil <span class="sr-only">Accueil</span></a>
                   </li>
