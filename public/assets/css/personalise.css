@@ -1,5 +1,10 @@
+
 .support-services::after {
-    background: rgb(121 113 104 / 96%);
+    background: rgb(236 233 233 / 96%);
+}
+
+.support-content ul, h6 {
+    color: #100f0f;
 }
 
 #tilte_catalogue {

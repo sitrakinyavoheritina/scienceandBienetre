@@ -40,7 +40,7 @@
                     background: #e4e2e2;
                     padding: 50px 30px 50px 50px;
                     border-radius: 14px;
-                    opacity: 0.8;
+                    opacity: 0.9 ! important;
                 }
             .header-one {
                 position: absolute;

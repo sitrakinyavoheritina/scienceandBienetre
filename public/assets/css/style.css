@@ -87,14 +87,19 @@ img {max-width:100%;
 }
 p {
     margin:0 0 15px;
-    color: #5d6471;
+    color: #100f0f;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito', sans-serif;
+h1, h3, h4, h5 {
+    font-family: 'Mono', sans-serif;
     margin: 0 0 15px;
     color: #151b2c;
     font-weight: 600;
 }
+
+h6 {
+   color: #656669;
+ }
+
 h1{
     font-size: 48px;
     line-height: 50px;
@@ -103,6 +108,8 @@ h1{
 h2{
     font-size: 38px;
     line-height: 46px;
+    font-family: -webkit-pictograph;
+    font-weight: 600;
         
 }
 h3{
@@ -870,7 +877,7 @@ span.users {
      border: 1px solid #fff;
 }
 .support-services:hover .support-content h4, .support-services:hover .support-content p {
-    color: #fff;
+    color: #100f0f;
 }
 /*----------------------------------------
  7.Self Area Css
@@ -2953,6 +2960,7 @@ ul#inline_list li{
     .btn_detail {
         margin-bottom: 13px ! important;
     }
+    
 
 
     
