@@ -109,10 +109,10 @@
                     <div class="row">
                         <!-- <div class="col-md-6 col-sm-6 col-xs-12"> -->
                             <div class="copyright" >
-                                <p style="text-align: center;">
+                               <!--  <p style="text-align: center;">
                                     Copyright © 2020
                                     <a href="#">sk'hay</a> All Rights Reserved
-                                </p>
+                                </p> -->
                             </div>
                                 <ul id="inline_list"  style="text-align: center;">
                                     <a href="{{url('About')}}">
