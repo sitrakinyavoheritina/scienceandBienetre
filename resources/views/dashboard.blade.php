@@ -11,11 +11,11 @@
                 <div class="self-content" data-aos="fade-right"
                 data-aos-offset="500"
                 data-aos-easing="ease-in-sine">
-                      <h1 class="to-animate"   >Méthodes innovantes pour améliorer votre vie</h1>
-                    <h2 class="to-animate">La science au service de votre bien-être</h2>
-                    <p class="to-animate">Profitez des découvertes les plus récentes pour transformer votre quotidien et améliorer votre bien-être</p>
+                      <h2 class="to-animate">Toutes les solutions pour gagner en bien-être et en bonne santé se trouvent sur cette plateforme.</h2>
+                    <!-- <h2 class="to-animate">La science au service de votre bien-être</h2> -->
+                    <p class="to-animate">Que vous ayez des problèmes de poids à éliminer, des soucis de sommeil qui persistent, ou encore des maux de santé dus à une mauvaise immunité, trouvez sur ce site le guide qui vous indiquera quoi faire dans toutes ces situations. </p>
                     <a href="{{ url('listpack') }}">
-                        <button class="to-animate btn btn-primary btn-lg"> decouvrez nos solution</button>
+                        <button class="to-animate btn btn-primary btn-lg"> decouvrez nos solutions</button>
                     </a>
                 </div>
             </div>
@@ -48,7 +48,12 @@
                         <a class="support-images" href="#"><i class="fa fa-book"></i></a>
                         <div class="support-content"  data-aos="fade-left">
                             <h4>Catalogue</h4>
-                            <p>Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie. Retrouvez une silhouette tonique, accédez à un sommeil profond et réparateur, apprenez à vous relaxer efficacement, etc.</p>
+                            <h6>Consultez notre catalogue de packs à se procurer :</h6>
+                            <ul class="list_cat_accueil">
+                                <li>Les packs minceur, prise de poids et musculation</li>
+                                <li>Le pack sommeil et entretien du cerveau</li>
+                                <li>Le pack boost du système immunitaire</li>
+                            </ul>
                             <p><a href="{{ url('listpack')}}" class="btn btn-primary">Consultez notre catalogue</a></p>
                         </div>
                     </div>

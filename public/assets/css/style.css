@@ -2925,3 +2925,12 @@ ul#inline_list li{
             padding: 0px 0px;
         }
     }
+
+    .list_cat_accueil {
+            /* margin-left: -39px; */
+     list-style: initial !important; 
+    /* margin: 0; */
+    padding: 0;
+    margin-left: 26px;
+    margin-bottom: 15px;
+    }
