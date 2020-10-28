@@ -90,7 +90,7 @@
                                                     <li><a href="{{route('accueil')}}">accueil</a></li>
                                                     <li><a href="{{url('listpack')}} ">catalogue</a></li>
                                                    <!--  <li><a href="contact.html">partenaire</a></li> -->
-                                                    <li><a href="{{url('About')}}">a propos</a></li>
+                                                    <li><a href="{{url('Apropos')}}">a propos</a></li>
                                                 </ul>
                                             </div>
                                         </div>

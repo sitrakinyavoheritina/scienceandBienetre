@@ -102,6 +102,9 @@
             <button id="accept">Pannier</button>
             <h2 id="total_price"></h2>
         </div>
+
+ 
+
        <div class="work-proses fix bg-color area-padding-2"  id="arrea">
                 <div class="row">
                         <div class="section-headline text-center">

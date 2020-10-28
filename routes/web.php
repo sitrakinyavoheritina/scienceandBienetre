@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function () {
 //     return view('welcome');
-// });conseil_pack
+// });detail_pack
 
 // pack-controller
     Route::name('accueil')->get('/', 'PackController@accueil');
@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\Route;
    // end pack-controller
 
 	//about controler
-    Route::name('About')->get('About', 'AboutController@index');
+    Route::name('Apropos')->get('Apropos', 'aproposController@index');
 	//end about controler
 
     //partenaire controller
@@ -32,10 +32,13 @@ use Illuminate\Support\Facades\Route;
     // end partenaire controller
 
     //conseil pack
-    Route::name('conseil_pack')->get('conseil_pack/{id}', 'conseilpackController@conseil_pack');
+    Route::name('detail_pack')->get('detail_pack/{id}', 'detailpackController@conseil_pack');
     //conseil pack
 
     //contact pack
     Route::name('contact')->get('contact', 'contactController@showContactPage');
     //contact pack
+
+    Route::name('payement')->get('payement', 'payementController@payementInfo');
+
 

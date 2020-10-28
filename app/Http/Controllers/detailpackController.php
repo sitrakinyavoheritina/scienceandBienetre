@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use PDO;
 
-class conseilpackController extends Controller
+class detailpackController extends Controller
 {
     public function conseil_pack(Request $request,$id) {
 
@@ -98,6 +98,6 @@ class conseilpackController extends Controller
 //$vid = json_encode($video);
 
 
-      return view('conseil_pack')->with(compact('video','url','id','prix_pack','first_icon','descript'));
+      return view('detail_pack')->with(compact('video','url','id','prix_pack','first_icon','descript'));
     }
 }
