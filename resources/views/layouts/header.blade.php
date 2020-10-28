@@ -64,6 +64,7 @@
               .nav-item:focus .nav-link,
               .nav-item:hover .nav-link {
                   color: #E6922E!important;
+                  border-bottom: solid;
               }
 
               .show > .nav-link,
@@ -72,6 +73,7 @@
               .nav-link.active {
                 color: #E6922E!important;
               }
+
 
         </style>
 
@@ -102,7 +104,7 @@
               </button>
               <div class="collapse navbar-collapse" id="navbar-list-2">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
+                  <li class="nav-item ">
                     <a class="nav-link" href="{{route('accueil')}}">Accueil <span class="sr-only">Accueil</span></a>
                   </li>
                   <li class="nav-item">
