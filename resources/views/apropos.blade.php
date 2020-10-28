@@ -2,10 +2,7 @@
 @extends('layouts.index')
 <style type="text/css">
  
-    .fun_text { 
-        position: initial ! important;
-        padding: 56px 30px ! important;
-    }
+   
    
 }
 
@@ -17,10 +14,8 @@
             <div class="container">
                 <!-- Start counter Area -->
                  <div class="row">
-                    <div class="fun-content">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <!-- fun_text  -->
-                            <div class="fun_text backgr">
+                  
+                            <div class="col-12 mb-2 backgr">
                                  <h4 id="tilte_apropos">A propos</h4>
                             </div>
                             <div class="ml-4">
@@ -33,9 +28,7 @@
                                 </ul>
                                 
                             </div>
-                            
-                        </div>              
-                    </div>
+                    
                 </div>
             </br></br>
                 <p class="description_apropos">
