@@ -73,7 +73,23 @@
               .nav-link.active {
                 color: #E6922E!important;
               }
-
+            @media (max-width: 767px){
+               
+                #navbar-list-2 ul.navbar-nav li a {
+                    background: #fdfcfc none repeat scroll 0 0;
+                    color: #3d5368;
+                    display: block;
+                    float: left;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 0;
+                    padding: 13px 10px;
+                    text-align: left;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    width: 90%;
+                }
+            }
 
         </style>
 
