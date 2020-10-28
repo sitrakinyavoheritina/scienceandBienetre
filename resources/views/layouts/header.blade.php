@@ -36,12 +36,42 @@
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
         <style type="text/css">
-             .self-content {
+            .self-content {
                     background: #e4e2e2;
                     padding: 50px 30px 50px 50px;
                     border-radius: 14px;
                     opacity: 0.8;
                 }
+            .header-one {
+                position: absolute;
+                top: 0;
+                /* left: 0; */
+                width: 100%;
+                height: auto;
+                z-index: 999;
+            }
+            #navbar-list-2 ul.navbar-nav li a {
+                background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 700;
+                padding: 33px 15px 12px;
+                text-transform: uppercase;
+                position: relative;
+                text-shadow: 1px 1px 2px #000000;
+            }
+            .nav-item.active .nav-link,
+              .nav-item:focus .nav-link,
+              .nav-item:hover .nav-link {
+                  color: #E6922E!important;
+              }
+
+              .show > .nav-link,
+              .active > .nav-link,
+              .nav-link.show,
+              .nav-link.active {
+                color: #E6922E!important;
+              }
 
         </style>
 
@@ -60,7 +90,8 @@
         <![endif]-->
 
             <div id="preloader"></div>
-            <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+            <header class="header-one">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm"style="background: transparent!important;">
               <!-- <a class="navbar-brand" href="#">
                 <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/logo_white.png" width="30" height="30" alt="logo">
                 BootstrapBay
@@ -83,6 +114,7 @@
                 </ul>
               </div>
             </nav>
+            </header>
  
         
      
