@@ -10,17 +10,18 @@
                         data-aos-anchor-placement="center-bottom">
                         <h4 id="tilte_catalogue">Catalogue</h4>
                 </div>
-                <div class="ml-4">
+                <div class="ml-4 mt-4">
                     <ul id="inline_list">
                         <a href="{{route('accueil')}}">
                             <li>Home </li>
                         </a>
-                        <a href="{{ url('listpack') }}">
+                        <a href="#">
                             <li>&nbsp; > &nbsp;Catalogue</li>
                         </a>
                     </ul>
                 </div>
             </div>
+            <hr>
         </div>
     </div> 
         <!-- Start Count area -->
@@ -46,8 +47,8 @@
                         <img src="{{asset('/public/img/pack/mincir.jpg')}}" id="avatar_pack">
                     </span>
                     <div class="section-headline text-center">
-                        <h4>Mincer,prise de poids,musculation</h4>
-                        <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
+                        <h4>Lorem Ipsum is simply dummy text of the printing</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
                     </div>
                     <a href="{{ url('detail_pack/2')}}">
                         <button class="to-animate btn btn-primary btn-lg btn_detail"> voir la presentation complete</button>
@@ -64,8 +65,8 @@
                                 <img src="{{asset('/public/img/pack/sommeil.png')}}" id="avatar_pack">
                             </span>
                             <div class="section-headline text-center">
-                                <h4>Sommeil et entretient cerveau</h4>
-                                <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
+                                <h4>Lorem Ipsum is simply dummy text of the printing</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                             </div>
                             <a href="{{ url('detail_pack/1')}}">
                                 <button class="to-animate btn btn-primary btn-lg btn_detail"> voir la présentation complète</button>
@@ -78,9 +79,9 @@
 
     <!-- <div id="arrea"> -->
             <div class="container">
-                <div class="row">
-                    <div class="section-headline text-center">
-                        <h3>Programmes et méthodes à l'unité</h3>
+                <div class="row mt-4">
+                    <div class=" section-headline text-center">
+                            <h3 style="text-align: center;">Programmes et méthodes à l'unité</h3>
                     </div>
                 </div>
 
@@ -91,10 +92,10 @@
                                 <div class="proses-content">
                                  <img src="{{asset('/public/img/pack/cd_sommeil.jpg')}} "  id="avatar_conseil">
                                     <div class="prosess-text">
-                                        <h4>Sommeil et entretient cerveau</h4>
+                                        <h4>Lorem Ipsum is simply dummy text of the printing </h4>
                                     </div>
                                 </div>
-                                <p>Dormir est indispensable au développement et à la maturité cérébrale</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                                 <a href="{{ url('detail_pack/1')}}">
                                    <button class="to-animate btn btn-primary btn-lg">Voir la version complète</button>
                                 </a>
@@ -106,10 +107,10 @@
                                 <div class="proses-content">
                                     <img src="{{asset('/public/img/pack/stopper_stress.jpg')}} "  id="avatar_conseil">
                                     <div class="prosess-text">
-                                        <h4>Mincer,prise de poids,musculation</h4>
+                                        <h4>Lorem Ipsum is simply dummy text of the printing and</h4>
                                     </div>
                                 </div>
-                                <p>Les régimes, une mauvaise solution pour perdre du poids.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                                 <a href=" {{ url('detail_pack/2')}}">
                                    <button class="to-animate btn btn-primary btn-lg">Voir la version complète</button>
                                 </a>
@@ -122,10 +123,10 @@
                                 <div class="proses-content">
                                     <img src="{{asset('/public/img/pack/boost.jpg')}} " id="avatar_conseil">
                                     <div class="prosess-text">
-                                        <h4>Boost du systeme immunitaire</h4>
+                                        <h4>Lorem Ipsum is simply dummy text</h4>
                                     </div>
                                 </div>
-                                <p> Le système immunitaire défend notre organisme contre les agressions extérieures.</p>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
                                    <a href="{{ url('detail_pack/3')}}">
                                    <button class="to-animate btn btn-primary btn-lg">Voir la version complète</button>
                                 </a>

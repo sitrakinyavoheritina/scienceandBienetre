@@ -25,7 +25,7 @@
         <!-- meanmenu css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}">
         <!-- font-awesome css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}"> -->
         <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
         <!-- <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}"> -->
         <!-- magnific css -->
