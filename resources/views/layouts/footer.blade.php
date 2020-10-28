@@ -114,7 +114,7 @@
                                     <a href="#">sk'hay</a> All Rights Reserved
                                 </p> -->
                             </div>
-                                <ul id="inline_list"  style="text-align: center;">
+                                <ul id="inline_list" class="mx-auto justify-content-center" style="text-align: center;">
                                     <a href="{{url('About')}}">
                                         <li>A propos </li>
                                     </a>
