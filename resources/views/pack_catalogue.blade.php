@@ -50,7 +50,7 @@
                         <p>Si vous essayez encore de mincir comme au 20e siècle, vous devez voir ceci</p>
                     </div>
                     <a href="{{ url('detail_pack/2')}}">
-                        <button class="to-animate btn btn-primary btn-lg"> voir la presentation complete</button>
+                        <button class="to-animate btn btn-primary btn-lg btn_detail"> voir la presentation complete</button>
                     </a>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                                 <p>Retrouvez le sommeil et la sérénité avec l'aide de cette méthode complète.</p>
                             </div>
                             <a href="{{ url('detail_pack/1')}}">
-                                <button class="to-animate btn btn-primary btn-lg"> voir la présentation complète</button>
+                                <button class="to-animate btn btn-primary btn-lg btn_detail"> voir la présentation complète</button>
                             </a>
                         </div>
             </div>
