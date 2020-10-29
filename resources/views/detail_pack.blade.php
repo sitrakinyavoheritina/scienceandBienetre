@@ -4,9 +4,9 @@
  .to_center {
     background: red ! important;
  }
-/*    video::-webkit-media-controls-timeline {
+    video::-webkit-media-controls-timeline {
         display: none;
-    }*/
+    }
 
     #img_logo_pay {
     max-width: 100%;
@@ -38,7 +38,7 @@
                     <div class="col-md-5 col-sm-5 col-xs-12">
                           <h3 style="color: #e67474">{{$descript}}</h3>
                        
-                            <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
+                            <p  class="to-animate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             <div class="pay_cart">
                                 <img src="../public/img/logo/pay.png" id="img_logo_pay">
                                 <h2 class="price_1">{{$prix_pack}}€</h2>
@@ -69,7 +69,7 @@
                     <div class="col-lg-5">
                         <h3 style="color:#e67474">{{$value['descript']}}</h3>
 
-                            <p  class="to-animate">Le catalogue complet de nos programmes. Ces techniques simples et naturelles sont issues de nos recherches afin de vous permettre d’accéder à une meilleure qualité de vie</p>
+                            <p  class="to-animate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                             <div class="info_cart info_cart_{{$key}}">
                               <img src="../public/img/logo/pay.png" id="img_logo_pay">
                                 <h2 class="price_2">{{$value['prix']}}€</h2>
@@ -115,7 +115,7 @@
                             <img src="{{asset('/public/img/conseilpack/b1.jpg')}}" id="avatar_packe">
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12 to_left">
-                            <p>La bonne et la mauvaise nouvelle si vous souffrez d'insomnie depuis plus de 5 mois</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
                     
@@ -128,7 +128,7 @@
                             <img src="{{asset('/public/img/conseilpack/b1.jpg')}}" id="avatar_packe">
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12 to_left">
-                            <p>La bonne et la mauvaise nouvelle si vous souffrez d'insomnie depuis plus de 5 mois</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
                     
@@ -142,7 +142,7 @@
                             <img src="{{asset('/public/img/conseilpack/b2.jpg')}}" id="avatar_packe">
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12 to_left">
-                            <p>Comment retrouver un sommeil profond de manière 100% naturelle</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
                     
@@ -156,7 +156,7 @@
                             <img src="{{asset('/public/img/conseilpack/b3.jpg')}}" id="avatar_packe">
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12 to_left">
-                            <p>La vérité sur vos problèmes de sommeil et pourquoi ils sont toujours là</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
                     

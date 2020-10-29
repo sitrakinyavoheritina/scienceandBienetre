@@ -2890,9 +2890,10 @@ ul#inline_list li{
         color: #e67474;
     }
 
-    .text_to_colored {
-        background: grey;
+  .text_to_colored {
+        /*background: grey;*/
         /* margin: 5px; */
+        font-size: 35px ! important;
         padding: 4px;
     }
 
