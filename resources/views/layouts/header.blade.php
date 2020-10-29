@@ -58,7 +58,7 @@
                 padding: 33px 15px 12px;
                 text-transform: uppercase;
                 position: relative;
-               /* text-shadow: 1px 1px 2px #000000;*/
+
             }
             .nav-item.active .nav-link,
               .nav-item:focus .nav-link,
@@ -123,7 +123,9 @@
 
             <div id="preloader"></div>
             <header class="header-one">
+
             <nav class="navbar navbar-dark bg-dark navbar-expand-sm"style="background: transparent!important;" id="navbar_ovaina">
+
               <!-- <a class="navbar-brand" href="#">
                 <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/logo_white.png" width="30" height="30" alt="logo">
                 BootstrapBay

@@ -92,7 +92,7 @@ p {
 h1, h3, h4, h5 {
     font-family: 'Mono', sans-serif;
     margin: 0 0 15px;
-    color: #151b2c;
+    color: #5d6471;
     font-weight: 600;
 }
 
@@ -106,10 +106,12 @@ h1{
         
 }
 h2{
-    font-size: 38px;
+    font-size: 40px;
     line-height: 46px;
     font-family: -webkit-pictograph;
     font-weight: 600;
+    color: #130c0ce0;
+    padding-bottom: 15px;
         
 }
 h3{
@@ -2933,7 +2935,7 @@ ul#inline_list li{
         }
 
         .fa {
-            width: 65px;
+            width: 65px ! important;
         }
     }
 
@@ -2955,6 +2957,7 @@ ul#inline_list li{
     .title {
         font-size: 17px;
         /*font-weight: bold;*/
+        text-align: justify;
     }
 
     .btn_detail {

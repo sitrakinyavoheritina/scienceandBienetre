@@ -28,11 +28,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script>
-            current_route = "<?php echo $name;?>";
 
+
+            current_route = "<?php echo $name;?>";
             if (current_route != 'accueil') {
                 $('.nav-link').css('color','black');
             }
+
         AOS.init( {duration: 1200,
         easing: 'ease-in-out-back'});
         </script>

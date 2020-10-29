@@ -97,8 +97,9 @@
               
         <hr>
         <div class="total text-center">
+            <a href="{{route('payement')}} ">
             <button id="accept">Pannier</button>
-            <h2 id="total_price"></h2>
+            </a>
         </div>
 
         <div class="row">
