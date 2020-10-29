@@ -29,7 +29,7 @@
     11. Blog Area
     12. Reviews Area Css
     13. FAQ  Area
-    14. Footer Area
+    14. Footer Areate
     15. Home 02 Area
     16. Bread cumb area
     17. About page  CSS
@@ -340,7 +340,7 @@ div#preloader {
     padding: 33px 15px 12px;
     text-transform: uppercase;
     position: relative;
-    text-shadow: 1px 1px 2px #000000;
+    /*text-shadow: 1px 1px 2px #000000;*/
 }
 .main-menu ul.navbar-nav li a:hover{
     color: #E6922E;
