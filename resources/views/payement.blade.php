@@ -46,23 +46,38 @@
                 <label for="formGroupExampleInput2">Numéro téléphone</label>
                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
               </div>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">OK</button>
         </form>
     </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
-                    <h4>liste pannier</h4>
-                <hr>
-                <div class="footer-content last-content">
-                    <div class="footer-head">
-                        <div class="footer-contacts">
-                            <p><span>Pack geomincir :   </span>30€</p>
-                            <p><span>Pack Sommeil : </span> 12€</p>
-                            <p><span>Total   :</span> 42€</p>
-                        </div> 
-                    </div>
-                </div>
+                <h4 class="mt-4 center">Pack à commander</h4>
+      
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">PACK</th>
+                      <th scope="col">PRIX</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">pack minceur,</th>
+                      <td>12€</td>
+                  
+                    </tr>
+                    <tr>
+                      <th scope="row">pack sommeil</th>
+                      <td>30€</td>
+                    </tr>
+                      <tr>
+                      <th scope="row">Total</th>
+                      <td>42€</td>
+                    </tr>
+            <!-- <h2 id="total_price"></h2> -->
+                 <!--  -->
+                  </tbody>
+                </table>
             </div>
-</div>
    
         </div>
     </div>
