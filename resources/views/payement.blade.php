@@ -2,6 +2,18 @@
 
 @extends('layouts.index')
 
+<style type="text/css">
+    #test > tbody > tr td:last-child {
+    /* background: #ff0000; */
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        font-family: system-ui;
+    }
+    #test > tbody > tr:last-child {
+     background: #eaeaea; 
+    }
+</style>
 @section('content')
         <div class="counter-area fix area-padding-2">
             <div class="container">
@@ -50,9 +62,9 @@
         </form>
     </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <h4 class="mt-4 center">Pack à commander</h4>
+                <h4 class="mt-4 center">Commande</h4>
       
-                <table class="table">
+                <table class="table" id="test">
                   <thead>
                     <tr>
                       <th scope="col">PACK</th>
