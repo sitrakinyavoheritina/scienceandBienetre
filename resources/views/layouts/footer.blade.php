@@ -31,7 +31,7 @@
             current_route = "<?php echo $name;?>";
 
             if (current_route != 'accueil') {
-                $('#navbar_ovaina').css('background','grey');
+                $('.nav-link').css('color','black');
             }
         AOS.init( {duration: 1200,
         easing: 'ease-in-out-back'});
