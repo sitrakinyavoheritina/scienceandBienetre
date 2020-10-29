@@ -2,7 +2,7 @@
 @extends('layouts.index')
 
 @section('content')
-    <div class="counter-area fix area-padding-2">
+  
         <div class="container">
             <!-- Start counter Area -->
              <div class="row">
@@ -10,14 +10,14 @@
                     <div class="col-12 mb-2 backgr">
                         <h4 id="tilte_catalogue">Contact</h4>
                     </div>
-                    <div class="ml-4">
+                    <div class="ml-4 mt-4">
                         <ul id="inline_list">
                             <li> 
                             	<a href="{{route('accueil')}}">
                            			 Home </a>
                            	</li>
                             <li>&nbsp; > &nbsp;
-                                <a href="{{ url('contact') }}">Contact
+                                <a href="">Contact
                         	    </a>
                         	</li>
                             
@@ -31,22 +31,20 @@
     	</br>
         <div class="row " >
         	<div class="container  ml-4">
-        		<h2>Science & Bien-Être</h2>
-        		<h4>Service clients</h4>
+        		<h2>lorem umpsum</h2>
+        		<h4>lorem umpsum text</h4>
         		<ul style="list-style: none;">
-        			<li>email : info@scienceetbienetre.com</li>
+        			<li>email : xxxxxxxx@ xxxxxxxx.com</li>
         			<li>Tél. : 04 83 43 14 00 ou +33 483 431 400</li>
         			<li>Du lundi au vendredi de 8h à 16h30</li>
         		</ul>
         		<h4>Service courrier</h4>
 
         		<ul style="list-style: none;">
-        			<li>BP 32</li>
-        			<li>38240 Meylan</li>
-        			<li>FRANCE</li>
+        			<li>XXXXX</li>
+        			<li>XXXXX</li>
+        			<li>XXXXXX</li>
         		</ul>
         	</div>
         </div>
-
-    </div> 
 @endsection

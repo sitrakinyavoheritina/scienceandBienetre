@@ -25,7 +25,7 @@
         <!-- meanmenu css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}">
         <!-- font-awesome css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}"> -->
         <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
         <!-- <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}"> -->
         <!-- magnific css -->
@@ -40,7 +40,7 @@
                     background: #e4e2e2;
                     padding: 50px 30px 50px 50px;
                     border-radius: 14px;
-                    opacity: 0.8;
+                    opacity: 0.9 ! important;
                 }
             .header-one {
                 position: absolute;
