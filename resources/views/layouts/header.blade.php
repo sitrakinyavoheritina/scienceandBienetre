@@ -25,7 +25,7 @@
         <!-- meanmenu css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}">
         <!-- font-awesome css -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}"> -->
+        <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}">
         <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
         <!-- <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}"> -->
         <!-- magnific css -->
@@ -41,7 +41,7 @@
                     background: #e4e2e2;
                     padding: 50px 30px 50px 50px;
                     border-radius: 14px;
-                    opacity: 0.9 ! important;
+                    opacity: 0.8;
                 }
             .header-one {
                 position: absolute;
@@ -59,7 +59,7 @@
                 padding: 33px 15px 12px;
                 text-transform: uppercase;
                 position: relative;
-                /*text-shadow: 1px 1px 2px #000000;*/
+
             }
             .nav-item.active .nav-link,
               .nav-item:focus .nav-link,
@@ -114,6 +114,7 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <style type="text/css">
             
+            
         </style>
     </head>
         <body id="body_fixd">
@@ -124,7 +125,9 @@
 
             <div id="preloader"></div>
             <header class="header-one">
-            <nav class="navbar navbar-dark bg-dark navbar-expand-sm" id="navbar_ovaina" style="background: transparent!important;">
+
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm"style="background: transparent!important;" id="navbar_ovaina">
+
               <!-- <a class="navbar-brand" href="#">
                 <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/logo_white.png" width="30" height="30" alt="logo">
                 BootstrapBay
