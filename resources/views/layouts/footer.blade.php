@@ -152,7 +152,7 @@
                                 </p> -->
                             </div>
                                 <ul id="inline_list" class="mx-auto justify-content-center" style="text-align: center;">
-                                    <a href="{{url('About')}}">
+                                    <a href="{{url('Apropos')}}">
                                         <li>A propos </li>
                                     </a>
 
