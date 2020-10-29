@@ -37,7 +37,9 @@
         easing: 'ease-in-out-back'});
         </script>
         <script type="text/javascript">
-
+            var width = $(window).width();
+        
+            $('#body_fixd').css("min-width", width + "px !important");
             function myFunction() {
               var x = $("#accordeon").attr('aria-expanded') 
 
@@ -130,6 +132,8 @@
               console.log(total_price);
               $('#total_price').html('total :' +total_price+'€');
         })
+
+
         </script>
 
 

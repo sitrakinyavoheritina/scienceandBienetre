@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
         <!-- responsive css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
         <style type="text/css">
             .self-content {
@@ -115,7 +116,7 @@
             
         </style>
     </head>
-        <body>
+        <body id="body_fixd">
 
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
