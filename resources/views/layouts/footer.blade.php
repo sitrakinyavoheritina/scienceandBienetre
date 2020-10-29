@@ -28,12 +28,27 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script>
-
+            $('#navbar-list-2 li').each(function(i) {
+                    $(this).attr('id', 'page'+(i+1));
+            });
 
             current_route = "<?php echo $name;?>";
             if (current_route != 'accueil') {
                 $('.nav-link').css('color','black');
             }
+                switch (current_route) {
+                    case 'accueil':
+                        $('#page1').addClass('active');
+                        break;
+                    case 'listpack':
+                        $('#page2').addClass('active');
+                        break;
+                    case 'Apropos':
+                        $('#page3').addClass('active');
+                        break;
+            
+                    
+                }
 
         AOS.init( {duration: 1200,
         easing: 'ease-in-out-back'});
