@@ -31,19 +31,19 @@ windows.on('scroll', function() {
  jQuery MeanMenu
 ------------------------------ */
 	
-    var mean_menu = $('nav#dropdown');
-    mean_menu.meanmenu();
+    // var mean_menu = $('nav#dropdown');
+    // mean_menu.meanmenu();
     
 /*---------------------
  wow .js
 --------------------- */
-    function wowAnimation(){
-        new WOW({
-            offset: 100,          
-            mobile: true
-        }).init()
-    }
-    wowAnimation()	
+    // function wowAnimation(){
+    //     new WOW({
+    //         offset: 100,          
+    //         mobile: true
+    //     }).init()
+    // }
+    // wowAnimation()	
     
 /*--------------------------
  scrollUp

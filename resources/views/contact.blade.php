@@ -2,7 +2,7 @@
 @extends('layouts.index')
 
 @section('content')
-  
+    <div class="counter-area fix area-padding-2">
         <div class="container">
             <!-- Start counter Area -->
              <div class="row">
@@ -24,6 +24,7 @@
                         </ul>
                     </div>
 
+                </div>
             </div>
         </div>
     	</br>
@@ -33,17 +34,19 @@
         		<h2>lorem umpsum</h2>
         		<h4>lorem umpsum text</h4>
         		<ul style="list-style: none;">
-        			<li>email : xxxxxxxx@ xxxxxxxx.com</li>
-        			<li>Tél. : 04 83 43 14 00 ou +33 483 431 400</li>
+        			<li>email : xxxxxxxg@gmail.com</li>
+        			<li>Tél. : 044 83 43 1444 00 ou +33 4155583 431 400</li>
         			<li>Du lundi au vendredi de 8h à 16h30</li>
         		</ul>
         		<h4>Service courrier</h4>
 
         		<ul style="list-style: none;">
-        			<li>XXXXX</li>
-        			<li>XXXXX</li>
-        			<li>XXXXXX</li>
+        			<li>1544</li>
+        			<li>38240 test</li>
+        			<li>XXXX</li>
         		</ul>
         	</div>
         </div>
+
+    </div> 
 @endsection

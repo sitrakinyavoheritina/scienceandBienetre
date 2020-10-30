@@ -8,7 +8,7 @@
         <div class="row">
             <!-- column end -->
             <div class="col-md-7 col-sm-7 col-xs-12">
-                <div class="self-content" data-aos="fade-right"
+                <div class="self-content" data-aos=""
                 data-aos-offset="500"
                 data-aos-easing="ease-in-sine">
                       <h2 class="to-animate ">Toutes les solutions pour gagner en bien-être et en bonne santé se trouvent sur cette plateforme</h2>
@@ -38,14 +38,14 @@
             <!-- Start About -->
             <div class="col-md-6 col-sm-6 col-xs-12 mt-5">
                 <div class="support-services wow ">
-                    <a class="support-images" href="#"><i class="fa fa-book"></i></a>
+                    <a class="support-images" href="#"><i class="fa fa-book icon_dash"></i></a>
                     <div class="support-content"  data-aos="fade-left">
                         <h4>Catalogue</h4>
                         <h6>Consultez notre catalogue de packs à se procurer :</h6>
                         <ul class="list_cat_accueil">
-                            <li>Les packs minceur, prise de poids et musculation</li>
-                            <li>Le pack sommeil et entretien du cerveau</li>
-                            <li>Le pack boost du système immunitaire</li>
+                            <li> <p> Les packs minceur, prise de poids et musculation</p></li>
+                            <li> <p>Le pack sommeil et entretien du cerveau</p> </li>
+                            <li> <p>Le pack boost du système immunitaire</p> </li>
                         </ul>
                         <p><a href="{{ url('listpack')}}" class="btn btn-primary accueil">Consultez notre catalogue</a></p>
                     </div>
@@ -54,7 +54,7 @@
             <!-- Start About -->
             <div class="col-md-6 col-sm-6 col-xs-12 mt-5">
                 <div class="support-services ">
-                    <a class="support-images" href="#"><i class="fa fa-phone-square"></i></a>
+                    <a class="support-images" href="#"><i class="fa fa-phone-square icon_dash"></i></a>
                     <div class="support-content" data-aos="fade-left">
                         <h4>A propos</h4>
                         <p>N’oubliez pas, non plus de passer par notre <a href="{{url('Apropos')}}"> <span>a propos,</span></a> </p>

@@ -35,76 +35,10 @@
         <!-- responsive css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
         <style type="text/css">
-            .self-content {
-                    background: #e4e2e2;
-                    padding: 50px 30px 50px 50px;
-                    border-radius: 14px;
-                    opacity: 0.8;
-                }
-            .header-one {
-                position: absolute;
-                top: 0;
-                /* left: 0; */
-                width: 100%;
-                height: auto;
-                z-index: 999;
-            }
-            #navbar-list-2 ul.navbar-nav li a {
-                background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-                color: #fff;
-                font-size: 16px;
-                font-weight: 700;
-                padding: 33px 15px 12px;
-                text-transform: uppercase;
-                position: relative;
-
-            }
-            .nav-item.active .nav-link,
-              .nav-item:focus .nav-link,
-              .nav-item:hover .nav-link {
-                  color: #E6922E!important;
-                  border-bottom: solid;
-              }
-
-              .show > .nav-link,
-              .active > .nav-link,
-              .nav-link.show,
-              .nav-link.active {
-                color: #E6922E!important;
-              }
-            @media (max-width: 767px){
-               
-                #navbar-list-2 ul.navbar-nav li a {
-                    background: #fdfcfc none repeat scroll 0 0;
-                    color: #3d5368;
-                    display: block;
-                    float: left;
-                    font-size: 14px;
-                    font-weight: 400;
-                    margin: 0;
-                    padding: 13px 10px;
-                    text-align: left;
-                    text-decoration: none;
-                    text-transform: capitalize;
-                    width: 90%;
-                }
-
-                .navbar-toggler {
-                    background-color: dimgrey;
-                }
-
-                .header-one {
-                    position: inherit;
-                }
-                .area-padding-2 {
-                    padding: 0px 0px 70px!important;
-                }
-                .x_class {
-                    width: 17px;
-                }
-            }
+            
 
         </style>
 

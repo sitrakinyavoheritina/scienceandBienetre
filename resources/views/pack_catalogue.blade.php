@@ -48,7 +48,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
                     </div>
                     <a href="{{ url('detail_pack/2')}}">
-                        <button class="to-animate btn btn-primary btn-lg btn_detail"> voir la presentation complete</button>
+                        <button class="to-animate btn btn-primary btn-lg btn_detail"> voir la présentation complète</button>
                     </a>
                 </div>
             </div>
