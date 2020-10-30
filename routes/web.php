@@ -39,3 +39,7 @@ use Illuminate\Support\Facades\Route;
     Route::name('contact')->get('contact', 'contactController@showContactPage');
     //contact pack
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
