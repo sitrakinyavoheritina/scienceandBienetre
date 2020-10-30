@@ -21,15 +21,15 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
         <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}"> -->
        <!-- Animate css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/animate.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/animate.css')}}"> -->
         <!-- meanmenu css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}"> -->
         <!-- font-awesome css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}"> -->
         <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
         <!-- <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}"> -->
         <!-- magnific css -->
-        <link rel="stylesheet" href="{{asset('public/assets/css/magnific.min.css')}}">
+        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/magnific.min.css')}}"> -->
         <!-- style css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
         <!-- responsive css -->
@@ -43,7 +43,7 @@
         </style>
 
         <!-- modernizr css -->
-        <script src="{{asset('public/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+        <!-- <script src="{{asset('public/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script> -->
         
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <style type="text/css">
