@@ -98,6 +98,7 @@ p , li {
     /*font-weight: bold;*/
     font-size: 15px;
     /*line-height: 35px;*/
+    text-align: justify;
 
 }
 h1, h3, h4, h5 {
@@ -2891,6 +2892,7 @@ ul#inline_list li{
     margin-left: 77px;
     font-weight: bold;
     color: white;
+    font-family:'Raleway';
 }
 
 
@@ -3020,7 +3022,15 @@ ul#inline_list li{
                 color: #E6922E!important;
               }
             @media (max-width: 767px){
-               
+
+                .to_left {
+                     margin-left: 5px; 
+                }
+
+                #tilte_catalogue {
+                    margin-left: 15px ! important;
+                }
+
                 #navbar-list-2 ul.navbar-nav li a {
                     background: #fdfcfc none repeat scroll 0 0;
                     color: #3d5368;

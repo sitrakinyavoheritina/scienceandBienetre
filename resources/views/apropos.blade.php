@@ -2,7 +2,9 @@
 @extends('layouts.index')
 <style type="text/css">
  
-   
+   .description_apropos {
+        text-align: justify;
+   }
    
 }
 

@@ -35,7 +35,7 @@
             <div class="container">
                 <!-- Start counter Area -->
                  <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="col-md-5 col-sm-5 col-xs-12 mt-5">
                           <h3 style="color: #e67474">{{$descript}}</h3>
                        
                             <p  class="to-animate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -66,7 +66,7 @@
             <div class="container">
                 <!-- Start counter Area -->
                  <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 mt-5">
                         <h3 style="color:#e67474">{{$value['descript']}}</h3>
 
                             <p  class="to-animate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>

@@ -9,44 +9,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- favicon -->        
-   <!--      <link rel="shortcut icon" type="image/x-icon" href="public/img/logo/favicon.ico"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-        <!-- all css here -->
-
-        <!-- bootstrap v3.3.6 css -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
-        <!-- owl.carousel css -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/owl.transitions.css')}}"> -->
-       <!-- Animate css -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/animate.css')}}"> -->
-        <!-- meanmenu css -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/meanmenu.min.css')}}"> -->
-        <!-- font-awesome css -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}"> -->
+    
+        <!-- :<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+          <!-- <link rel="stylesheet" href="{{asset('public/assets/css/font-awesome.min.css')}}"> -->
         <link rel="stylesheet" href="{{asset('public/assets/css/themify-icons.css')}}">
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/flaticon.css')}}"> -->
-        <!-- magnific css -->
-        <!-- <link rel="stylesheet" href="{{asset('public/assets/css/magnific.min.css')}}"> -->
-        <!-- style css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
         <!-- responsive css -->
         <link rel="stylesheet" href="{{asset('public/assets/css/responsive.css')}}">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">
-        <style type="text/css">
-            
-
-        </style>
-
-        <!-- modernizr css -->
-        <!-- <script src="{{asset('public/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script> -->
-        
+        <link rel="stylesheet" href="{{asset('public/assets/css/personalise.css')}}">    
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <style type="text/css">
+
             
             
         </style>

@@ -134,11 +134,7 @@
         <div class=" text-left">
             <h4>Références Scientifiques</h4>
             <p>
-                Paternal obesity is associated with IGF2hypomethylation in newborns: results from a Newborn Epigenetics Study (NEST) cohort
-                Adelheid Soubry, Joellen M Schildkraut, Amy Murtha, Frances Wang, Zhiqing Huang, Autumn Bernal, Joanne Kurtzberg, Randy L Jirtle, Susan K Murphy & Cathrine Hoyo / BMC Medicine volume 11, Article number: 29 (2013)
-
-                Successful treatment of post-traumatic stress disorder reverses DNA methylation marks
-                Christiaan H. Vinkers, Elbert Geuze, Sanne J. H. van Rooij, Mitzy Kennis, Remmelt R. Schür, Danny M. Nispeling, Alicia K. Smith, Caroline M. Nievergelt, Monica Uddin, Bart P. F. Rutten, Eric Vermetten & Marco P. Boks / Molecular Psychiatry (2019)
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
         </div>
     </div>

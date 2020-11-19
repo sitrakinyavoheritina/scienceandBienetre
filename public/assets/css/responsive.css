@@ -1,11 +1,11 @@
 @media (min-width: 1919px) {
 
-	
-	
+    
+    
 }
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1269px) {	  
+@media (min-width: 992px) and (max-width: 1269px) {   
 .header-right-link {
     margin-left: 10px;
 } 
@@ -200,7 +200,7 @@
     
     
     
-	
+    
 }
 
 /* small mobile :320px. */
