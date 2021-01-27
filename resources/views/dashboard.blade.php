@@ -7,6 +7,9 @@
     <div class="container">
         <div class="row">
             <!-- column end -->
+            <div class="col-md-5 col-sm-7 col-xs-12">
+            </div>
+            
             <div class="col-md-7 col-sm-7 col-xs-12">
                 <div class="self-content">
                       <h1 class="to-animate">Méthodes innovantes pour améliorer votre vie</h1>
@@ -17,7 +20,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-7 col-sm-7 col-xs-12">
+            <div class="col-md-5 col-sm-7 col-xs-12">
             </div>
             <!-- column end -->
         </div>
